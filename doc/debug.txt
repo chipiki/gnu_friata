@@ -1,0 +1,12 @@
+DGBU is initialized during bootup with a serial interface operating at
+115200,8,N,1 but only with OSCSEL=1 with 32KHz external crystal.
+
+DBGU is a two-wire UART.
+
+DRXD    PIOB14
+DTXD    PIOB15
+
+The Olimex schematic uses jumpers to switch between DBGU UART and the regular
+USART RS-232 operation.
+
+

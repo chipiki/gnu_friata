@@ -1,0 +1,30 @@
+AT91SAM9260 MCU has the following power requirements.
+- VDD_CORE              1.8V
+- VDD_BU (backup)       1.8V
+- VDD_PLL               1.8V
+- VDD_IOM (memory)      3.3V
+- VDD_IOP0 (periph.)    3.3V
+- VDD_IOP1 (periph.)    3.3V (1.8/2.5V)
+
+IO Output Current
+
+- PA0-PA31 PB0-PB31 PC0-PC3     16 mA
+- PC4 - PC31 in 3.3V range      2 mA    (we use 3.3V)
+- PC4 - PC31 in 1.8V range      4 mA
+
+Without power consumption of IO and peripherals, 
+the MCU consumes 130 mA. Operating the peripherals doesn't appear to need very
+much more (USB is the max. with 500mA perhaps)
+
+Calculate additional IO current consumption as per the table in spec.
+
+Olimex schematic use a linear LDO regulator with 800 mA I_OUT.
+
+Power Protection
+================
+
+Use thermistors to protect power supplies. 
+Choose appropriate I_trip and I_hold.
+
+[1] http://www.maxim-ic.com/appnotes.cfm/appnote_number/737
+[2] http://www.maxim-ic.com/appnotes.cfm/appnote_number/751

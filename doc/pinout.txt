@@ -1,0 +1,18 @@
+AT91SAM9260 comes in two packages - 208-PQFP and 217-LFBGA. The following
+_NINE_ pins are not available in the former.
+
+
+The block diagram shows all the features for the 217-LFBGA package. Some functions are not accessible in the 208-pin PQFP package and the unavailable pins are highlighted in ?Multiplex- ing on PIO Controller A? on page 34, ?Multiplexing on PIO Controller B? on page 35, ?Multiplexing on PIO Controller C? on page 36. The USB Host Port B is not available in the 208- pin package. Table 2-1 on page 3 defines all the multiplexed and not multiplexed pins not avail- able in the 208-PQFP package.  Table 2-1.      
+
+Unavailable Signals in 208-lead PQFP Package
+PIO                       Peripheral A                   Peripheral B
+              -                           HDPB                              -
+              -                           HDMB                              -
+            PA30                          SCK2                            RXD4
+            PA31                          SCK0                            TXD4
+            PB12                          TXD5                          ISI_D10
+            PB13                          RXD5                          ISI_D11
+            PC2                             AD2                           PCK1
+            PC3                             AD3                       SPI1_NPCS3
+           PC12                            IRQ0                           NCS7
+

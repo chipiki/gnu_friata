@@ -1,0 +1,24 @@
+Connect a SPI DataFlash to hold u-boot to NPCS0, and a NAND flash to hold the
+linux kernel and filesystem.
+
+Table 13-12. Pins Driven during Boot Program Execution
+ Peripheral                    Pin                     PIO Line
+ SPI0                          MOSI                     PIOA1
+ SPI0                          MISO                     PIOA0
+ SPI0                          SPCK                     PIOA2
+ SPI0                          NPCS0                    PIOA3
+ SPI0                          NPCS1                   PIOC11
+ PIOC                          NANDCS                  PIOC14
+ PIOC                          NAND Ready Busy         PIOC13
+ DBGU                          DRXD                    PIOB14
+ DBGU                          DTXD                    PIOB15
+
+
+Table 8-1.    Internal Memory Mapping
+                                 REMAP = 0              REMAP = 1
+ Address
+                                 BMS = 1   BMS = 0
+ 0x0000 0000                     ROM       EBI_NCS0     SRAM0 4K
+
+Set REMAP=0, BMS=1, to boot using AT91's internal ROM boot program.
+

@@ -1,0 +1,31 @@
+Use tantalum/polarized capacitors for large capacitances simply because they
+are cheaper and have a much smaller footprint. An equivalent non-polarized
+capacitor would be expensive and have a very large footprint.
+
+Polarized ceramic capacitors do not exist.
+
+[1] http://www.uoguelph.ca/~antoon/gadgets/caps/caps.html
+[2] http://www.stanford.edu/class/ee122/Handouts/Capacitors_demystified_ee133.pdf
+[3] Quoting from an online post:
+
+The larger the capacitance of a capacitor, the less likely you'll find
+anything but electrolytic and tantalum (and hence polarized capacitors)
+because using other methods would result in non-polarized capacitors
+which would result in capacitors that were physically way too large.
+
+I can't think of a single application that would require one to specify
+a polarized capacitor. The times they are specified, it's because that's
+the cheapest/easiest way (or sometimes the only possible way) to get the
+needed capacitance.
+
+And of course, some applications don't do so well with polarized capacitors,
+so at those times one has to go out of one's way to get a non-polarized
+capacitor of the large enough capacitance, or use some workaround to
+get the equivalent that is non-polarized.
+
+Rarely will you come across a polarized capacitor in a circuit that can
+more easily be found in a non-polarized capacitor, hence usually there
+isn't a good reason to put in a non-polarized where a polarized capacitor
+is specified. Doing such a substitution should not cause a problem,
+other than higher cost and a physically larger capacitor.
+

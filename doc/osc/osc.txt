@@ -1,0 +1,9 @@
+Choose the main crystal oscillator to be 18.432 MHz.
+It divides down nicely via integer division to:
+1. UART clock to common baud rates (115200)
+2. Si3210 PCLK (2.048 MHz)
+
+PHY also requires a separate crystal oscillator, typically,
+25 MHZ for 100 Mbps operation.
+
+[1] http://dkc3.digikey.com/PDF/Marketing/Crystek_PierceGateLoadCap.pdf
