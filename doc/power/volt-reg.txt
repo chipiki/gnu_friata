@@ -1,12 +1,34 @@
+I am looking for a voltage regulator which replaces the LM1117 in the Olimex
+schematic. LM1117 sources 800mA with 3.3V output from a 5V input. I am not sure
+that this is sufficient given the processor, peripherals, USB and FXS module.
+So, to be on the safe side, I want to source 1000mA (or 1A) to get an extra
+200mA.
+
+National Semiconductor and Failchild Semiconductor appear to offer similarly
+priced alternatives.
+
+
+National Semiconductor
+======================
+
+LM3940 - 3.3V/1A output with 5V input.
+http://www.national.com/mpf/LM/LM3940.html
+(appears to be a drop-in replacement for LM1117)
+    
 LP38960 - 3.3V/1A output with 5V input.
+LP38690SD-3.3 (ordering info, to be precise)
 http://www.national.com/pf/LP/LP38690.html
 
 LP8340 - 3.3V/1A with 5V input.
 http://www.national.com/mpf/LP/LP8340.html
 
-LM1117 - 3.3V/800mA output with 5V input.
-http://www.national.com/mpf/LM/LM1117.html
-(May not be adequate to power Si321x/Si320x combo.
+Fairchild Semiconductor
+=======================
 
+FAN1117A - 3.3V/1A with 5V input (or is it 12V).
+http://www.fairchildsemi.com/ds/FA/FAN1117A.pdf
+(appears to be also suitable)
 
-
+FAN1539B - 3.3V/1A with 5V input.
+http://www.fairchildsemi.com/ds/FA/FAN1539B.pdf
+(appears to be also suitable)
