@@ -1,0 +1,12 @@
+LP38960 - 3.3V/1A output with 5V input.
+http://www.national.com/pf/LP/LP38690.html
+
+LP8340 - 3.3V/1A with 5V input.
+http://www.national.com/mpf/LP/LP8340.html
+
+LM1117 - 3.3V/800mA output with 5V input.
+http://www.national.com/mpf/LM/LM1117.html
+(May not be adequate to power Si321x/Si320x combo.
+
+
+
