@@ -2337,7 +2337,7 @@ AT91SAM9260
 T 400 43600 5 10 0 0 0 0 1
 device=AT91SAM9260
 T 400 43800 5 10 0 0 0 0 1
-footprint=at91sam9260-tqfp-208
+footprint=PQFP-208
 T 400 44000 5 10 0 0 0 0 1
 author=Saritha Kalyanam <kalyanamsaritha@gmail.com>
 T 400 44200 5 10 0 0 0 0 1

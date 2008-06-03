@@ -39,7 +39,7 @@ version=20080313 1
 name=AT91SAM9260
 device=AT91SAM9260
 refdes=U?
-footprint=at91sam9260-tqfp-208
+footprint=PQFP-208
 description=AT91 ARM Thumb Microcontroller (Atmel)
 documentation=http://www.atmel.com/dyn/products/product_card.asp?part_id=3870
 author=Saritha Kalyanam <kalyanamsaritha@gmail.com>

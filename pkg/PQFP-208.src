@@ -22,7 +22,7 @@ elementdir = "pkg"
     pitch 0.50 mm
     width = 28.00 mm
     height = 28.00 mm
-    padwidth 3.20 mm
+    padwidth 1.60 mm
     padheight 0.20 mm
     silkwidth 10 mils
     silkoffset 1mm
@@ -31,7 +31,6 @@ elementdir = "pkg"
     #silkboxheight = 
     maskclear = 0.1 mm
     polyclear = 6 mil
-    pins = 208
     pinshigh = 0
     ep = 4mm
 part "PQFP-208"
