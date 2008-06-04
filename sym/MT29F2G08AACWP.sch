@@ -535,7 +535,7 @@ MT29F2G08AACWP-ET
 T 400 12400 5 10 0 0 0 0 1
 device=MT29F2G08AACWP-ET
 T 400 12600 5 10 0 0 0 0 1
-footprint=tsop-48
+footprint=TSOP-48
 T 400 12800 5 10 0 0 0 0 1
 author=Saritha Kalyanam
 T 400 13000 5 10 0 0 0 0 1

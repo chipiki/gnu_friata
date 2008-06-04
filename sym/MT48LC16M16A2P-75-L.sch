@@ -601,7 +601,7 @@ MT48LC16M16A2P-75-L
 T 400 12800 5 10 0 0 0 0 1
 device=MT48LC16M16A2P-75-L
 T 400 13000 5 10 0 0 0 0 1
-footprint=tssop-54
+footprint=TSOP-54
 T 400 13200 5 10 0 0 0 0 1
 author=Saritha Kalyanam
 T 400 13400 5 10 0 0 0 0 1

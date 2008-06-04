@@ -17,12 +17,12 @@
 ###########################################################################
 
 elementdir = "pkg"
-    pins 48
+    pins 54
     type "so"
-    pitch 0.50 mm
-    width = 18.40 mm
+    pitch 0.80 mm
+    width = 10.16 mm
     padwidth 0.80 mm
-    padheight 0.20 mm
+    padheight 0.375 mm
     silkwidth 10 mils
     silkoffset 1mm
     silkstyle = "inside"
@@ -32,5 +32,5 @@ elementdir = "pkg"
     polyclear = 6 mil
     pinshigh = 0
     ep = 4mm
-part "TSOP-48"
+part "TSOP-54"
 
