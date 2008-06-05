@@ -183,7 +183,7 @@ Si3201
 T 400 7200 5 10 0 0 0 0 1
 device=Si3201
 T 400 7400 5 10 0 0 0 0 1
-footprint=so-16
+footprint=ESOIC-16
 T 400 7600 5 10 0 0 0 0 1
 author=Saritha Kalyanam
 T 400 7800 5 10 0 0 0 0 1

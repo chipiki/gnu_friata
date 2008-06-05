@@ -427,7 +427,7 @@ Si3215
 T 400 16000 5 10 0 0 0 0 1
 device=Si3215
 T 400 16200 5 10 0 0 0 0 1
-footprint=tssop-38
+footprint=TSSOP-38
 T 400 16400 5 10 0 0 0 0 1
 author=Saritha Kalyanam
 T 400 16600 5 10 0 0 0 0 1
