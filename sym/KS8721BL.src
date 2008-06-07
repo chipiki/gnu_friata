@@ -41,7 +41,7 @@ version=20080313 1
 name=KS8721BL
 device=KS8721BL
 refdes=U?
-footprint=lqfp-48
+footprint=PQFP-48
 description=10/100 base PHY
 documentation=http://www.rockbox.org/twiki/bin/viewfile/Main/RockboxPlayerPrototype?rev=1;filename=ks8721bl-sl.pdf
 author=Saritha Kalyanam
