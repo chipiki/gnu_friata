@@ -4,8 +4,19 @@ that this is sufficient given the processor, peripherals, USB and FXS module.
 So, to be on the safe side, I want to source 1000mA (or 1A) to get an extra
 200mA.
 
-National Semiconductor and Failchild Semiconductor appear to offer similarly
-priced alternatives.
+Texas Instruments, National Semiconductor and Failchild Semiconductor 
+appear to offer similarly priced alternatives.
+
+Texas Instruments
+=================
+
+TPS73701 - Single Output LDO, 1A, Adj. (1.2 to 5.0V), 
+            Reverse Current Protection
+http://focus.ti.com/docs/prod/folders/print/tps73701.html
+
+TPS76833 - Single Output LDO, 1.0A, Fixed(3.3V), Low Quiescent Current, 
+            Fast Transient Response
+http://focus.ti.com/docs/prod/folders/print/tps76833.html
 
 
 National Semiconductor
@@ -29,6 +40,6 @@ FAN1117A - 3.3V/1A with 5V input (or is it 12V).
 http://www.fairchildsemi.com/ds/FA/FAN1117A.pdf
 (appears to be also suitable)
 
-FAN1539B - 3.3V/1A with 5V input.
+FAN1539B/FAN1540B - 3.3V/1A with 5V input.
 http://www.fairchildsemi.com/ds/FA/FAN1539B.pdf
 (appears to be also suitable)
