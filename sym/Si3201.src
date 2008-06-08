@@ -27,7 +27,7 @@ wordswap=yes
 rotate_labels=no
 sort_labels=no
 generate_pinseq=yes
-sym_width=1400
+sym_width=2400
 pinwidthvertical=400
 pinwidthhorizontal=400
 
@@ -72,20 +72,24 @@ numslots=0
 #-----------------------------------------------------
 #pinnr	seq	type	style	posit.	net	label	
 #-----------------------------------------------------
-1		io	line	l		TIP
+# Left Side
 2		in	line	l		NC
-3		io	line	l		RING
-4		in	line	l		VBAT
-5		in	line	l		VBATH
 6		in	line	l		NC
-7		in	line	l		GND
-8		in	line	l		VDD
+1		io	line	l		TIP
+3		io	line	l		RING
 9		in	line	l		NC
-10		in	line	l		SRINGE
-11		in	line	l		STIPE
 12		in	line	l		NC
-13		in	line	l		IRINGN
-14		in	line	l		IRINGP
-15		in	line	l		ITIPN
-16		in	line	l		ITIPP
+# Bottom Side
+5		in	line	b		VBATH
+4		in	line	b		VBAT
+# Right Side
+15		in	line	r		ITIPN
+13		in	line	r		IRINGN
+16		in	line	r		ITIPP
+14		in	line	r		IRINGP
+11		in	line	r		STIPE
+10		in	line	r		SRINGE
+# Top Side
+7		in	line	t		GND
+8		in	line	t		VDD
 

@@ -24,10 +24,10 @@
 # sort_labels will sort the pins by it's labels
 #   useful for address ports, busses, ...
 wordswap=yes
-rotate_labels=no
+rotate_labels=yes
 sort_labels=no
 generate_pinseq=yes
-sym_width=1400
+sym_width=4400
 pinwidthvertical=400
 pinwidthhorizontal=400
 
@@ -72,42 +72,46 @@ numslots=0
 #-----------------------------------------------------
 #pinnr	seq	type	style	posit.	net	label	
 #-----------------------------------------------------
-1		in	line	l		\_CS\_
-2		in	line	l		\_INT\_
-3		in	line	l		PCLK
-4		in	line	l		DRX
-5		out	dot	l		DTX
-6		in	line	l		FSYNC
-7		in	line	l		\_RESET\_
-8		io	line	l		SDCH/DIO1
-9		io	line	l		SDCL/DIO2
-10		in	line	l		VDDA1
-11		in	line	l		IREF
-12		in	line	l		CAPP
-13		in	line	l		QGND
-14		in	line	l		CAPM
+# Left Side
 15		in	line	l		STIPDC
-16		in	line	l		SRINGDC
-17		in	line	l		STIPE
-18		in	line	l		SVBAT
-19		in	line	l		SRINGE
 20		in	line	l		STIPAC
-21		in	line	l		SRINGAC
-22		in	line	l		IGMN
-23		in	line	l		GNDA
-24		in	line	l		IGMP
-25		in	line	l		IRINGN
-26		in	line	l		IRINGP
-27		in	line	l		VDDA2
-28		in	line	l		ITIPP
 29		in	line	l		ITIPN
-30		in	line	l		VDDD
-31		in	line	l		GNDD
-32		in	line	l		TEST
-33		in	line	l		DCFF/DOUT
-34		in	line	l		DCDRV/DCSW
-35		in	line	l		SDITHRU
-36		out	dot	l		SDO
-37		in	line	l		SDI
-38		in	line	l		SCLK
+25		in	line	l		IRINGN
+28		in	line	l		ITIPP
+26		in	line	l		IRINGP
+17		in	line	l		STIPE
+19		in	line	l		SRINGE
+18		in	line	l		SVBAT
+21		in	line	l		SRINGAC
+16		in	line	l		SRINGDC
+# Bottom Side
+9		io	line	b		SDCL/DIO2
+8		io	line	b		SDCH/DIO1
+34		in	line	b		DCDRV/DCSW
+33		in	line	b		DCFF/DOUT
+# Right Side
+35		in	line	r		SDITHRU
+38		in	line	r		SCLK
+37		in	line	r		SDI
+36		out	dot	r		SDO
+1		in	line	r		\_CS\_
+6		in	line	r		FSYNC
+3		in	line	r		PCLK
+4		in	line	r		DRX
+5		out	dot	r		DTX
+2		in	line	r		\_INT\_
+7		in	line	r		\_RESET\_
+24		in	line	r		IGMP
+22		in	line	r		IGMN
+11		in	line	r		IREF
+12		in	line	r		CAPP
+14		in	line	r		CAPM
+13		in	line	r		QGND
+# Top Side
+32		in	line	t		TEST
+31		in	line	t		GNDD
+23		in	line	t		GNDA
+10		in	line	t		VDDA1
+27		in	line	t		VDDA2
+30		in	line	t		VDDD
 
