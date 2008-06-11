@@ -2329,6 +2329,7 @@ pinlabel=PC0
 T 10350 500 5 8 0 1 0 8 1
 pintype=io
 }
+net=GND:151
 B 400 100 10000 43200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
 T 10400 43400 8 10 1 1 0 6 1
 refdes=U?
@@ -2350,3 +2351,4 @@ T 400 44800 5 10 0 0 0 0 1
 dist-license=GPL v3
 T 400 45000 5 10 0 0 0 0 1
 use-license=GPL v3
+net=GND:151

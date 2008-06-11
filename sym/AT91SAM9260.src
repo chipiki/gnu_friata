@@ -279,4 +279,3 @@ use-license=GPL v3
 62 		io	line	r		PC4/A23/SPI1_NPCS2
 159		io	line	r		PC1
 158		io	line	r		PC0
-
