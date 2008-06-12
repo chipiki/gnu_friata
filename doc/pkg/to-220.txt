@@ -1,0 +1,8 @@
+
+Looks like a pain to solder/mount on the pcb with the screw and all!
+
+
+References
+==========
+
+[1] http://www.aosmd.com/pdfs/appNotes/AN101_TO220_Guidelines.pdf

@@ -1,0 +1,8 @@
+
+References
+==========
+
+[1] http://focus.ti.com.cn/cn/lit/an/slea059/slea059.pdf
+[2] http://focus.ti.com/lit/ml/slyp167/slyp167.pdf
+[3] http://www.st.com/stonline/products/literature/an/13378.pdf
+[4] http://www.hottconsultants.com/pdf_files/june2001pcd_mixedsignal.pdf

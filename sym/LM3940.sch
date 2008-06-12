@@ -57,7 +57,7 @@ LM3940
 T 1100 900 5 10 0 0 0 0 1
 device=LM3940
 T 1100 1100 5 10 0 0 0 0 1
-footprint=TO-220
+footprint=SOT-223
 T 1100 1300 5 10 0 0 0 0 1
 author=Saritha Kalyanam
 T 1100 1500 5 10 0 0 0 0 1
