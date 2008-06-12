@@ -76,7 +76,6 @@ numslots=0
 1		in	line	l		IN
 # Bottom Side
 2		pas	line	b		GND
+4		pas	line	b		GND
 # Right Side
 3		out	line	r		OUT
-# Top Side
-4		pas	line	t		GND

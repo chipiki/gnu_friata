@@ -33,6 +33,5 @@ elementdir = "pkg"
     maskclear = 0.1 mm
     polyclear = 6 mil
     pinshigh = 0
-    ep = 4mm
 part "SOT-223"
 
