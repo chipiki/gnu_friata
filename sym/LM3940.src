@@ -27,7 +27,7 @@ wordswap=yes
 rotate_labels=no
 sort_labels=no
 generate_pinseq=yes
-sym_width=1400
+sym_width=2000
 pinwidthvertical=400
 pinwidthhorizontal=400
 
@@ -75,6 +75,8 @@ numslots=0
 # Left Side
 1		in	line	l		IN
 # Bottom Side
-2		in	line	b		GND
+2		pas	line	b		GND
 # Right Side
-3		in	line	r		OUT
+3		out	line	r		OUT
+# Top Side
+4		pas	line	t		GND
