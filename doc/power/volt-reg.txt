@@ -1,8 +1,12 @@
-I am looking for a voltage regulator which replaces the LM1117 in the Olimex
-schematic. LM1117 sources 800mA with 3.3V output from a 5V input. I am not sure
-that this is sufficient given the processor, peripherals, USB and FXS module.
-So, to be on the safe side, I want to source 1000mA (or 1A) to get an extra
-200mA.
+
+
+Here is the overall scheme:
+
+
+            LM1117 -----> 1.8V/800mA
+5V -----> 
+            RC1587 -----> 3.3V/1.5A
+
 
 Texas Instruments, National Semiconductor and Failchild Semiconductor 
 appear to offer similarly priced alternatives.
