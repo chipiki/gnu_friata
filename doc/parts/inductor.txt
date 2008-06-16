@@ -1,0 +1,15 @@
+
+Low-Q ferrite beads used for DC supply filtering.
+
+Noise is conducted from the DC power supply and GND lines to the switching
+power supply and radiated out using the AC power supply cable as an antenna. 
+To suppress the noise, the BLM--P series (Chip Ferrite Bead) and NFM--P series
+(Chip EMIFIL® for DC power supply circuits) are installed close to the power
+supply connector. A filter whose rated current is sufficiently larger than the
+power supply current should be selected.
+
+References
+==========
+
+[1] http://www.sigcon.com/Pubs/edn/ferritebeads.htm
+[2] http://www.murata.com/articles/ta06b1.pdf

@@ -29,3 +29,5 @@ isn't a good reason to put in a non-polarized where a polarized capacitor
 is specified. Doing such a substitution should not cause a problem,
 other than higher cost and a physically larger capacitor.
 
+[4] http://www.radio-electronics.com/info/data/capacitor/smd_capacitor.php
+[5] http://www.vatronics.com/tancap/smdtantalumcapacitors.pdf
