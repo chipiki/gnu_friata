@@ -113,7 +113,7 @@ numslots=0
 12		in	line	r		GND2
 # Top Side
 37		in	line	t		REXT
-38		in	line	t		VDDRCV
+38		out	dot	t		VDDRCV
 39		in	line	t		GND6
 40		out	line	t		TX-
 41		out	line	t		TX+

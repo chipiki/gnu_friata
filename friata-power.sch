@@ -336,3 +336,5 @@ T 12200 4300 5 10 1 1 270 0 1
 value=1uF
 }
 N 13100 4000 13100 3300 4
+T 500 500 9 10 1 0 0 0 1
+Note: Power-up and power-up sequencing not required.
