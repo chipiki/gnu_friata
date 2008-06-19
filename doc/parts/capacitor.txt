@@ -1,3 +1,10 @@
+
+Vendors
+=======
+Kemet
+Murata
+Panasonic
+
 Use tantalum/polarized capacitors for large capacitances simply because they
 are cheaper and have a much smaller footprint. An equivalent non-polarized
 capacitor would be expensive and have a very large footprint.
@@ -31,3 +38,7 @@ other than higher cost and a physically larger capacitor.
 
 [4] http://www.radio-electronics.com/info/data/capacitor/smd_capacitor.php
 [5] http://www.vatronics.com/tancap/smdtantalumcapacitors.pdf
+[6] http://www.kemet.com/kemet/web/homepage/kfbk3.nsf/vaFeedbackFAQ/0F05C4C1F74A2D2485256F170052CD15/$file/Technical%20Update%20-%20Ceramic%20versus%20Tantalum.pdf
+[7] http://www.kemet.com/kemet/web/homepage/kechome.nsf/weben/BCF368A46664BBED852572AD00583CC9/$file/F3102.pdf
+[8] http://dataweek.co.za/news.aspx?pklNewsId=27008
+[9] http://www.avx.com/docs/techinfo/mlc-tant.pdf
