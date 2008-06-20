@@ -1,4 +1,16 @@
 
+Capacitors are often recommended on input and output power pins.
+The following must be taken into consideration.
+1. Voltage rating
+2. Temperature
+3. Transient response to certain frequencies.
+4. ESR < 300 m-ohm
+
+Ceramic capacitors are always recommended with X5R or X7R temperature rating,
+with additional aluminium electrolytic capacitors for transient response at
+low freuencies (>= 100 uF)
+
+
 Vendors
 =======
 Kemet
@@ -42,3 +54,6 @@ other than higher cost and a physically larger capacitor.
 [7] http://www.kemet.com/kemet/web/homepage/kechome.nsf/weben/BCF368A46664BBED852572AD00583CC9/$file/F3102.pdf
 [8] http://dataweek.co.za/news.aspx?pklNewsId=27008
 [9] http://www.avx.com/docs/techinfo/mlc-tant.pdf
+[10] http://focus.ti.com/lit/ds/symlink/pth04070w.pdf
+[11] http://www.linear.com/pc/downloadDocument.do?navId=H0,C1,C1003,C1094,C1766,P2114,D2139
+[12] http://www.ur-group.co.uk/artesyn/cd/pdfs/p4/POLA/PTH05050/an_pth05050.pdf

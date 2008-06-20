@@ -8,3 +8,10 @@ mailto:kalyanamsaritha_at_gmail_dot_com['Saritha Kalyanam']
 + Single Port FXS - Analog telephone interface
 + USB Host (full speed) - Wifi USB dongle for wifi interface
 + USB Device (full speed) - USB phone device (a la Skype)
+
+Directories
+===========
+sym/    Schematic symbol library. Borrowed heavily from
+        http://www.gedasymbols.org
+
+pkg/    Footprint library. Borrowed heavily from http://www.gedasymbols.org
