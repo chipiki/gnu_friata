@@ -4,12 +4,24 @@ The following must be taken into consideration.
 1. Voltage rating
 2. Temperature
 3. Transient response to certain frequencies.
-4. ESR < 300 m-ohm
+4. ESR < 0.3 ohm
 
 Ceramic capacitors are always recommended with X5R or X7R temperature rating,
 with additional aluminium electrolytic capacitors for transient response at
 low freuencies (>= 100 uF)
 
+Tantalum capacitors
+===================
+
+Pros:
+1. Capacitance increases with temperature - useful in power supply
+applications.
+
+Cons:
+1. Polar capacitors
+2. Voltage derating with high temperatures
+3. Higher parasitics - ESR and ESL
+4. Higher leakage current
 
 Vendors
 =======
@@ -57,3 +69,6 @@ other than higher cost and a physically larger capacitor.
 [10] http://focus.ti.com/lit/ds/symlink/pth04070w.pdf
 [11] http://www.linear.com/pc/downloadDocument.do?navId=H0,C1,C1003,C1094,C1766,P2114,D2139
 [12] http://www.ur-group.co.uk/artesyn/cd/pdfs/p4/POLA/PTH05050/an_pth05050.pdf
+[13] http://www.planetanalog.com/features/showArticle.jhtml;jsessionid=0BL5HJUC3UJKUQSNDLRCKHSCJUNN2JVN?articleID=199905522
+[14]
+http://www.automotivedesignline.com/howto/chassisandsuspension/207801723;jsessionid=3RG2V2IIVGE3IQSNDLRCKHSCJUNN2JVN

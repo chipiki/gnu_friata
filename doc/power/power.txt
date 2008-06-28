@@ -1,3 +1,18 @@
+
+Criteria
+========
+1. Peak power consumption 
+    - provide adequate current source
+    - choose the right voltage regulator
+2. Spike protection - implement constraints
+    - use thermistors or such to cutoff if spikes, and choose
+    appropriate I_trip and I_hold.
+3. Power sequencing
+    - VDD_CORE and VDD_IO may have to come up at different times.
+
+Peak power consumption
+======================
+
 AT91SAM9260 MCU has the following power requirements.
 - VDD_CORE              1.8V
 - VDD_BU (backup)       1.8V
@@ -18,13 +33,15 @@ much more (USB is the max. with 500mA perhaps)
 
 Calculate additional IO current consumption as per the table in spec.
 
-Olimex schematic use a linear LDO regulator with 800 mA I_OUT.
+[1] http://www.maxim-ic.com/appnotes.cfm/appnote_number/737
+[2] http://www.maxim-ic.com/appnotes.cfm/appnote_number/751
 
-Power Protection
+Spike protection
 ================
 
 Use thermistors to protect power supplies. 
-Choose appropriate I_trip and I_hold.
 
-[1] http://www.maxim-ic.com/appnotes.cfm/appnote_number/737
-[2] http://www.maxim-ic.com/appnotes.cfm/appnote_number/751
+Power sequencing
+================
+
+[3] http://pdfserv.maxim-ic.com/en/an/AN1133.pdf
