@@ -1,0 +1,17 @@
+gEDA/gsymcheck version 1.4.0.20080127
+gEDA/symcheck comes with ABSOLUTELY NO WARRANTY; see COPYING for more details.
+This is free software, and you are welcome to redistribute it under certain
+conditions; please see the COPYING file for more details.
+
+Read system-gafrc file [/etc/gEDA/system-gafrc]
+Did not find optional ~/.gEDA/gafrc file [/home/ram/.gEDA/gafrc]
+Did not find optional local gafrc file [/home/ram/git/friata/sym/gafrc]
+Read system-gsymcheckrc file [/etc/gEDA/system-gsymcheckrc]
+Did not find optional ~/.gEDA/gsymcheckrc file [/home/ram/.gEDA/gsymcheckrc]
+Did not find optional local gsymcheckrc file [/home/ram/git/friata/sym/gsymcheckrc]
+Did not find specified gafrc file [/home/ram/git/friata/sym/gafrc]
+Loaded file [/home/ram/git/friata/sym/at91sam9260-pwr.sym]
+
+Checking: /home/ram/git/friata/sym/at91sam9260-pwr.sym
+No errors found
+

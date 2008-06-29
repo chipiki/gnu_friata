@@ -201,7 +201,7 @@ use-license=GPL v3
 104		out	dot	r		\_CAS\_
 105		out	dot	r		\_RAS\_
 116		out	dot	r		\_SDWE\_
-117		out	dot	r		\_SDCLKE\_
+117		out	dot	r		\_SDCKE\_
 115		out	dot	r		SDCK
 72 		out	dot	r		\_NANDWE\_
 71 		out	dot	r		\_NANDOE\_
