@@ -1,0 +1,225 @@
+v 20080127 1
+P 100 1800 400 1800 1 0 0
+{
+T 300 1850 5 8 1 1 0 6 1
+pinnumber=149
+T 300 1750 5 8 0 1 0 8 1
+pinseq=1
+T 450 1800 9 8 1 1 0 0 1
+pinlabel=XIN
+T 450 1800 5 8 0 1 0 2 1
+pintype=in
+}
+P 100 1600 300 1600 1 0 0
+{
+T 300 1650 5 8 1 1 0 6 1
+pinnumber=150
+T 300 1550 5 8 0 1 0 8 1
+pinseq=2
+T 450 1600 9 8 1 1 0 0 1
+pinlabel=XOUT
+T 450 1600 5 8 0 1 0 2 1
+pintype=out
+}
+V 350 1600 50 6 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 100 1400 400 1400 1 0 0
+{
+T 300 1450 5 8 1 1 0 6 1
+pinnumber=46
+T 300 1350 5 8 0 1 0 8 1
+pinseq=3
+T 450 1400 9 8 1 1 0 0 1
+pinlabel=XIN32
+T 450 1400 5 8 0 1 0 2 1
+pintype=in
+}
+P 100 1200 300 1200 1 0 0
+{
+T 300 1250 5 8 1 1 0 6 1
+pinnumber=45
+T 300 1150 5 8 0 1 0 8 1
+pinseq=4
+T 450 1200 9 8 1 1 0 0 1
+pinlabel=XOUT32
+T 450 1200 5 8 0 1 0 2 1
+pintype=out
+}
+V 350 1200 50 6 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 100 1000 400 1000 1 0 0
+{
+T 300 1050 5 8 1 1 0 6 1
+pinnumber=41
+T 300 950 5 8 0 1 0 8 1
+pinseq=5
+T 450 1000 9 8 1 1 0 0 1
+pinlabel=OSCSEL
+T 450 1000 5 8 0 1 0 2 1
+pintype=in
+}
+P 100 800 400 800 1 0 0
+{
+T 300 850 5 8 1 1 0 6 1
+pinnumber=154
+T 300 750 5 8 0 1 0 8 1
+pinseq=6
+T 450 800 9 8 1 1 0 0 1
+pinlabel=PLLRCA
+T 450 800 5 8 0 1 0 2 1
+pintype=in
+}
+P 100 600 300 600 1 0 0
+{
+T 300 650 5 8 1 1 0 6 1
+pinnumber=49
+T 300 550 5 8 0 1 0 8 1
+pinseq=7
+T 450 600 9 8 1 1 0 0 1
+pinlabel=SHDN
+T 450 600 5 8 0 1 0 2 1
+pintype=out
+}
+V 350 600 50 6 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 100 400 400 400 1 0 0
+{
+T 300 450 5 8 1 1 0 6 1
+pinnumber=48
+T 300 350 5 8 0 1 0 8 1
+pinseq=8
+T 450 400 9 8 1 1 0 0 1
+pinlabel=WKUP
+T 450 400 5 8 0 1 0 2 1
+pintype=in
+}
+P 100 200 400 200 1 0 0
+{
+T 300 250 5 8 1 1 0 6 1
+pinnumber=35
+T 300 150 5 8 0 1 0 8 1
+pinseq=9
+T 450 200 9 8 1 1 0 0 1
+pinlabel=\_NTRST\_
+T 450 200 5 8 0 1 0 2 1
+pintype=in
+}
+P 2700 1800 2400 1800 1 0 0
+{
+T 2500 1850 5 8 1 1 0 0 1
+pinnumber=34
+T 2500 1750 5 8 0 1 0 2 1
+pinseq=10
+T 2350 1800 9 8 1 1 0 6 1
+pinlabel=TCK
+T 2350 1800 5 8 0 1 0 8 1
+pintype=in
+}
+P 2700 1600 2400 1600 1 0 0
+{
+T 2500 1650 5 8 1 1 0 0 1
+pinnumber=30
+T 2500 1550 5 8 0 1 0 2 1
+pinseq=11
+T 2350 1600 9 8 1 1 0 6 1
+pinlabel=TDI
+T 2350 1600 5 8 0 1 0 8 1
+pintype=in
+}
+P 2700 1400 2500 1400 1 0 0
+{
+T 2500 1450 5 8 1 1 0 0 1
+pinnumber=29
+T 2500 1350 5 8 0 1 0 2 1
+pinseq=12
+T 2350 1400 9 8 1 1 0 6 1
+pinlabel=TDO
+T 2350 1400 5 8 0 1 0 8 1
+pintype=out
+}
+V 2450 1400 50 6 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 2700 1200 2400 1200 1 0 0
+{
+T 2500 1250 5 8 1 1 0 0 1
+pinnumber=31
+T 2500 1150 5 8 0 1 0 2 1
+pinseq=13
+T 2350 1200 9 8 1 1 0 6 1
+pinlabel=TMS
+T 2350 1200 5 8 0 1 0 8 1
+pintype=in
+}
+P 2700 1000 2400 1000 1 0 0
+{
+T 2500 1050 5 8 1 1 0 0 1
+pinnumber=43
+T 2500 950 5 8 0 1 0 2 1
+pinseq=14
+T 2350 1000 9 8 1 1 0 6 1
+pinlabel=JTAGSEL
+T 2350 1000 5 8 0 1 0 8 1
+pintype=in
+}
+P 2700 800 2500 800 1 0 0
+{
+T 2500 850 5 8 1 1 0 0 1
+pinnumber=37
+T 2500 750 5 8 0 1 0 2 1
+pinseq=15
+T 2350 800 9 8 1 1 0 6 1
+pinlabel=RTCK
+T 2350 800 5 8 0 1 0 8 1
+pintype=out
+}
+V 2450 800 50 6 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 2700 600 2400 600 1 0 0
+{
+T 2500 650 5 8 1 1 0 0 1
+pinnumber=36
+T 2500 550 5 8 0 1 0 2 1
+pinseq=16
+T 2350 600 9 8 1 1 0 6 1
+pinlabel=\_NRST\_
+T 2350 600 5 8 0 1 0 8 1
+pintype=io
+}
+P 2700 400 2400 400 1 0 0
+{
+T 2500 450 5 8 1 1 0 0 1
+pinnumber=42
+T 2500 350 5 8 0 1 0 2 1
+pinseq=17
+T 2350 400 9 8 1 1 0 6 1
+pinlabel=TST
+T 2350 400 5 8 0 1 0 8 1
+pintype=in
+}
+P 2700 200 2400 200 1 0 0
+{
+T 2500 250 5 8 1 1 0 0 1
+pinnumber=40
+T 2500 150 5 8 0 1 0 2 1
+pinseq=18
+T 2350 200 9 8 1 1 0 6 1
+pinlabel=BMS
+T 2350 200 5 8 0 1 0 8 1
+pintype=in
+}
+B 400 0 2000 2000 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 2400 2100 8 10 1 1 0 6 1
+refdes=U?
+T 400 2100 9 10 1 0 0 0 1
+AT91SAM9260
+T 400 2300 5 10 0 0 0 0 1
+device=AT91SAM9260
+T 400 2500 5 10 0 0 0 0 1
+footprint=PQFP-208
+T 400 2700 5 10 0 0 0 0 1
+author=Saritha Kalyanam <kalyanamsaritha@gmail.com>
+T 400 2900 5 10 0 0 0 0 1
+documentation=http://www.atmel.com/dyn/products/product_card.asp?part_id=3870
+T 400 3100 5 10 0 0 0 0 1
+description=AT91 ARM Thumb Microcontroller (Atmel)
+T 400 3300 5 10 0 0 0 0 1
+numslots=0
+T 400 3500 5 10 0 0 0 0 1
+dist-license=GPL v3
+T 400 3700 5 10 0 0 0 0 1
+use-license=GPL v3
