@@ -82,13 +82,11 @@ numslots=0
 12		out	dot	l		R1OUT
 9		out	dot	l		R2OUT
 # Right Side
+16		in	line	r		VCC
+15		in	line	r		GND
 2		in	line	r		V+
 6		in	line	r		V-
 14		out	dot	r		T1OUT
 7		out	dot	r		T2OUT
 13		in	line	r		R1IN
 8		in	line	r		R2IN
-# Top Side
-16		in	line	t		VCC
-# Bottom Side
-15		in	line	b		GND
