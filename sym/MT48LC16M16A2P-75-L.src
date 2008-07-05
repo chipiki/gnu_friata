@@ -24,12 +24,12 @@
 # sort_labels will sort the pins by it's labels
 #   useful for address ports, busses, ...
 wordswap=yes
-rotate_labels=no
+rotate_labels=yes
 sort_labels=no
 generate_pinseq=yes
-sym_width=3200
-pinwidthvertical=400
-pinwidthhorizontal=400
+sym_width=2200
+pinwidthvertical=200
+pinwidthhorizontal=200
 
 [geda_attr]
 # name will be printed in the top of the symbol
@@ -114,18 +114,20 @@ numslots=0
 50		io	line	r		DQ13
 51		io	line	r		DQ14
 53		io	line	r		DQ15
-1		in	line	r		VDD1
-14		in	line	r		VDD2
-27		in	line	r		VDD3
-3		in	line	r		VDDQ1
-9		in	line	r		VDDQ2
-43		in	line	r		VDDQ3
-49		in	line	r		VDDQ4
-28		in	line	r		VSS1
-41		in	line	r		VSS2
-54		in	line	r		VSS3
-6		in	line	r		VSSQ1
-12		in	line	r		VSSQ2
-46		in	line	r		VSSQ3
-52		in	line	r		VSSQ4
+# Top Side
+1		in	line	t		VDD1
+14		in	line	t		VDD2
+27		in	line	t		VDD3
+3		in	line	t		VDDQ1
+9		in	line	t		VDDQ2
+43		in	line	t		VDDQ3
+49		in	line	t		VDDQ4
+# Bottom Side
+28		in	line	b		VSS1
+41		in	line	b		VSS2
+54		in	line	b		VSS3
+6		in	line	b		VSSQ1
+12		in	line	b		VSSQ2
+46		in	line	b		VSSQ3
+52		in	line	b		VSSQ4
 
