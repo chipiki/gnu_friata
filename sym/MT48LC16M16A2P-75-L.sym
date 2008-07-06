@@ -596,7 +596,7 @@ pintype=in
 B 300 300 2200 5000 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
 T 2500 5400 8 10 1 1 0 6 1
 refdes=U?
-T 1500 1800 9 10 1 0 90 0 1
+T 1400 1900 9 10 1 0 90 0 1
 MT48LC8M16A2P-75-L
 T 1200 3000 5 10 0 0 0 0 1
 device=MT48LC8M16A2P-75-L
@@ -607,7 +607,7 @@ author=Saritha Kalyanam
 T 1200 3600 5 10 0 0 0 0 1
 documentation=http://download.micron.com/pdf/datasheets/dram/sdram/128MSDRAM.pdf
 T 1200 3800 5 10 0 0 0 0 1
-description=256Mb SDRAM (Micron)
+description=128Mb SDRAM (Micron)
 T 1200 4000 5 10 0 0 0 0 1
 numslots=0
 T 1200 4200 5 10 0 0 0 0 1

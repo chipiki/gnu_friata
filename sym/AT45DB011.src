@@ -27,7 +27,7 @@ wordswap=yes
 rotate_labels=yes
 sort_labels=no
 generate_pinseq=yes
-sym_width=2000
+sym_width=1200
 pinwidthvertical=200
 pinwidthhorizontal=200
 
@@ -38,12 +38,12 @@ pinwidthhorizontal=200
 # if you have a device with slots, you'll have to use slot= and slotdef=
 # use comment= if there are special information you want to add
 version=20080313 1
-name=MT29F2G08AACWP-ET
-device=MT29F2G08AACWP-ET
+name=AT45DB011
+device=AT45DB011
 refdes=U?
-footprint=TSOP-48
-description=2Gb NAND Flash (Micron)
-documentation=http://download.micron.com/pdf/datasheets/flash/nand/2_4_8gb_nand_m49a.pdf
+footprint=SOIC-8
+description=1-megabit 2.7-volt SPI DataFlash
+documentation=http://www.atmel.com/dyn/resources/prod_documents/doc1984.pdf
 author=Saritha Kalyanam
 dist-license=GPL v3
 use-license=GPL v3
@@ -73,54 +73,13 @@ numslots=0
 #pinnr	seq	type	style	posit.	net	label	
 #-----------------------------------------------------
 # Left Side
-7		in	line	l		R/\_B\_
-6		in	line	l		R/\_B2\_
-19		in	line	l		\_WP\_
-9		in	line	l		\_CE\_
-10		in	line	l		\_CE2\_
-8		in	line	l		\_RE\_
-18		in	line	l		\_WE\_
-16		in	line	l		CLE
-17		in	line	l		ALE
-1		in	line	l		NC
-2		in	line	l		NC
-3		in	line	l		NC
-4		in	line	l		NC
-5		in	line	l		NC
-11		in	line	l		NC
-14		in	line	l		NC
-15		in	line	l		NC
-20		in	line	l		DNU
-21		in	line	l		DNU
-22		in	line	l		DNU
-23		in	line	l		NC
-24		in	line	l		NC
-34		in	line	l		NC
-35		in	line	l		NC
-36		in	line	l		NC
-39		in	line	l		NC
+1		in	line	l		SI
+2		in	line	l		SCK
+3		in	line	l		\_RESET\_
+4		in	line	l		\_CS\_
 # Right Side
-26		io	line	r		IO0
-28		io	line	r		IO1
-30		io	line	r		IO2
-32		io	line	r		IO3
-40		io	line	r		IO4
-42		io	line	r		IO5
-44		io	line	r		IO6
-46		io	line	r		IO7
-27		io	line	r		IO8
-29		io	line	r		IO9
-31		io	line	r		IO10
-33		io	line	r		IO11
-41		io	line	r		IO12
-43		io	line	r		IO13
-45		io	line	r		IO14
-47		io	line	r		IO15
-# Top Side
-12		in	line	t		VCC1
-37		in	line	t		VCC2
-# Botom Side
-38		in	line	b		DNU/VSS
-13		in	line	b		VSS1
-25		in	line	b		VSS2
-48		in	line	b		VSS3
+8		out	dot	r		SO
+6		in	line	r		VCC
+7		in	line	r		GND
+5		in	line	r		\_WP\_
+
