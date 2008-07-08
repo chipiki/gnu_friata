@@ -111,8 +111,8 @@ use-license=GPL v3
 #42 		in	line	l		TST
 #40 		in	line	l		BMS
 #152		in	line	l		NC
-179		io	line	l		PA0/SPI0_MISO/MCDB0
 180		io	line	l		PA1/SPI0_MOSI/MCCDB
+179		io	line	l		PA0/SPI0_MISO/MCDB0
 181		io	line	l		PA2/SPI0_SPCK
 182		io	line	l		PA3/\_SPI0_NPCS0\_/MCDB3
 #183		io	line	l		PA4/RTS2/MCDB2

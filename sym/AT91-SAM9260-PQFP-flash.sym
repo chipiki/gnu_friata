@@ -2,22 +2,22 @@ v 20080127 1
 P 100 1200 400 1200 1 0 0
 {
 T 300 1250 5 8 1 1 0 6 1
-pinnumber=179
+pinnumber=180
 T 300 1150 5 8 0 1 0 8 1
 pinseq=1
 T 450 1200 9 8 1 1 0 0 1
-pinlabel=PA0/SPI0_MISO/MCDB0
+pinlabel=PA1/SPI0_MOSI/MCCDB
 T 450 1200 5 8 0 1 0 2 1
 pintype=io
 }
 P 100 1000 400 1000 1 0 0
 {
 T 300 1050 5 8 1 1 0 6 1
-pinnumber=180
+pinnumber=179
 T 300 950 5 8 0 1 0 8 1
 pinseq=2
 T 450 1000 9 8 1 1 0 0 1
-pinlabel=PA1/SPI0_MOSI/MCCDB
+pinlabel=PA0/SPI0_MISO/MCDB0
 T 450 1000 5 8 0 1 0 2 1
 pintype=io
 }

@@ -74,12 +74,11 @@ numslots=0
 #-----------------------------------------------------
 # Left Side
 1		in	line	l		SI
+8		out	dot	l		SO
 2		in	line	l		SCK
-3		in	line	l		\_RESET\_
 4		in	line	l		\_CS\_
+3		in	line	l		\_RESET\_
 # Right Side
-8		out	dot	r		SO
 6		in	line	r		VCC
 7		in	line	r		GND
 5		in	line	r		\_WP\_
-

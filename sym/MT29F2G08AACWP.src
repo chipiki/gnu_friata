@@ -73,15 +73,15 @@ numslots=0
 #pinnr	seq	type	style	posit.	net	label	
 #-----------------------------------------------------
 # Left Side
-7		in	line	l		R/\_B\_
-6		in	line	l		R/\_B2\_
-19		in	line	l		\_WP\_
 9		in	line	l		\_CE\_
 10		in	line	l		\_CE2\_
 8		in	line	l		\_RE\_
 18		in	line	l		\_WE\_
 16		in	line	l		CLE
 17		in	line	l		ALE
+7		in	line	l		R/\_B\_
+6		in	line	l		R/\_B2\_
+19		in	line	l		\_WP\_
 1		in	line	l		NC
 2		in	line	l		NC
 3		in	line	l		NC
