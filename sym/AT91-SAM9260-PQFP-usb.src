@@ -193,8 +193,8 @@ use-license=GPL v3
 #156		in	line	r		GNDANA
 #153		in	line	r		GNDPLLA
 #157		in	line	r		ADVREF
-55 		io	line	r		DDP
 54 		io	line	r		DDM
+55 		io	line	r		DDP
 50 		io	line	r		HDMA
 51 		io	line	r		HDPA
 #100		out	dot	r		SDA10
