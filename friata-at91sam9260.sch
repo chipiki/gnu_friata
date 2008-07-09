@@ -1,4 +1,4 @@
-v 20071231 1
+v 20080127 1
 C 0 0 0 0 0 title-B.sym
 B 400 7100 2000 1400 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
 {
@@ -81,7 +81,7 @@ T 11100 800 9 10 1 0 0 0 2
 AT91SAM9260 based Telephone ATA Design
 (GPL v3)
 T 14300 100 9 10 1 0 0 0 1
-Kalyanam Saritha
+Saritha Kalyanam
 T 4900 8000 9 10 1 0 0 0 2
 SDRAM 
 32MB

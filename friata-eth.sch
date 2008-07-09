@@ -27,3 +27,8 @@ refdes=U?
 T 49500 50900 5 10 0 0 0 0 1
 symversion=0.1
 }
+T 54400 40200 9 10 1 0 0 0 1
+Saritha Kalyanam
+T 51800 40800 9 10 1 0 0 0 2
+Ethernet 10/100
+GPLv3

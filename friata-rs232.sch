@@ -10,7 +10,7 @@ T 49300 47600 5 10 0 0 0 0 1
 footprint=TSSOP-16
 }
 T 54400 40200 9 10 1 0 0 0 1
-Kalyanam Saritha
+Saritha Kalyanam
 T 52200 40800 9 10 1 0 0 0 2
 DBGU & Serial Port
 GPL v3
