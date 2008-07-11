@@ -1,0 +1,22 @@
+v 20080127 1
+B 400 100 2000 200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 2400 400 8 10 1 1 0 6 1
+refdes=U?
+T 400 400 9 10 1 0 0 0 1
+AT91SAM9260
+T 400 600 5 10 0 0 0 0 1
+device=AT91SAM9260
+T 400 800 5 10 0 0 0 0 1
+footprint=PQFP-208
+T 400 1000 5 10 0 0 0 0 1
+author=Saritha Kalyanam <kalyanamsaritha@gmail.com>
+T 400 1200 5 10 0 0 0 0 1
+documentation=http://www.atmel.com/dyn/products/product_card.asp?part_id=3870
+T 400 1400 5 10 0 0 0 0 1
+description=AT91 ARM Thumb Microcontroller (Atmel)
+T 400 1600 5 10 0 0 0 0 1
+numslots=0
+T 400 1800 5 10 0 0 0 0 1
+dist-license=GPL v3
+T 400 2000 5 10 0 0 0 0 1
+use-license=GPL v3

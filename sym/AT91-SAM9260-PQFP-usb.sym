@@ -2,44 +2,44 @@ v 20080127 1
 P 2300 1000 2000 1000 1 0 0
 {
 T 2100 1050 5 8 1 1 0 0 1
-pinnumber=54
+pinnumber=50
 T 2100 950 5 8 0 1 0 2 1
 pinseq=1
 T 1950 1000 9 8 1 1 0 6 1
-pinlabel=DDM
+pinlabel=HDMA
 T 1950 1000 5 8 0 1 0 8 1
 pintype=io
 }
 P 2300 800 2000 800 1 0 0
 {
 T 2100 850 5 8 1 1 0 0 1
-pinnumber=55
+pinnumber=51
 T 2100 750 5 8 0 1 0 2 1
 pinseq=2
 T 1950 800 9 8 1 1 0 6 1
-pinlabel=DDP
+pinlabel=HDPA
 T 1950 800 5 8 0 1 0 8 1
 pintype=io
 }
 P 2300 600 2000 600 1 0 0
 {
 T 2100 650 5 8 1 1 0 0 1
-pinnumber=50
+pinnumber=54
 T 2100 550 5 8 0 1 0 2 1
 pinseq=3
 T 1950 600 9 8 1 1 0 6 1
-pinlabel=HDMA
+pinlabel=DDM
 T 1950 600 5 8 0 1 0 8 1
 pintype=io
 }
 P 2300 400 2000 400 1 0 0
 {
 T 2100 450 5 8 1 1 0 0 1
-pinnumber=51
+pinnumber=55
 T 2100 350 5 8 0 1 0 2 1
 pinseq=4
 T 1950 400 9 8 1 1 0 6 1
-pinlabel=HDPA
+pinlabel=DDP
 T 1950 400 5 8 0 1 0 8 1
 pintype=io
 }
