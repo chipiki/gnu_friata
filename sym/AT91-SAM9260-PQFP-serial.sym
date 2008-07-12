@@ -1,0 +1,88 @@
+v 20080127 1
+P 2300 1200 2000 1200 1 0 0
+{
+T 2100 1250 5 8 1 1 0 0 1
+pinnumber=21
+T 2100 1150 5 8 0 1 0 2 1
+pinseq=1
+T 1950 1200 9 8 1 1 0 6 1
+pinlabel=PB14/DRXD
+T 1950 1200 5 8 0 1 0 8 1
+pintype=io
+}
+P 2300 1000 2000 1000 1 0 0
+{
+T 2100 1050 5 8 1 1 0 0 1
+pinnumber=22
+T 2100 950 5 8 0 1 0 2 1
+pinseq=2
+T 1950 1000 9 8 1 1 0 6 1
+pinlabel=PB15/DTXD
+T 1950 1000 5 8 0 1 0 8 1
+pintype=io
+}
+P 2300 800 2000 800 1 0 0
+{
+T 2100 850 5 8 1 1 0 0 1
+pinnumber=15
+T 2100 750 5 8 0 1 0 2 1
+pinseq=3
+T 1950 800 9 8 1 1 0 6 1
+pinlabel=PB4/TXD0
+T 1950 800 5 8 0 1 0 8 1
+pintype=io
+}
+P 2300 600 2000 600 1 0 0
+{
+T 2100 650 5 8 1 1 0 0 1
+pinnumber=171
+T 2100 550 5 8 0 1 0 2 1
+pinseq=4
+T 1950 600 9 8 1 1 0 6 1
+pinlabel=PB26/RTS0/ISI_D6
+T 1950 600 5 8 0 1 0 8 1
+pintype=io
+}
+P 2300 400 2000 400 1 0 0
+{
+T 2100 450 5 8 1 1 0 0 1
+pinnumber=16
+T 2100 350 5 8 0 1 0 2 1
+pinseq=5
+T 1950 400 9 8 1 1 0 6 1
+pinlabel=PB5/RXD0
+T 1950 400 5 8 0 1 0 8 1
+pintype=io
+}
+P 2300 200 2000 200 1 0 0
+{
+T 2100 250 5 8 1 1 0 0 1
+pinnumber=172
+T 2100 150 5 8 0 1 0 2 1
+pinseq=6
+T 1950 200 9 8 1 1 0 6 1
+pinlabel=PB27/CTS0/ISI_D7
+T 1950 200 5 8 0 1 0 8 1
+pintype=io
+}
+B 0 0 2000 1400 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 2000 1500 8 10 1 1 0 6 1
+refdes=U?
+T 0 1500 9 10 1 0 0 0 1
+AT91SAM9260
+T 0 1700 5 10 0 0 0 0 1
+device=AT91SAM9260
+T 0 1900 5 10 0 0 0 0 1
+footprint=PQFP-208
+T 0 2100 5 10 0 0 0 0 1
+author=Saritha Kalyanam <kalyanamsaritha@gmail.com>
+T 0 2300 5 10 0 0 0 0 1
+documentation=http://www.atmel.com/dyn/products/product_card.asp?part_id=3870
+T 0 2500 5 10 0 0 0 0 1
+description=AT91 ARM Thumb Microcontroller (Atmel)
+T 0 2700 5 10 0 0 0 0 1
+numslots=0
+T 0 2900 5 10 0 0 0 0 1
+dist-license=GPL v3
+T 0 3100 5 10 0 0 0 0 1
+use-license=GPL v3
