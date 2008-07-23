@@ -3,3 +3,8 @@ With KS8721BL, the following RJ45 with integrated magnetics are compatible:
 
 Pulse J0011D21 Yes 1
 Pulse J00-0061 Yes 1
+
+References
+==========
+
+[1] http://www.bothhandusa.com/products/rj45/rj45.htm

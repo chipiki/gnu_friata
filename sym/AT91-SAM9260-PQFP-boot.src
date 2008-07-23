@@ -98,8 +98,6 @@ use-license=GPL v3
 #45 		out	dot	l		XOUT32
 #41 		in	line	l		OSCSEL
 #154		in	line	l		PLLRCA
-49 		out	dot	l		SHDN
-48 		in	line	l		WKUP
 #35 		in	line	l		\_NTRST\_
 #34 		in	line	l		TCK
 #30 		in	line	l		TDI
@@ -107,9 +105,11 @@ use-license=GPL v3
 #31 		in	line	l		TMS
 #43 		in	line	l		JTAGSEL
 #37 		out	dot	l		RTCK
-36 		io	line	l		\_NRST\_
-42 		in	line	l		TST
 40 		in	line	l		BMS
+42 		in	line	l		TST
+36 		io	line	l		\_NRST\_
+49 		out	dot	l		SHDN
+48 		in	line	l		WKUP
 #152		in	line	l		NC
 #180		io	line	l		PA1/SPI0_MOSI/MCCDB
 #179		io	line	l		PA0/SPI0_MISO/MCDB0
