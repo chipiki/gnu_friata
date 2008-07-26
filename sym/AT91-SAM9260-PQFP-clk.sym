@@ -22,69 +22,69 @@ T 450 1200 5 8 0 1 0 2 1
 pintype=out
 }
 V 350 1200 50 6 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
-P 100 1000 400 1000 1 0 0
+P 2100 800 1800 800 1 0 0
 {
-T 300 1050 5 8 1 1 0 6 1
-pinnumber=46
-T 300 950 5 8 0 1 0 8 1
+T 1895 845 5 8 1 1 0 0 1
+pinnumber=41
+T 1900 750 5 8 0 1 0 2 1
 pinseq=3
-T 450 1000 9 8 1 1 0 0 1
-pinlabel=XIN32
-T 450 1000 5 8 0 1 0 2 1
+T 1745 795 9 8 1 1 0 6 1
+pinlabel=OSCSEL
+T 1750 800 5 8 0 1 0 8 1
 pintype=in
 }
-P 100 800 300 800 1 0 0
+P 2100 1000 1800 1000 1 0 0
 {
-T 300 850 5 8 1 1 0 6 1
-pinnumber=45
-T 300 750 5 8 0 1 0 8 1
+T 1895 1045 5 8 1 1 0 0 1
+pinnumber=154
+T 1900 950 5 8 0 1 0 2 1
 pinseq=4
-T 450 800 9 8 1 1 0 0 1
-pinlabel=XOUT32
-T 450 800 5 8 0 1 0 2 1
-pintype=out
+T 1745 995 9 8 1 1 0 6 1
+pinlabel=PLLRCA
+T 1750 1000 5 8 0 1 0 8 1
+pintype=in
 }
-V 350 800 50 6 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
 P 100 600 400 600 1 0 0
 {
 T 300 650 5 8 1 1 0 6 1
-pinnumber=41
+pinnumber=46
 T 300 550 5 8 0 1 0 8 1
 pinseq=5
 T 450 600 9 8 1 1 0 0 1
-pinlabel=OSCSEL
+pinlabel=XIN32
 T 450 600 5 8 0 1 0 2 1
 pintype=in
 }
-P 100 400 400 400 1 0 0
+P 100 400 300 400 1 0 0
 {
 T 300 450 5 8 1 1 0 6 1
-pinnumber=154
+pinnumber=45
 T 300 350 5 8 0 1 0 8 1
 pinseq=6
 T 450 400 9 8 1 1 0 0 1
-pinlabel=PLLRCA
+pinlabel=XOUT32
 T 450 400 5 8 0 1 0 2 1
-pintype=in
+pintype=out
 }
-B 400 200 1000 1400 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
-T 1400 1700 8 10 1 1 0 6 1
+V 350 400 50 6 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+B 400 200 1400 1400 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 1800 1700 8 10 1 1 0 6 1
 refdes=U?
 T 400 0 9 10 1 0 0 0 1
 AT91SAM9260
-T 0 1000 5 10 0 0 0 0 1
+T -700 1000 5 10 0 0 0 0 1
 device=AT91SAM9260
-T 0 1200 5 10 0 0 0 0 1
+T -700 1200 5 10 0 0 0 0 1
 footprint=PQFP-208
-T 0 1400 5 10 0 0 0 0 1
+T -700 1400 5 10 0 0 0 0 1
 author=Saritha Kalyanam <kalyanamsaritha@gmail.com>
-T 0 1600 5 10 0 0 0 0 1
+T -700 1600 5 10 0 0 0 0 1
 documentation=http://www.atmel.com/dyn/products/product_card.asp?part_id=3870
-T 0 1800 5 10 0 0 0 0 1
+T -700 1800 5 10 0 0 0 0 1
 description=AT91 ARM Thumb Microcontroller (Atmel)
-T 0 2000 5 10 0 0 0 0 1
+T -700 2000 5 10 0 0 0 0 1
 numslots=0
-T 0 2200 5 10 0 0 0 0 1
+T -700 2200 5 10 0 0 0 0 1
 dist-license=GPL v3
-T 0 2400 5 10 0 0 0 0 1
+T -700 2400 5 10 0 0 0 0 1
 use-license=GPL v3

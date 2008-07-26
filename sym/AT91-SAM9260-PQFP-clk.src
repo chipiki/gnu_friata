@@ -27,7 +27,7 @@ wordswap=yes
 rotate_labels=yes
 sort_labels=no
 generate_pinseq=yes					
-sym_width=1000					
+sym_width=1400					
 pinwidthvertical=200					
 pinwidthhorizontal=200
 
@@ -93,11 +93,11 @@ use-license=GPL v3
 #148		in	line	l		VDDPLLB(VDDOSC)
 149		in	line	l		XIN
 150		out	dot	l		XOUT
-#151		in	line	l		GNDPLLB(GNDOSC)
-46 		in	line	l		XIN32
-45 		out	dot	l		XOUT32
 41 		in	line	l		OSCSEL
 154		in	line	l		PLLRCA
+46 		in	line	l		XIN32
+45 		out	dot	l		XOUT32
+#151		in	line	l		GNDPLLB(GNDOSC)
 #49 		out	dot	l		SHDN
 #48 		in	line	l		WKUP
 #35 		in	line	l		\_NTRST\_
