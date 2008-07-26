@@ -330,3 +330,9 @@ N 48300 46500 49400 46500 4
 T 48600 46500 5 10 1 1 0 0 1
 netname=USBCNX
 }
+T 54400 40200 9 10 1 0 0 0 1
+Saritha Kalyanam
+T 51700 40700 9 10 1 0 0 0 3
+Ethernet 10/100 & DBGU/Serial 
+& USB Hose/Device
+GPLv3
