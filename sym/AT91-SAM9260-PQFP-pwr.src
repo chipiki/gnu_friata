@@ -87,10 +87,11 @@ use-license=GPL v3
 147		in	line	l		VDDCORE3
 174		in	line	l		VDDCORE4
 203		in	line	l		VDDCORE5
-47 		in	line	l		VDDBU
-160		in	line	l		VDDANA
 155		in	line	l		VDDPLLA
 148		in	line	l		VDDPLLB(OSC)
+47 		in	line	l		VDDBU
+160		in	line	l		VDDANA
+157		in	line	l		ADVREF
 #149		in	line	l		XIN
 #150		out	dot	l		XOUT
 #46 		in	line	l		XIN32
@@ -192,7 +193,6 @@ use-license=GPL v3
 156		in	line	r		GNDANA
 153		in	line	r		GNDPLLA
 151		in	line	r		GNDPLLB(OSC)
-#157		in	line	r		ADVREF
 #55 		io	line	r		DDP
 #54 		io	line	r		DDM
 #50 		io	line	r		HDMA

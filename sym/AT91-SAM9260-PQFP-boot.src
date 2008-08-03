@@ -105,9 +105,9 @@ use-license=GPL v3
 #31 		in	line	l		TMS
 #43 		in	line	l		JTAGSEL
 #37 		out	dot	l		RTCK
-40 		in	line	l		BMS
-42 		in	line	l		TST
-36 		io	line	l		\_NRST\_
+40 		in	line	r		BMS
+42 		in	line	r		TST
+36 		io	line	r		\_NRST\_
 49 		out	dot	l		SHDN
 48 		in	line	l		WKUP
 #152		in	line	l		NC

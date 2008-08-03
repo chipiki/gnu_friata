@@ -91,12 +91,12 @@ use-license=GPL v3
 #160		in	line	l		VDDANA
 #155		in	line	l		VDDPLLA
 #148		in	line	l		VDDPLLB(VDDOSC)
-149		in	line	l		XIN
-150		out	dot	l		XOUT
+149		in	line	r		XIN
+150		out	dot	r		XOUT
 41 		in	line	l		OSCSEL
 154		in	line	l		PLLRCA
-46 		in	line	l		XIN32
-45 		out	dot	l		XOUT32
+46 		in	line	r		XIN32
+45 		out	dot	r		XOUT32
 #151		in	line	l		GNDPLLB(GNDOSC)
 #49 		out	dot	l		SHDN
 #48 		in	line	l		WKUP
