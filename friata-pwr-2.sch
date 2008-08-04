@@ -208,7 +208,7 @@ symversion=0.1
 T 11400 4000 5 10 1 1 270 0 1
 value=10uF/16V
 }
-C 13600 7000 1 270 0 Schottky-dual.sym
+C 13600 7000 1 270 0 schottky-dual.sym
 {
 T 13072 8278 5 10 0 0 270 0 1
 device=BAT54C
