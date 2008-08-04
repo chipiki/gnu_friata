@@ -73,32 +73,32 @@ numslots=0
 #pinnr	seq	type	style	posit.	net	label	
 #-----------------------------------------------------
 # Left Side
-1		in	line	l		NC
-2		in	line	l		NC
-3		in	line	l		GND
-4		in	line	l		\_1EN\_
 5		in	line	l		1IN
 6		in	line	l		1IN
-7		in	line	l		NC
-8		in	line	l		NC
-9		in	line	l		2GND
-10		in	line	l		\_2EN\_
 11		in	line	l		2IN
 12		in	line	l		2IN
+3		in	line	l		GND
+4		in	line	l		\_1EN\_
+9		in	line	l		2GND
+10		in	line	l		\_2EN\_
+7		in	line	l		NC
+8		in	line	l		NC
+1		in	line	l		NC
+2		in	line	l		NC
 13		in	line	l		NC
 14		in	line	l		NC
 # Right Side
+24		out	dot	r		1OUT
+23		out	dot	r		1OUT
+18		out	dot	r		2OUT
+17		out	dot	r		2OUT
 28		out	dot	r		\_1RESET\_
+22		out	dot	r		\_2RESET\_
 27		in	line	r		NC
 26		in	line	r		NC
 25		in	line	r		1FB/NC
-24		out	dot	r		1OUT
-23		out	dot	r		1OUT
-22		out	dot	r		\_2RESET\_
 21		in	line	r		NC
 20		in	line	r		NC
 19		in	line	r		NC
-18		out	dot	r		2OUT
-17		out	dot	r		2OUT
 16		in	line	r		NC
 15		in	line	r		NC

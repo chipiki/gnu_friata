@@ -304,7 +304,7 @@ N 43300 40500 43300 43100 4
 N 45600 41900 45200 41900 4
 N 45700 41200 45200 41200 4
 N 45800 40500 45200 40500 4
-C 43500 41800 1 0 0 resistor-1.sym
+C 43500 41800 1 0 0 resistor-h-1.sym
 {
 T 43800 42200 5 10 0 0 0 0 1
 device=RESISTOR
@@ -313,7 +313,7 @@ refdes=R?
 T 43900 42000 5 10 1 1 0 0 1
 value=330R
 }
-C 43500 41100 1 0 0 resistor-1.sym
+C 43500 41100 1 0 0 resistor-h-1.sym
 {
 T 43800 41500 5 10 0 0 0 0 1
 device=RESISTOR
@@ -322,7 +322,7 @@ refdes=R?
 T 43900 41300 5 10 1 1 0 0 1
 value=330R
 }
-C 43500 40400 1 0 0 resistor-1.sym
+C 43500 40400 1 0 0 resistor-h-1.sym
 {
 T 43800 40800 5 10 0 0 0 0 1
 device=RESISTOR
@@ -610,7 +610,7 @@ refdes=R?
 T 44200 44300 5 10 0 0 0 0 1
 device=Resistor
 T 44100 42800 5 10 1 1 0 0 1
-value=330
+value=330R
 }
 C 52200 48000 1 0 0 resistor-v-1.sym
 {
