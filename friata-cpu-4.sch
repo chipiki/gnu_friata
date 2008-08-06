@@ -334,5 +334,5 @@ T 54400 40200 9 10 1 0 0 0 1
 Saritha Kalyanam
 T 51700 40700 9 10 1 0 0 0 3
 Ethernet 10/100 & DBGU/Serial 
-& USB Hose/Device
+& USB Host/Device
 GPLv3

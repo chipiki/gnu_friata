@@ -1,0 +1,5 @@
+
+References
+==========
+
+[1] http://www.hirose.co.uk/UX_Mini_USB_2002_11.pdf
