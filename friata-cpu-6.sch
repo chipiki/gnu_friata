@@ -1,16 +1,57 @@
 v 20080127 1
 C 40000 40000 0 0 0 title-B.sym
-T 54400 40200 9 10 1 0 0 0 1
-Saritha Kalyanam
-T 52100 40800 9 10 1 0 0 0 2
-Unconnected pins
-GPLv3
-C 43600 42600 1 0 0 AT91-SAM9260-PQFP-nc.sym
+C 41500 47900 1 0 0 AT91-SAM9260-PQFP-ui.sym
 {
-T 48000 48700 5 10 1 1 0 6 1
+T 43500 49000 5 10 1 1 0 6 1
 refdes=U?
-T 44000 48900 5 10 0 0 0 0 1
+T 41500 49200 5 10 0 0 0 0 1
 device=AT91SAM9260
-T 44000 49100 5 10 0 0 0 0 1
+T 41500 49400 5 10 0 0 0 0 1
 footprint=PQFP-208
+}
+T 54300 40200 9 10 1 0 0 0 1
+Saritha Kalyanam
+T 51700 40800 9 10 1 0 0 0 2
+User Interface (LEDs and Interrupts)
+GPLv3
+U 45700 49400 45700 48200 10 0
+C 45500 48700 1 0 0 busripper-1.sym
+{
+T 45500 49100 5 8 0 0 0 0 1
+device=none
+}
+C 45500 48500 1 0 0 busripper-1.sym
+{
+T 45500 48900 5 8 0 0 0 0 1
+device=none
+}
+C 45500 48300 1 0 0 busripper-1.sym
+{
+T 45500 48700 5 8 0 0 0 0 1
+device=none
+}
+C 45500 48100 1 0 0 busripper-1.sym
+{
+T 45500 48500 5 8 0 0 0 0 1
+device=none
+}
+N 43800 48700 45500 48700 4
+{
+T 44200 48700 5 10 1 1 0 0 1
+netname=PIO_A8
+}
+N 43800 48500 45500 48500 4
+{
+T 44200 48500 5 10 1 1 0 0 1
+netname=PIO_A9
+}
+N 43800 48300 45500 48300 4
+{
+T 44200 48300 5 10 1 1 0 0 1
+netname=PIO_B30
+}
+N 43800 48100 45500 48100 4
+{
+T 44200 48100 5 10 1 1 0 0 1
+netname=PIO_B31
 }
