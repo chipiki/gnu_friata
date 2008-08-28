@@ -1,0 +1,1 @@
+bottom boot block config since ARM9 starts execution at 0x00000000

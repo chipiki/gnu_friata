@@ -1,0 +1,5 @@
+
+References
+==========
+
+[1] http://rt2x00.serialmonkey.com/wiki/index.php/Hardware

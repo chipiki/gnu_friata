@@ -3,3 +3,4 @@ References
 ==========
 
 [1] http://www.hirose.co.uk/UX_Mini_USB_2002_11.pdf
+[2] http://www.oxsemi.com/products/usb/USBOXU200.html
