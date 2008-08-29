@@ -66,46 +66,46 @@ pinlabel=VCC
 T 1450 1200 5 8 0 1 0 8 1
 pintype=in
 }
-P 1800 700 1500 700 1 0 0
+P 1800 1000 1500 1000 1 0 0
 {
-T 1600 750 5 8 1 1 0 0 1
+T 1600 1050 5 8 1 1 0 0 1
 pinnumber=7
-T 1600 650 5 8 0 1 0 2 1
+T 1600 950 5 8 0 1 0 2 1
 pinseq=7
-T 1450 700 9 8 1 1 0 6 1
+T 1450 1000 9 8 1 1 0 6 1
 pinlabel=GND
-T 1450 700 5 8 0 1 0 8 1
+T 1450 1000 5 8 0 1 0 8 1
 pintype=in
 }
-P 1800 400 1500 400 1 0 0
+P 1800 800 1500 800 1 0 0
 {
-T 1600 450 5 8 1 1 0 0 1
+T 1600 850 5 8 1 1 0 0 1
 pinnumber=5
-T 1600 350 5 8 0 1 0 2 1
+T 1600 750 5 8 0 1 0 2 1
 pinseq=8
-T 1450 400 9 8 1 1 0 6 1
+T 1450 800 9 8 1 1 0 6 1
 pinlabel=\_WP\_
-T 1450 400 5 8 0 1 0 8 1
+T 1450 800 5 8 0 1 0 8 1
 pintype=in
 }
 B 300 200 1200 1200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
 T 1500 1500 8 10 1 1 0 6 1
 refdes=U?
-T 400 0 9 10 1 0 0 0 1
-AT45DB011
-T 400 1300 5 10 0 0 0 0 1
-device=AT45DB011
-T 400 1500 5 10 0 0 0 0 1
+T 300 0 9 10 1 0 0 0 1
+AT45DB161D
+T -900 300 5 10 0 0 0 0 1
+device=AT45DB161D
+T -900 500 5 10 0 0 0 0 1
 footprint=SOIC-8
-T 400 1700 5 10 0 0 0 0 1
+T -900 700 5 10 0 0 0 0 1
 author=Saritha Kalyanam
-T 400 1900 5 10 0 0 0 0 1
-documentation=http://www.atmel.com/dyn/resources/prod_documents/doc1984.pdf
-T 400 2100 5 10 0 0 0 0 1
-description=1-megabit 2.7-volt SPI DataFlash
-T 400 2300 5 10 0 0 0 0 1
+T -900 900 5 10 0 0 0 0 1
+documentation=http://www.atmel.com/dyn/resources/prod_documents/doc3500.pdf
+T -900 1100 5 10 0 0 0 0 1
+description=16M bit, 2.7-Volt Only Serial-Interface Flash with two SRAM Data Buffers
+T -900 1300 5 10 0 0 0 0 1
 numslots=0
-T 400 2500 5 10 0 0 0 0 1
+T -900 1500 5 10 0 0 0 0 1
 dist-license=GPL v3
-T 400 2700 5 10 0 0 0 0 1
+T -900 1700 5 10 0 0 0 0 1
 use-license=GPL v3
