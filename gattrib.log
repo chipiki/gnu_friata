@@ -1,0 +1,19 @@
+gEDA/gattrib version 1.4.0.20080127
+gEDA/gattrib comes with ABSOLUTELY NO WARRANTY; see COPYING for more details.
+This is free software, and you are welcome to redistribute it under certain
+conditions; please see the COPYING file for more details.
+
+Read system-gafrc file [/etc/gEDA/system-gafrc]
+Did not find optional ~/.gEDA/gafrc file [/home/ram/.gEDA/gafrc]
+Read local gafrc file [/home/ram/git/friata/gafrc]
+Read system-gattribrc file [/etc/gEDA/system-gattribrc]
+Did not find optional ~/.gEDA/gattribrc file [/home/ram/.gEDA/gattribrc]
+Did not find optional local gattribrc file [/home/ram/git/friata/gattribrc]
+Loading file [/home/ram/git/friata/friata-cpu-1.sch]
+RC file [/home/ram/git/friata/gafrc] already read in.
+More than one component found with name [gnd-1.sym]
+More than one component found with name [gnd-1.sym]
+More than one component found with name [gnd-1.sym]
+More than one component found with name [gnd-1.sym]
+More than one component found with name [gnd-1.sym]
+More than one component found with name [gnd-1.sym]

@@ -38,12 +38,12 @@ pinwidthhorizontal=200
 # if you have a device with slots, you'll have to use slot= and slotdef=
 # use comment= if there are special information you want to add
 version=20080313 1
-name=MT48LC16M16A2P-75-L
-device=MT48LC16M16A2P-75-L
+name=MT48LC8M16A2P-75-L
+device=MT48LC8M16A2P-75-L
 refdes=U?
 footprint=TSOP-54
-description=256Mb SDRAM (Micron)
-documentation=http://download.micron.com/pdf/datasheets/dram/sdram/256MSDRAM.pdf
+description=128Mb SDRAM (Micron)
+documentation=http://download.micron.com/pdf/datasheets/dram/sdram/128MSDRAM.pdf
 author=Saritha Kalyanam
 dist-license=GPL v3
 use-license=GPL v3

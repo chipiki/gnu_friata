@@ -21,7 +21,6 @@ N 51800 43600 51800 43400 4
 N 52000 43600 52000 43400 4
 U 45900 50000 45900 45700 10 0
 U 53700 50000 53700 45800 10 0
-U 49200 50000 49200 44300 10 0
 U 41200 50000 41200 44300 10 0
 C 45700 48600 1 0 0 busripper-1.sym
 {
@@ -704,24 +703,6 @@ N 47300 46800 47700 46800 4
 N 47300 46200 47700 46200 4
 N 46600 46800 46400 46800 4
 N 50800 49200 54400 49200 4
-C 42200 43500 1 0 0 MT48LC16M16A2P-75-L.sym
-{
-T 44700 48900 5 10 1 1 0 6 1
-refdes=U?
-T 43400 46500 5 10 0 0 0 0 1
-device=MT48LC8M16A2P-75-L
-T 43400 46700 5 10 0 0 0 0 1
-footprint=TSOP-54
-}
-C 50000 43600 1 0 0 MT48LC16M16A2P-75-L.sym
-{
-T 52500 49000 5 10 1 1 0 6 1
-refdes=U?
-T 51200 46600 5 10 0 0 0 0 1
-device=MT48LC8M16A2P-75-L
-T 51200 46800 5 10 0 0 0 0 1
-footprint=TSOP-54
-}
 T 54200 40100 9 10 1 0 0 0 2
 Saritha Kalyanam
 GPLv3
@@ -852,3 +833,138 @@ T 54900 46100 5 10 1 1 0 0 1
 value=100nF
 }
 C 46100 49100 1 0 0 3V3-plus.sym
+C 42200 43500 1 0 0 MT48LC8M16A2P-75-L.sym
+{
+T 44700 48900 5 10 1 1 0 6 1
+refdes=U?
+T 43400 46500 5 10 0 0 0 0 1
+device=MT48LC8M16A2P-75-L
+T 43400 46700 5 10 0 0 0 0 1
+footprint=TSOP-54
+}
+C 49200 48700 1 0 1 busripper-1.sym
+{
+T 49200 49100 5 8 0 0 0 6 1
+device=none
+}
+C 49200 48500 1 0 1 busripper-1.sym
+{
+T 49200 48900 5 8 0 0 0 6 1
+device=none
+}
+C 49200 48300 1 0 1 busripper-1.sym
+{
+T 49200 48700 5 8 0 0 0 6 1
+device=none
+}
+C 49200 48100 1 0 1 busripper-1.sym
+{
+T 49200 48500 5 8 0 0 0 6 1
+device=none
+}
+C 49200 47900 1 0 1 busripper-1.sym
+{
+T 49200 48300 5 8 0 0 0 6 1
+device=none
+}
+C 49200 47700 1 0 1 busripper-1.sym
+{
+T 49200 48100 5 8 0 0 0 6 1
+device=none
+}
+C 49200 47500 1 0 1 busripper-1.sym
+{
+T 49200 47900 5 8 0 0 0 6 1
+device=none
+}
+C 49200 47300 1 0 1 busripper-1.sym
+{
+T 49200 47700 5 8 0 0 0 6 1
+device=none
+}
+C 49200 47100 1 0 1 busripper-1.sym
+{
+T 49200 47500 5 8 0 0 0 6 1
+device=none
+}
+C 49200 46900 1 0 1 busripper-1.sym
+{
+T 49200 47300 5 8 0 0 0 6 1
+device=none
+}
+C 49200 46700 1 0 1 busripper-1.sym
+{
+T 49200 47100 5 8 0 0 0 6 1
+device=none
+}
+C 49200 46500 1 0 1 busripper-1.sym
+{
+T 49200 46900 5 8 0 0 0 6 1
+device=none
+}
+C 49200 46300 1 0 1 busripper-1.sym
+{
+T 49200 46700 5 8 0 0 0 6 1
+device=none
+}
+C 49200 46100 1 0 1 busripper-1.sym
+{
+T 49200 46500 5 8 0 0 0 6 1
+device=none
+}
+C 49200 45900 1 0 1 busripper-1.sym
+{
+T 49200 46300 5 8 0 0 0 6 1
+device=none
+}
+C 49200 45700 1 0 1 busripper-1.sym
+{
+T 49200 46100 5 8 0 0 0 6 1
+device=none
+}
+C 49200 45500 1 0 1 busripper-1.sym
+{
+T 49200 45900 5 8 0 0 0 6 1
+device=none
+}
+C 49200 45300 1 0 1 busripper-1.sym
+{
+T 49200 45700 5 8 0 0 0 6 1
+device=none
+}
+C 49200 45100 1 0 1 busripper-1.sym
+{
+T 49200 45500 5 8 0 0 0 6 1
+device=none
+}
+C 49200 44900 1 0 1 busripper-1.sym
+{
+T 49200 45300 5 8 0 0 0 6 1
+device=none
+}
+C 49200 44700 1 0 1 busripper-1.sym
+{
+T 49200 45100 5 8 0 0 0 6 1
+device=none
+}
+C 49200 44500 1 0 1 busripper-1.sym
+{
+T 49200 44900 5 8 0 0 0 6 1
+device=none
+}
+C 49200 44300 1 0 1 busripper-1.sym
+{
+T 49200 44700 5 8 0 0 0 6 1
+device=none
+}
+U 45900 53900 45900 49600 10 0
+U 49000 50000 49000 44400 10 0
+C 50000 43600 1 0 0 MT48LC8M16A2P-75-L.sym
+{
+T 52500 49000 5 10 1 1 0 6 1
+refdes=U?
+T 51200 46600 5 10 0 0 0 0 1
+device=MT48LC8M16A2P-75-L
+T 51200 46800 5 10 0 0 0 0 1
+footprint=TSOP-54
+}

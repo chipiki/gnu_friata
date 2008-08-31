@@ -39,9 +39,9 @@ pinwidthhorizontal=200
 # use comment= if there are special information you want to add
 version=20080313 1
 name=AT45DB161D
-device= AT45DB161D
+device=AT45DB161D
 refdes=U?
-footprint=SOIC-8
+footprint=TSOP-28
 description=16M bit, 2.7-Volt Only Serial-Interface Flash with two SRAM Data Buffers
 documentation=http://www.atmel.com/dyn/resources/prod_documents/doc3500.pdf
 author=Saritha Kalyanam
@@ -73,12 +73,32 @@ numslots=0
 #pinnr	seq	type	style	posit.	net	label	
 #-----------------------------------------------------
 # Left Side
-1		in	line	l		SI
-8		out	dot	l		SO
-2		in	line	l		SCK
-4		in	line	l		\_CS\_
-3		in	line	l		\_RESET\_
+13		in	line	l		SI
+14		out	dot	l		SO
+12		in	line	l		SCK
+11		in	line	l		\_CS\_
+2		in	line	l		\_RESET\_
+1		out	dot	l		RDY/\_BUSY\_
+4		in	line	l		NC
+5		in	line	l		NC
+8		in	line	l		NC
+9		in	line	l		NC
+10		in	line	l		NC
+6		in	line	l		VCC
+7		in	line	l		GND
+3		in	line	l		\_WP\_
 # Right Side
-6		in	line	r		VCC
-7		in	line	r		GND
-5		in	line	r		\_WP\_
+28		in	line	r		NC
+27		in	line	r		NC
+26		in	line	r		NC
+25		in	line	r		NC
+24		in	line	r		NC
+23		in	line	r		NC
+22		in	line	r		NC
+21		in	line	r		NC
+20		in	line	r		NC
+19		in	line	r		NC
+18		in	line	r		NC
+17		in	line	r		NC
+16		in	line	r		NC
+15		in	line	r		NC
