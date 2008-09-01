@@ -38,12 +38,12 @@ pinwidthhorizontal=200
 # if you have a device with slots, you'll have to use slot= and slotdef=
 # use comment= if there are special information you want to add
 version=20060113 1
-name=ST3232
-device=ST3232
+name=MIC4575
+device=MIC4575
 refdes=U?
-footprint=TSSOP-16
-description=RS-232 driver 3 to 5.5V
-documentation=http://www.st.com/stonline/books/pdf/docs/7454.pdf
+footprint=TO-263
+description=200kHz Simple 1A Buck Regulator
+documentation=http://www.micrel.com/_PDF/mic4575.pdf
 author=Saritha Kalyanam
 dist-license=GPL v3
 use-license=GPL v3
@@ -73,20 +73,10 @@ numslots=0
 #pinnr	seq	type	style	posit.	net	label	
 #-----------------------------------------------------
 # Left Side
-1		in	line	l		C1+
-3		in	line	l		C1-
-4		in	line	l		C2+
-5		in	line	l		C2-
-11		in	line	l		T1IN
-10		in	line	l		T2IN
-12		out	dot	l		R1OUT
-9		out	dot	l		R2OUT
+1		in	line	l		VIN
+5		in	line	l		SHDN
 # Right Side
-16		in	line	r		VCC
-15		in	line	r		GND
-2		in	line	r		V+
-6		in	line	r		V-
-14		out	dot	r		T1OUT
-7		out	dot	r		T2OUT
-13		in	line	r		R1IN
-8		in	line	r		R2IN
+2		out	dot	r		SW
+4		out	dot	r		FB
+# Bottom Side
+3		in	line	b		GND

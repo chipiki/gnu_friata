@@ -38,12 +38,12 @@ pinwidthhorizontal=200
 # if you have a device with slots, you'll have to use slot= and slotdef=
 # use comment= if there are special information you want to add
 version=20060113 1
-name=ST3232
-device=ST3232
+name=LM2717
+device=LM2717
 refdes=U?
-footprint=TSSOP-16
-description=RS-232 driver 3 to 5.5V
-documentation=http://www.st.com/stonline/books/pdf/docs/7454.pdf
+footprint=TSSOP-24
+description=LM2717 - Dual Step-Down DC/DC Converter 
+documentation=http://www.national.com/ds.cgi/LM/LM2717.pdf
 author=Saritha Kalyanam
 dist-license=GPL v3
 use-license=GPL v3
@@ -73,20 +73,28 @@ numslots=0
 #pinnr	seq	type	style	posit.	net	label	
 #-----------------------------------------------------
 # Left Side
-1		in	line	l		C1+
-3		in	line	l		C1-
-4		in	line	l		C2+
-5		in	line	l		C2-
-11		in	line	l		T1IN
-10		in	line	l		T2IN
-12		out	dot	l		R1OUT
-9		out	dot	l		R2OUT
+14		in	line	l		VIN1
+15		in	line	l		VIN2
+23		in	line	l		VIN3
+20		in	line	l		SS1
+5		in	line	l		VC1
+6		in	line	l		VBG
+7		in	line	l		VC2
+18		in	line	l		SS2
+1		in	line	l		PGND1
+2		in	line	l		PGND2
+11		in	line	l		PGND3
+12		in	line	l		PGND4
 # Right Side
-16		in	line	r		VCC
-15		in	line	r		GND
-2		in	line	r		V+
-6		in	line	r		V-
-14		out	dot	r		T1OUT
-7		out	dot	r		T2OUT
-13		in	line	r		R1IN
-8		in	line	r		R2IN
+4		out	dot	r		FB1
+22		in	line	r		CB1
+24		in	line	r		SW1
+16		in	line	r		CB2
+13		in	line	r		SW2
+8		out	dot	r		FB2
+21		in	line	r		\_SHDN1\_
+17		in	line	r		\_SHDN2\_
+19		in	line	r		FSLCT
+3		in	line	r		AGND1
+9		in	line	r		AGND2
+10		in	line	r		AGND3
