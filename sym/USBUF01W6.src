@@ -77,6 +77,6 @@ numslots=0
 2		in	line	l		GND
 3		in	line	l		D2
 # Right Side
-4		in	line	r		D3
-5		in	line	r		3.3V
 6		in	line	r		D4
+5		in	line	r		3.3V
+4		in	line	r		D3

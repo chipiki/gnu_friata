@@ -77,5 +77,5 @@ numslots=0
 2		in	line	l		GND
 3		in	line	l		D- In
 # Right Side
-4		out	dot	r		D+ Out
 5		out	dot	r		D- Out
+4		out	dot	r		D+ Out

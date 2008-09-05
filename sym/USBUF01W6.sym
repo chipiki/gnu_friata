@@ -35,11 +35,11 @@ pintype=in
 P 1800 800 1500 800 1 0 0
 {
 T 1600 850 5 8 1 1 0 0 1
-pinnumber=4
+pinnumber=6
 T 1600 750 5 8 0 1 0 2 1
 pinseq=4
 T 1450 800 9 8 1 1 0 6 1
-pinlabel=D3
+pinlabel=D4
 T 1450 800 5 8 0 1 0 8 1
 pintype=in
 }
@@ -57,11 +57,11 @@ pintype=in
 P 1800 400 1500 400 1 0 0
 {
 T 1600 450 5 8 1 1 0 0 1
-pinnumber=6
+pinnumber=4
 T 1600 350 5 8 0 1 0 2 1
 pinseq=6
 T 1450 400 9 8 1 1 0 6 1
-pinlabel=D4
+pinlabel=D3
 T 1450 400 5 8 0 1 0 8 1
 pintype=in
 }
@@ -70,19 +70,19 @@ T 1500 1100 8 10 1 1 0 6 1
 refdes=U?
 T 300 0 9 10 1 0 0 0 1
 USBUF01W6
-T -300 500 5 10 0 0 0 0 1
+T -100 600 5 10 0 0 0 0 1
 device=USBUF01W6
-T -300 700 5 10 0 0 0 0 1
+T -100 800 5 10 0 0 0 0 1
 footprint=SOT-323
-T -300 900 5 10 0 0 0 0 1
+T -100 1000 5 10 0 0 0 0 1
 author=Saritha Kalyanam
-T -300 1100 5 10 0 0 0 0 1
+T -100 1200 5 10 0 0 0 0 1
 documentation=http://www.st.com/stonline/books/pdf/docs/7041.pdf
-T -300 1300 5 10 0 0 0 0 1
+T -100 1400 5 10 0 0 0 0 1
 description=EMI filter and line termination for USB upstream ports
-T -300 1500 5 10 0 0 0 0 1
+T -100 1600 5 10 0 0 0 0 1
 numslots=0
-T -300 1700 5 10 0 0 0 0 1
+T -100 1800 5 10 0 0 0 0 1
 dist-license=GPL v3
-T -300 1900 5 10 0 0 0 0 1
+T -100 2000 5 10 0 0 0 0 1
 use-license=GPL v3
