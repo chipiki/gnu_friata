@@ -2,22 +2,22 @@ v 20080127 1
 P 0 700 300 700 1 0 0
 {
 T 200 750 5 8 1 1 0 6 1
-pinnumber=1
+pinnumber=5
 T 200 650 5 8 0 1 0 8 1
 pinseq=1
 T 350 700 9 8 1 1 0 0 1
-pinlabel=VIN
+pinlabel=SHDN
 T 350 700 5 8 0 1 0 2 1
 pintype=in
 }
 P 0 500 300 500 1 0 0
 {
 T 200 550 5 8 1 1 0 6 1
-pinnumber=5
+pinnumber=1
 T 200 450 5 8 0 1 0 8 1
 pinseq=2
 T 350 500 9 8 1 1 0 0 1
-pinlabel=SHDN
+pinlabel=VIN
 T 350 500 5 8 0 1 0 2 1
 pintype=in
 }
