@@ -1,0 +1,125 @@
+###########################################################################
+#  Copyright (C) 2008 by Saritha Kalyanam                                 #
+#  kalyanamsaritha@gmail.com                                              #
+#                                                                         #
+#  This program is free software: you can redistribute it and/or modify   #
+#  it under the terms of the GNU General Public License as published by   #
+#  the Free Software Foundation, either version 3 of the License, or      #
+#  (at your option) any later version.                                    #
+#                                                                         #
+#  This program is distributed in the hope that it will be useful,        #
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of         #
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the          #
+#  GNU General Public License for more details.                           #
+#                                                                         #
+#  You should have received a copy of the GNU General Public License      #
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.  #
+###########################################################################
+
+[options]
+# wordswap swaps labels if the pin is on the right side an looks like this:
+#   "PB1 (CLK)". That's useful for micro controller port labels
+# rotate_labels rotates the pintext of top and bottom pins
+#   this is useful for large symbols like FPGAs with more than 100 pins
+# sort_labels will sort the pins by it's labels
+#   useful for address ports, busses, ...
+wordswap=no
+rotate_labels=yes
+sort_labels=no
+generate_pinseq=yes
+sym_width=3600
+pinwidthvertical=200
+pinwidthhorizontal=200
+
+[geda_attr]
+# name will be printed in the top of the symbol
+# name is only some graphical text, not an attribute
+# version specifies a gschem version.
+# if you have a device with slots, you'll have to use slot= and slotdef=
+# use comment= if there are special information you want to add
+version=20060113 1
+name=DM83848I
+device=DM83848I
+refdes=U?
+footprint=PQFP-48
+description=DP83848I - PHYTER Industrial Temperature Single Port 10/100 Mb/s Ethernet Physical Layer Transceiver 
+documentation=http://www.national.com/ds.cgi/DP/DP83848I.pdf
+author=Saritha Kalyanam
+dist-license=GPL v3
+use-license=GPL v3
+numslots=0
+#slot=1
+#slotdef=1:
+#slotdef=2:
+#slotdef=3:
+#slotdef=4:
+#comment=
+#comment=
+#comment=
+
+[pins]
+# tabseparated list of pin descriptions
+# ----------------------------------------
+# pinnr is the physical number of the pin
+# seq is the pinseq= attribute, leave it blank if it doesn't matter
+# type can be (in, out, io, oc, oe, pas, tp, tri, clk, pwr)
+# style can be (line,dot,clk,dotclk,none). none if only want to add a net
+# posit. can be (l,r,t,b) or empty for nets
+# net specifies the name of the net. Vcc or GND for example.
+# label represents the pinlabel.
+#	negation lines can be added with "\_" example: \_enable\_ 
+#	if you want to write a "\" use "\\" as escape sequence
+#-----------------------------------------------------
+#pinnr	seq	type	style	posit.	net	label	
+#-----------------------------------------------------
+# Left Side
+1		out	dot	l		TX_CLK
+3		in	line	l		TX_D0
+4		in	line	l		TX_D1
+5		in	line	l		TX_D2
+6		in	line	l		TX_D3/SNI_MODE
+2		in	line	l		TX_EN
+43		out	dot	l		RXD_0/PHYAD1
+44		out	dot	l		RXD_1/PHYAD2
+45		out	dot	l		RXD_2/PHYAD3
+46		out	dot	l		RXD_3/PHYAD4
+38		out	dot	l		RX_CLK
+39		out	dot	l		RX_DV/MII_MODE
+41		out	dot	l		RX_ER/MDIX_EN
+42		out	dot	l		COL/PHYAD0
+40		out	dot	l		CRS/CRS_DV/LED_CFG
+31		in	line	l		MDC
+30		io	line	l		MDIO
+7		out	dot	l		PWR_DN/\_INT\_
+29		in	line	l		\_RESET\_
+24		in	line	l		RBIAS
+25		out	dot	l		25MHz_OUT
+34		in	line	l		X1
+33		out	dot	l		X2
+
+# Right Side
+22		in	line	r		AVDD33
+32		in	line	r		IOVDD33-1
+48		in	line	r		IOVDD33-2
+15		in	line	r		AGND-1
+19		in	line	r		AGND-2
+36		in	line	r		DGND
+35		in	line	r		IOGND-1
+47		in	line	r		IOGND-2	
+23		out	dot	r		PFBOUT
+18		in	line	r		PFBIN1
+37		in	line	r		PFBIN2
+20		in	line	r		RSVD
+21		in	line	r		RSVD
+17		io	line	r		TD+
+16		io	line	r		TD-
+14		io	line	r		RD+
+13		io	line	r		RD-
+8		in	line	r		TCK
+12		in	line	r		TDI
+9		out	dot	r		TDO
+10		in	line	r		TMS
+11		in	line	r		\_TRST\_
+28		out	dot	r		LED_LNK/AN0
+27		out	dot	r		LED_SPD/AN1
+26		out	dot	r		LED_ACT/COL/AN_EN
