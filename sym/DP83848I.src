@@ -27,7 +27,7 @@ wordswap=no
 rotate_labels=yes
 sort_labels=no
 generate_pinseq=yes
-sym_width=3600
+sym_width=3000
 pinwidthvertical=200
 pinwidthhorizontal=200
 
@@ -92,7 +92,6 @@ numslots=0
 30		io	line	l		MDIO
 7		out	dot	l		PWR_DN/\_INT\_
 29		in	line	l		\_RESET\_
-24		in	line	l		RBIAS
 25		out	dot	l		25MHz_OUT
 34		in	line	l		X1
 33		out	dot	l		X2
@@ -106,6 +105,7 @@ numslots=0
 36		in	line	r		DGND
 35		in	line	r		IOGND-1
 47		in	line	r		IOGND-2	
+24		in	line	r		RBIAS
 23		out	dot	r		PFBOUT
 18		in	line	r		PFBIN1
 37		in	line	r		PFBIN2

@@ -23,11 +23,11 @@
 #   this is useful for large symbols like FPGAs with more than 100 pins
 # sort_labels will sort the pins by it's labels
 #   useful for address ports, busses, ...
-wordswap=yes
+wordswap=no
 rotate_labels=yes
 sort_labels=no
 generate_pinseq=yes
-sym_width=4800
+sym_width=3000
 pinwidthvertical=200
 pinwidthhorizontal=200
 
@@ -72,47 +72,45 @@ numslots=0
 #-----------------------------------------------------
 #pinnr	seq	type	style	posit.	net	label	
 #-----------------------------------------------------
-# Bottom Side
-1		in	line	b		IOVDD33
-2		out	dot	b		TX_CLK
-3		in	line	b		TX_EN
-4		in	line	b		TX_D0
-5		in	line	b		TX_D1
-6		in	line	b		TX_D2
-7		in	line	b		TX_D3
-8		in	line	b		RSVD
-9		in	line	b		RSVD
-10		in	line	b		RSVD
-# Right Side
-20		in	line	r		RBIAS
-19		out	dot	r		PFBOUT
-18		in	line	r		AVDD33
-17		in	line	r		AGND
-16		in	line	r		PFBIN1
-15		io	line	r		TD+
-14		io	line	r		TD-
-13		in	line	r		AGND
-12		io	line	r		RD+
-11		io	line	r		RD-
-# Top Side
-30		in	line	t		PFBIN2
-29		in	line	t		DGND
-28		in	line	t		X1
-27		out	dot	t		X2
-26		in	line	t		IOVDD33
-25		in	line	t		MDC
-24		io	line	t		MDIO
-23		in	line	t		\_RESET\_
-22		out	dot	t		LED_LNK
-21		out	dot	t		25MHz_OUT
 # Left Side
-31		out	dot	l		RX_CLK
-32		out	dot	l		RX_DV
-33		out	dot	l		CRS/LED_CFG
-34		out	dot	l		RX_ER/MDIX_EN
-35		out	dot	l		COL/PHYAD0
+2		out	dot	l		TX_CLK
+4		in	line	l		TX_D0
+5		in	line	l		TX_D1
+6		in	line	l		TX_D2
+7		in	line	l		TX_D3
+3		in	line	l		TX_EN
 36		out	dot	l		RXD_0/PHYAD1
 37		out	dot	l		RXD_1/PHYAD2
 38		out	dot	l		RXD_2/PHYAD3
 39		out	dot	l		RXD_3/PHYAD4
-40		in	line	l		IOGND
+31		out	dot	l		RX_CLK
+32		out	dot	l		RX_DV/MII_MODE
+34		out	dot	l		RX_ER/MDIX_EN
+35		out	dot	l		COL/PHYAD0
+33		out	dot	l		CRS/CRS_DV/LED_CFG
+25		in	line	l		MDC
+24		io	line	l		MDIO
+23		in	line	l		\_RESET\_
+21		out	dot	l		25MHz_OUT
+28		in	line	l		X1
+27		out	dot	l		X2
+# Right Side
+18		in	line	r		AVDD33
+1		in	line	r		IOVDD33-1
+26		in	line	r		IOVDD33-2
+13		in	line	r		AGND-1
+17		in	line	r		AGND-2
+29		in	line	r		DGND
+40		in	line	r		IOGND
+20		in	line	r		RBIAS
+19		out	dot	r		PFBOUT
+16		in	line	r		PFBIN1
+30		in	line	r		PFBIN2
+8		in	line	r		RSVD
+9		in	line	r		RSVD
+10		in	line	r		RSVD
+15		io	line	r		TD+
+14		io	line	r		TD-
+12		io	line	r		RD+
+11		io	line	r		RD-
+22		out	dot	r		LED_LNK/AN0
