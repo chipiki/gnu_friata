@@ -1,0 +1,7 @@
+v 20080127 1
+C 40000 40000 0 0 0 title-B.sym
+T 54200 40300 9 10 1 0 0 0 1
+Saritha Kalyanam
+T 52600 40800 9 10 1 0 0 0 2
+FXS module
+GPLv3
