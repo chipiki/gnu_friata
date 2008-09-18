@@ -5,3 +5,21 @@ Saritha Kalyanam
 T 52600 40800 9 10 1 0 0 0 2
 FXS module
 GPLv3
+C 48800 44700 1 0 0 Si3215.sym
+{
+T 52300 48700 5 10 1 1 0 6 1
+refdes=U?
+T 50500 47000 5 10 0 0 0 0 1
+device=Si3215
+T 50500 47200 5 10 0 0 0 0 1
+footprint=TSSOP-38
+}
+C 44000 44600 1 0 0 Si3201.sym
+{
+T 46300 46400 5 10 1 1 0 6 1
+refdes=U?
+T 45100 45800 5 10 0 0 0 0 1
+device=Si3201
+T 45100 46000 5 10 0 0 0 0 1
+footprint=ESOIC-16
+}
