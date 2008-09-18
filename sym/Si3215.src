@@ -27,9 +27,9 @@ wordswap=yes
 rotate_labels=yes
 sort_labels=no
 generate_pinseq=yes
-sym_width=4400
-pinwidthvertical=400
-pinwidthhorizontal=400
+sym_width=3200
+pinwidthvertical=200
+pinwidthhorizontal=200
 
 [geda_attr]
 # name will be printed in the top of the symbol
@@ -74,44 +74,44 @@ numslots=0
 #-----------------------------------------------------
 # Left Side
 15		in	line	l		STIPDC
-20		in	line	l		STIPAC
-29		in	line	l		ITIPN
-25		in	line	l		IRINGN
-28		in	line	l		ITIPP
-26		in	line	l		IRINGP
-17		in	line	l		STIPE
-19		in	line	l		SRINGE
-18		in	line	l		SVBAT
-21		in	line	l		SRINGAC
 16		in	line	l		SRINGDC
+20		in	line	l		STIPAC
+21		in	line	l		SRINGAC
+19		in	line	l		SRINGE
+28		in	line	l		ITIPP
+25		in	line	l		IRINGN
+17		in	line	l		STIPE
+26		in	line	l		IRINGP
+29		in	line	l		ITIPN
+18		in	line	l		SVBAT
 # Bottom Side
-9		io	line	b		SDCL/DIO2
-8		io	line	b		SDCH/DIO1
 34		in	line	b		DCDRV/DCSW
 33		in	line	b		DCFF/DOUT
+9		io	line	b		SDCL/DIO2
+8		io	line	b		SDCH/DIO1
 # Right Side
-35		in	line	r		SDITHRU
+32		in	line	r		TEST
+7		in	line	r		\_RESET\_
+6		in	line	r		FSYNC
+5		out	dot	r		DTX
+4		in	line	r		DRX
+3		in	line	r		PCLK
+2		in	line	r		\_INT\_
+1		in	line	r		\_CS\_
 38		in	line	r		SCLK
 37		in	line	r		SDI
 36		out	dot	r		SDO
-1		in	line	r		\_CS\_
-6		in	line	r		FSYNC
-3		in	line	r		PCLK
-4		in	line	r		DRX
-5		out	dot	r		DTX
-2		in	line	r		\_INT\_
-7		in	line	r		\_RESET\_
-24		in	line	r		IGMP
-22		in	line	r		IGMN
-11		in	line	r		IREF
-12		in	line	r		CAPP
-14		in	line	r		CAPM
-13		in	line	r		QGND
+35		in	line	r		SDITHRU
+23		in	line	r		GNDA
+31		in	line	r		GNDD
+10		in	line	r		VDDA1
+27		in	line	r		VDDA2
+30		in	line	r		VDDD
 # Top Side
-32		in	line	t		TEST
-31		in	line	t		GNDD
-23		in	line	t		GNDA
-10		in	line	t		VDDA1
-27		in	line	t		VDDA2
-30		in	line	t		VDDD
+13		in	line	t		QGND
+14		in	line	t		CAPM
+12		in	line	t		CAPP
+11		in	line	t		IREF
+22		in	line	t		IGMN
+24		in	line	t		IGMP
 

@@ -23,13 +23,13 @@
 #   this is useful for large symbols like FPGAs with more than 100 pins
 # sort_labels will sort the pins by it's labels
 #   useful for address ports, busses, ...
-wordswap=yes
-rotate_labels=no
+wordswap=no
+rotate_labels=yes
 sort_labels=no
 generate_pinseq=yes
-sym_width=2400
-pinwidthvertical=400
-pinwidthhorizontal=400
+sym_width=2000
+pinwidthvertical=200
+pinwidthhorizontal=200
 
 [geda_attr]
 # name will be printed in the top of the symbol
