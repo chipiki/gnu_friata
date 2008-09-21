@@ -74,23 +74,22 @@ numslots=0
 #-----------------------------------------------------
 # Left Side
 15		in	line	l		STIPDC
-16		in	line	l		SRINGDC
 20		in	line	l		STIPAC
-21		in	line	l		SRINGAC
-19		in	line	l		SRINGE
 28		in	line	l		ITIPP
-25		in	line	l		IRINGN
-17		in	line	l		STIPE
 26		in	line	l		IRINGP
 29		in	line	l		ITIPN
+25		in	line	l		IRINGN
+17		in	line	l		STIPE
+19		in	line	l		SRINGE
 18		in	line	l		SVBAT
+16		in	line	l		SRINGDC
+21		in	line	l		SRINGAC
 # Bottom Side
 34		in	line	b		DCDRV/DCSW
 33		in	line	b		DCFF/DOUT
 9		io	line	b		SDCL/DIO2
 8		io	line	b		SDCH/DIO1
 # Right Side
-32		in	line	r		TEST
 7		in	line	r		\_RESET\_
 6		in	line	r		FSYNC
 5		out	dot	r		DTX
@@ -102,11 +101,12 @@ numslots=0
 37		in	line	r		SDI
 36		out	dot	r		SDO
 35		in	line	r		SDITHRU
-23		in	line	r		GNDA
-31		in	line	r		GNDD
 10		in	line	r		VDDA1
 27		in	line	r		VDDA2
 30		in	line	r		VDDD
+23		in	line	r		GNDA
+31		in	line	r		GNDD
+32		in	line	r		TEST
 # Top Side
 13		in	line	t		QGND
 14		in	line	t		CAPM
