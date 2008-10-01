@@ -90,6 +90,6 @@ numslots=0
 11		in	line	r		STIPE
 10		in	line	r		SRINGE
 # Top Side
-7		in	line	t		GND
 8		in	line	t		VDD
+7		in	line	t		GND
 

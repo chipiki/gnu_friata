@@ -156,22 +156,22 @@ pintype=in
 P 1200 2000 1200 1700 1 0 0
 {
 T 1150 1850 5 8 1 1 90 0 1
-pinnumber=7
+pinnumber=8
 T 1250 1850 5 8 0 1 90 2 1
 pinseq=15
 T 1200 1650 9 8 1 1 90 6 1
-pinlabel=GND
+pinlabel=VDD
 T 1200 1650 5 8 0 1 90 8 1
 pintype=in
 }
 P 1400 2000 1400 1700 1 0 0
 {
 T 1350 1850 5 8 1 1 90 0 1
-pinnumber=8
+pinnumber=7
 T 1450 1850 5 8 0 1 90 2 1
 pinseq=16
 T 1400 1650 9 8 1 1 90 6 1
-pinlabel=VDD
+pinlabel=GND
 T 1400 1650 5 8 0 1 90 8 1
 pintype=in
 }
