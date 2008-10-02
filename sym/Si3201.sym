@@ -24,22 +24,22 @@ pintype=in
 P 0 1100 300 1100 1 0 0
 {
 T 200 1150 5 8 1 1 0 6 1
-pinnumber=3
+pinnumber=1
 T 200 1050 5 8 0 1 0 8 1
 pinseq=3
 T 350 1100 9 8 1 1 0 0 1
-pinlabel=RING
+pinlabel=TIP
 T 350 1100 5 8 0 1 0 2 1
 pintype=io
 }
 P 0 900 300 900 1 0 0
 {
 T 200 950 5 8 1 1 0 6 1
-pinnumber=1
+pinnumber=3
 T 200 850 5 8 0 1 0 8 1
 pinseq=4
 T 350 900 9 8 1 1 0 0 1
-pinlabel=TIP
+pinlabel=RING
 T 350 900 5 8 0 1 0 2 1
 pintype=io
 }
