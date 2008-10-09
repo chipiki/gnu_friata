@@ -7,7 +7,7 @@
 GEDA_SCHEME_DIR=/usr/share/gEDA/scheme/
 PDFTK=/usr/bin/pdftk
 
-touch tmp.pdf
+prev=""
 
 for name in *sch
 do
@@ -18,10 +18,13 @@ do
     rm $base.ps
 
     if [ -x $PDFTK ]; then
-        pdftk tmp.pdf $base.pdf cat output output.pdf
-        cp output.pdf tmp.pdf
+        pdftk $prev $base.pdf cat output output.pdf
+        cp output.pdf prev.pdf
+        prev="prev.pdf"
         rm $base.pdf
     fi
 
 done
+
+rm prev.pdf
 
