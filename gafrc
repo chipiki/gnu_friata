@@ -1,3 +1,5 @@
 (component-library "sym")
 (source-library "sym")
+(output-color "enabled")      ; for color postscript output
+(image-color "enabled")       ; for color PNG output (enabled by default)
 

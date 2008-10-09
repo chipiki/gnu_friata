@@ -290,132 +290,132 @@ pintype=in
 P 3800 1500 3500 1500 1 0 0
 {
 T 3600 1550 5 8 1 1 0 0 1
-pinnumber=10
+pinnumber=22
 T 3600 1450 5 8 0 1 0 2 1
 pinseq=27
 T 3450 1500 9 8 1 1 0 6 1
-pinlabel=VDDA1
+pinlabel=IGMN
 T 3450 1500 5 8 0 1 0 8 1
 pintype=in
 }
 P 3800 1300 3500 1300 1 0 0
 {
 T 3600 1350 5 8 1 1 0 0 1
-pinnumber=27
+pinnumber=24
 T 3600 1250 5 8 0 1 0 2 1
 pinseq=28
 T 3450 1300 9 8 1 1 0 6 1
-pinlabel=VDDA2
+pinlabel=IGMP
 T 3450 1300 5 8 0 1 0 8 1
 pintype=in
 }
 P 3800 1100 3500 1100 1 0 0
 {
 T 3600 1150 5 8 1 1 0 0 1
-pinnumber=30
+pinnumber=11
 T 3600 1050 5 8 0 1 0 2 1
 pinseq=29
 T 3450 1100 9 8 1 1 0 6 1
-pinlabel=VDDD
+pinlabel=IREF
 T 3450 1100 5 8 0 1 0 8 1
 pintype=in
 }
 P 3800 900 3500 900 1 0 0
 {
 T 3600 950 5 8 1 1 0 0 1
-pinnumber=23
+pinnumber=14
 T 3600 850 5 8 0 1 0 2 1
 pinseq=30
 T 3450 900 9 8 1 1 0 6 1
-pinlabel=GNDA
+pinlabel=CAPM
 T 3450 900 5 8 0 1 0 8 1
 pintype=in
 }
 P 3800 700 3500 700 1 0 0
 {
 T 3600 750 5 8 1 1 0 0 1
-pinnumber=31
+pinnumber=12
 T 3600 650 5 8 0 1 0 2 1
 pinseq=31
 T 3450 700 9 8 1 1 0 6 1
-pinlabel=GNDD
+pinlabel=CAPP
 T 3450 700 5 8 0 1 0 8 1
 pintype=in
 }
 P 3800 500 3500 500 1 0 0
 {
 T 3600 550 5 8 1 1 0 0 1
-pinnumber=32
+pinnumber=13
 T 3600 450 5 8 0 1 0 2 1
 pinseq=32
 T 3450 500 9 8 1 1 0 6 1
-pinlabel=TEST
+pinlabel=QGND
 T 3450 500 5 8 0 1 0 8 1
 pintype=in
 }
 P 1400 4200 1400 3900 1 0 0
 {
 T 1350 4050 5 8 1 1 90 0 1
-pinnumber=13
+pinnumber=32
 T 1450 4050 5 8 0 1 90 2 1
 pinseq=33
 T 1400 3850 9 8 1 1 90 6 1
-pinlabel=QGND
+pinlabel=TEST
 T 1400 3850 5 8 0 1 90 8 1
 pintype=in
 }
 P 1600 4200 1600 3900 1 0 0
 {
 T 1550 4050 5 8 1 1 90 0 1
-pinnumber=14
+pinnumber=23
 T 1650 4050 5 8 0 1 90 2 1
 pinseq=34
 T 1600 3850 9 8 1 1 90 6 1
-pinlabel=CAPM
+pinlabel=GNDA
 T 1600 3850 5 8 0 1 90 8 1
 pintype=in
 }
 P 1800 4200 1800 3900 1 0 0
 {
 T 1750 4050 5 8 1 1 90 0 1
-pinnumber=12
+pinnumber=31
 T 1850 4050 5 8 0 1 90 2 1
 pinseq=35
 T 1800 3850 9 8 1 1 90 6 1
-pinlabel=CAPP
+pinlabel=GNDD
 T 1800 3850 5 8 0 1 90 8 1
 pintype=in
 }
 P 2000 4200 2000 3900 1 0 0
 {
 T 1950 4050 5 8 1 1 90 0 1
-pinnumber=11
+pinnumber=10
 T 2050 4050 5 8 0 1 90 2 1
 pinseq=36
 T 2000 3850 9 8 1 1 90 6 1
-pinlabel=IREF
+pinlabel=VDDA1
 T 2000 3850 5 8 0 1 90 8 1
 pintype=in
 }
 P 2200 4200 2200 3900 1 0 0
 {
 T 2150 4050 5 8 1 1 90 0 1
-pinnumber=22
+pinnumber=27
 T 2250 4050 5 8 0 1 90 2 1
 pinseq=37
 T 2200 3850 9 8 1 1 90 6 1
-pinlabel=IGMN
+pinlabel=VDDA2
 T 2200 3850 5 8 0 1 90 8 1
 pintype=in
 }
 P 2400 4200 2400 3900 1 0 0
 {
 T 2350 4050 5 8 1 1 90 0 1
-pinnumber=24
+pinnumber=30
 T 2450 4050 5 8 0 1 90 2 1
 pinseq=38
 T 2400 3850 9 8 1 1 90 6 1
-pinlabel=IGMP
+pinlabel=VDDD
 T 2400 3850 5 8 0 1 90 8 1
 pintype=in
 }

@@ -101,17 +101,20 @@ numslots=0
 37		in	line	r		SDI
 36		out	dot	r		SDO
 35		in	line	r		SDITHRU
-10		in	line	r		VDDA1
-27		in	line	r		VDDA2
-30		in	line	r		VDDD
-23		in	line	r		GNDA
-31		in	line	r		GNDD
-32		in	line	r		TEST
+22		in	line	r		IGMN
+24		in	line	r		IGMP
+11		in	line	r		IREF
+14		in	line	r		CAPM
+12		in	line	r		CAPP
+13		in	line	r		QGND
 # Top Side
-13		in	line	t		QGND
-14		in	line	t		CAPM
-12		in	line	t		CAPP
-11		in	line	t		IREF
-22		in	line	t		IGMN
-24		in	line	t		IGMP
+32		in	line	t		TEST
+23		in	line	t		GNDA
+31		in	line	t		GNDD
+10		in	line	t		VDDA1
+27		in	line	t		VDDA2
+30		in	line	t		VDDD
+
+
+
 
