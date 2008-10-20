@@ -6,3 +6,4 @@ References
 [2] http://www.cermetek.com/Support/APP-Notes/611-0126.pdf
 [3] http://www.cermetek.com/Support/APP-Notes/611-0175.pdf
 [4] http://www.cermetek.com/catalog/Telephone-Line-Interface/DataSheet/XE0055CS2.pdf
+[5] http://www.xecom.com/datasheets/XE0092.pdf
