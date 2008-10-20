@@ -208,7 +208,7 @@ netname=EMDIO
 N 40700 46100 41600 46100 4
 {
 T 40900 46100 5 10 1 1 0 0 1
-netname=PIOA7
+netname=PIO_A7
 }
 C 40700 45900 1 90 0 busripper-1.sym
 {
