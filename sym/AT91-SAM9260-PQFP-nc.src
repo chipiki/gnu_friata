@@ -117,7 +117,7 @@ use-license=GPL v3
 #182		io	line	l		PA3/\_SPI0_NPCS0\_/MCDB3
 183		io	line	l		PA4/RTS2/MCDB2
 184		io	line	l		PA5/CTS2/MCDB1
-185		io	line	l		PA6/MCDA0
+#185		io	line	l		PA6/MCDA0
 #186		io	line	l		PA7/MCCDA
 #189		io	line	l		PA8/MCCK
 #190		io	line	l		PA9/MCDA1

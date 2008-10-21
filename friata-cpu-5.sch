@@ -119,5 +119,5 @@ device=none
 N 44200 49800 47200 49800 4
 {
 T 44400 49800 5 10 1 1 0 0 1
-netname=PIO_A8
+netname=PIO_A6
 }
