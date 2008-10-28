@@ -167,123 +167,123 @@ pintype=io
 P 3800 3700 3500 3700 1 0 0
 {
 T 3600 3750 5 8 1 1 0 0 1
-pinnumber=7
+pinnumber=6
 T 3600 3650 5 8 0 1 0 2 1
 pinseq=16
 T 3450 3700 9 8 1 1 0 6 1
-pinlabel=\_RESET\_
+pinlabel=FSYNC
 T 3450 3700 5 8 0 1 0 8 1
 pintype=in
 }
-P 3800 3500 3500 3500 1 0 0
+P 3800 3500 3600 3500 1 0 0
 {
 T 3600 3550 5 8 1 1 0 0 1
-pinnumber=6
+pinnumber=5
 T 3600 3450 5 8 0 1 0 2 1
 pinseq=17
 T 3450 3500 9 8 1 1 0 6 1
-pinlabel=FSYNC
+pinlabel=DTX
 T 3450 3500 5 8 0 1 0 8 1
-pintype=in
+pintype=out
 }
-P 3800 3300 3600 3300 1 0 0
+V 3550 3500 50 6 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 3800 3300 3500 3300 1 0 0
 {
 T 3600 3350 5 8 1 1 0 0 1
-pinnumber=5
+pinnumber=4
 T 3600 3250 5 8 0 1 0 2 1
 pinseq=18
 T 3450 3300 9 8 1 1 0 6 1
-pinlabel=DTX
+pinlabel=DRX
 T 3450 3300 5 8 0 1 0 8 1
-pintype=out
+pintype=in
 }
-V 3550 3300 50 6 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
 P 3800 3100 3500 3100 1 0 0
 {
 T 3600 3150 5 8 1 1 0 0 1
-pinnumber=4
+pinnumber=3
 T 3600 3050 5 8 0 1 0 2 1
 pinseq=19
 T 3450 3100 9 8 1 1 0 6 1
-pinlabel=DRX
+pinlabel=PCLK
 T 3450 3100 5 8 0 1 0 8 1
 pintype=in
 }
 P 3800 2900 3500 2900 1 0 0
 {
 T 3600 2950 5 8 1 1 0 0 1
-pinnumber=3
+pinnumber=1
 T 3600 2850 5 8 0 1 0 2 1
 pinseq=20
 T 3450 2900 9 8 1 1 0 6 1
-pinlabel=PCLK
+pinlabel=\_CS\_
 T 3450 2900 5 8 0 1 0 8 1
 pintype=in
 }
 P 3800 2700 3500 2700 1 0 0
 {
 T 3600 2750 5 8 1 1 0 0 1
-pinnumber=2
+pinnumber=38
 T 3600 2650 5 8 0 1 0 2 1
 pinseq=21
 T 3450 2700 9 8 1 1 0 6 1
-pinlabel=\_INT\_
+pinlabel=SCLK
 T 3450 2700 5 8 0 1 0 8 1
 pintype=in
 }
 P 3800 2500 3500 2500 1 0 0
 {
 T 3600 2550 5 8 1 1 0 0 1
-pinnumber=1
+pinnumber=37
 T 3600 2450 5 8 0 1 0 2 1
 pinseq=22
 T 3450 2500 9 8 1 1 0 6 1
-pinlabel=\_CS\_
+pinlabel=SDI
 T 3450 2500 5 8 0 1 0 8 1
 pintype=in
 }
-P 3800 2300 3500 2300 1 0 0
+P 3800 2300 3600 2300 1 0 0
 {
 T 3600 2350 5 8 1 1 0 0 1
-pinnumber=38
+pinnumber=36
 T 3600 2250 5 8 0 1 0 2 1
 pinseq=23
 T 3450 2300 9 8 1 1 0 6 1
-pinlabel=SCLK
+pinlabel=SDO
 T 3450 2300 5 8 0 1 0 8 1
-pintype=in
+pintype=out
 }
+V 3550 2300 50 6 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
 P 3800 2100 3500 2100 1 0 0
 {
 T 3600 2150 5 8 1 1 0 0 1
-pinnumber=37
+pinnumber=35
 T 3600 2050 5 8 0 1 0 2 1
 pinseq=24
 T 3450 2100 9 8 1 1 0 6 1
-pinlabel=SDI
+pinlabel=SDITHRU
 T 3450 2100 5 8 0 1 0 8 1
 pintype=in
 }
-P 3800 1900 3600 1900 1 0 0
+P 3800 1900 3500 1900 1 0 0
 {
 T 3600 1950 5 8 1 1 0 0 1
-pinnumber=36
+pinnumber=2
 T 3600 1850 5 8 0 1 0 2 1
 pinseq=25
 T 3450 1900 9 8 1 1 0 6 1
-pinlabel=SDO
+pinlabel=\_INT\_
 T 3450 1900 5 8 0 1 0 8 1
-pintype=out
+pintype=in
 }
-V 3550 1900 50 6 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
 P 3800 1700 3500 1700 1 0 0
 {
 T 3600 1750 5 8 1 1 0 0 1
-pinnumber=35
+pinnumber=7
 T 3600 1650 5 8 0 1 0 2 1
 pinseq=26
 T 3450 1700 9 8 1 1 0 6 1
-pinlabel=SDITHRU
+pinlabel=\_RESET\_
 T 3450 1700 5 8 0 1 0 8 1
 pintype=in
 }
