@@ -1,90 +1,90 @@
 v 20080127 1
-P 2000 1200 1700 1200 1 0 0
-{
-T 1800 1250 5 8 1 1 0 0 1
-pinnumber=149
-T 1800 1150 5 8 0 1 0 2 1
-pinseq=1
-T 1650 1200 9 8 1 1 0 6 1
-pinlabel=XIN
-T 1650 1200 5 8 0 1 0 8 1
-pintype=in
-}
-P 2000 1000 1800 1000 1 0 0
+P 2000 1000 1700 1000 1 0 0
 {
 T 1800 1050 5 8 1 1 0 0 1
-pinnumber=150
+pinnumber=149
 T 1800 950 5 8 0 1 0 2 1
-pinseq=2
+pinseq=1
 T 1650 1000 9 8 1 1 0 6 1
-pinlabel=XOUT
+pinlabel=XIN
 T 1650 1000 5 8 0 1 0 8 1
-pintype=out
-}
-V 1750 1000 50 6 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
-P 0 1200 300 1200 1 0 0
-{
-T 200 1250 5 8 1 1 0 6 1
-pinnumber=41
-T 200 1150 5 8 0 1 0 8 1
-pinseq=3
-T 350 1200 9 8 1 1 0 0 1
-pinlabel=OSCSEL
-T 350 1200 5 8 0 1 0 2 1
 pintype=in
 }
+P 2000 800 1800 800 1 0 0
+{
+T 1800 850 5 8 1 1 0 0 1
+pinnumber=150
+T 1800 750 5 8 0 1 0 2 1
+pinseq=2
+T 1650 800 9 8 1 1 0 6 1
+pinlabel=XOUT
+T 1650 800 5 8 0 1 0 8 1
+pintype=out
+}
+V 1750 800 50 6 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
 P 0 1000 300 1000 1 0 0
 {
 T 200 1050 5 8 1 1 0 6 1
-pinnumber=154
+pinnumber=41
 T 200 950 5 8 0 1 0 8 1
-pinseq=4
+pinseq=3
 T 350 1000 9 8 1 1 0 0 1
-pinlabel=PLLRCA
+pinlabel=OSCSEL
 T 350 1000 5 8 0 1 0 2 1
 pintype=in
 }
-P 2000 500 1700 500 1 0 0
+P 0 800 300 800 1 0 0
 {
-T 1800 550 5 8 1 1 0 0 1
-pinnumber=46
-T 1800 450 5 8 0 1 0 2 1
-pinseq=5
-T 1650 500 9 8 1 1 0 6 1
-pinlabel=XIN32
-T 1650 500 5 8 0 1 0 8 1
+T 200 850 5 8 1 1 0 6 1
+pinnumber=154
+T 200 750 5 8 0 1 0 8 1
+pinseq=4
+T 350 800 9 8 1 1 0 0 1
+pinlabel=PLLRCA
+T 350 800 5 8 0 1 0 2 1
 pintype=in
 }
-P 2000 300 1700 300 1 0 0
+P 2000 600 1700 600 1 0 0
 {
-T 1800 350 5 8 1 1 0 0 1
+T 1800 650 5 8 1 1 0 0 1
+pinnumber=46
+T 1800 550 5 8 0 1 0 2 1
+pinseq=5
+T 1650 600 9 8 1 1 0 6 1
+pinlabel=XIN32
+T 1650 600 5 8 0 1 0 8 1
+pintype=in
+}
+P 2000 400 1800 400 1 0 0
+{
+T 1800 450 5 8 1 1 0 0 1
 pinnumber=45
-T 1800 250 5 8 0 1 0 2 1
+T 1800 350 5 8 0 1 0 2 1
 pinseq=6
-T 1650 300 9 8 1 1 0 6 1
+T 1650 400 9 8 1 1 0 6 1
 pinlabel=XOUT32
-T 1650 300 5 8 0 1 0 8 1
+T 1650 400 5 8 0 1 0 8 1
 pintype=out
 }
-V 1750 600 50 6 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
-B 300 200 1400 1200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
-T 1700 1500 8 10 1 1 0 6 1
+V 1750 400 50 6 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+B 300 200 1400 1000 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 1700 1300 8 10 1 1 0 6 1
 refdes=U?
 T 300 0 9 10 1 0 0 0 1
 AT91SAM9260
-T -200 1100 5 10 0 0 0 0 1
+T 100 1100 5 10 0 0 0 0 1
 device=AT91SAM9260
-T -200 1300 5 10 0 0 0 0 1
+T 100 1300 5 10 0 0 0 0 1
 footprint=PQFP-208
-T -200 1500 5 10 0 0 0 0 1
+T 100 1500 5 10 0 0 0 0 1
 author=Saritha Kalyanam <kalyanamsaritha@gmail.com>
-T -200 1700 5 10 0 0 0 0 1
+T 100 1700 5 10 0 0 0 0 1
 documentation=http://www.atmel.com/dyn/products/product_card.asp?part_id=3870
-T -200 1900 5 10 0 0 0 0 1
+T 100 1900 5 10 0 0 0 0 1
 description=AT91 ARM Thumb Microcontroller (Atmel)
-T -200 2100 5 10 0 0 0 0 1
+T 100 2100 5 10 0 0 0 0 1
 numslots=0
-T -200 2300 5 10 0 0 0 0 1
+T 100 2300 5 10 0 0 0 0 1
 dist-license=GPL v3
-T -200 2500 5 10 0 0 0 0 1
+T 100 2500 5 10 0 0 0 0 1
 use-license=GPL v3
