@@ -21,7 +21,7 @@ C 48200 50000 1 0 0 5V-plus.sym
 N 44000 44300 40700 44300 4
 {
 T 41100 44400 5 10 1 1 0 0 1
-netname=USBCNX
+netname=PIO_C5
 }
 C 48200 46100 1 0 0 gnd-1.sym
 C 48200 42100 1 0 0 gnd-1.sym
