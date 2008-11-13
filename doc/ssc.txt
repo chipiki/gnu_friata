@@ -1,0 +1,6 @@
+References
+==========
+[1] http://www.spinics.net/lists/alsa-devel/msg08050.html
+[2] http://www.spinics.net/lists/arm-kernel/msg41468.html
+
+
