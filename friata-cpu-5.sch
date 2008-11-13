@@ -95,12 +95,12 @@ N 44200 48200 47200 48200 4
 T 44400 48200 5 10 1 1 0 0 1
 netname=RD0
 }
-N 44200 47800 45000 47800 4
+N 44200 47800 46100 47800 4
 {
 T 44400 47800 5 10 1 1 0 0 1
 netname=RF0
 }
-N 45000 47800 45000 48600 4
+N 46100 47800 46100 48600 4
 C 47200 49800 1 0 0 busripper-1.sym
 {
 T 47200 50200 5 8 0 0 0 0 1
@@ -111,3 +111,15 @@ N 44200 49800 47200 49800 4
 T 44400 49800 5 10 1 1 0 0 1
 netname=PIO_A6
 }
+N 44200 48000 45800 48000 4
+{
+T 44400 48000 5 10 1 1 0 0 1
+netname=RK0
+}
+N 45800 48000 45800 48800 4
+T 49500 41900 9 10 1 0 0 0 4
+Note:
+
+Clock:   TK0 and RK0 are connected together, with RK0 configured as an input.
+FSYNC: TF0 and RF0 are connected together, with RF0 configured as an input.
+B 49400 41800 7000 1100 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
