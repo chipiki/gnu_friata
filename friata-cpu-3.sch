@@ -680,7 +680,7 @@ device=none
 N 54100 47800 55800 47800 4
 {
 T 54500 47800 5 10 1 1 0 0 1
-netname=PIO_C13
+netname=RDY_BSY
 }
 U 56000 50000 56000 47900 10 0
 C 49400 47600 1 0 0 AT91-SAM9260-PQFP-flash.sym
@@ -694,12 +694,12 @@ footprint=PQFP-208
 }
 U 47400 50000 56000 50000 10 0
 T 51900 40800 9 10 1 0 0 0 2
-SDRAM & NAND flash
+SDRAM & Serial SPI Data flash & NAND flash
 GPLv3
 T 54400 40200 9 10 1 0 0 0 1
 Saritha Kalyanam
 T 49500 42000 9 10 1 0 0 0 3
 Note:
 
-PIO_C13 is used for RDY_BSY interrupt from the NAND flash.
+PIO_C11 is used for RDY_BSY interrupt from the NAND flash.
 B 49400 41900 5500 900 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1

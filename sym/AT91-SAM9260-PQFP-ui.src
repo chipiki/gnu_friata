@@ -115,12 +115,12 @@ use-license=GPL v3
 #179		io	line	l		PA0/SPI0_MISO/MCDB0
 #181		io	line	l		PA2/SPI0_SPCK
 #182		io	line	l		PA3/\_SPI0_NPCS0\_/MCDB3
-#183		io	line	l		PA4/RTS2/MCDB2
-#184		io	line	l		PA5/CTS2/MCDB1
+183		io	line	r		PA4/RTS2/MCDB2
+184		io	line	r		PA5/CTS2/MCDB1
 #185		io	line	l		PA6/MCDA0
 #186		io	line	l		PA7/MCCDA
-189		io	line	r		PA8/MCCK
-190		io	line	r		PA9/MCDA1
+#189		io	line	r		PA8/MCCK
+#190		io	line	r		PA9/MCDA1
 #191		io	line	l		PA10/MCDA2/ETX2
 #192		io	line	l		PA11/MCDA3/ETX3
 #193		io	line	l		PA12/ETX0
@@ -167,10 +167,10 @@ use-license=GPL v3
 #168		io	line	l		PB25/RI0/ISI_D5
 #171		io	line	l		PB26/RTS0/ISI_D6
 #172		io	line	l		PB27/CTS0/ISI_D7
-#175		io	line	l		PB28/RTS1/ISI_PCK
-#176		io	line	l		PB29/CTS1/ISI_VSYNC
-177		io	line	r		PB30/PCK0/ISI_HSYNC
-178		io	line	r		PB31/PCK1/ISI_MCK
+175		io	line	r		PB28/RTS1/ISI_PCK
+176		io	line	r		PB29/CTS1/ISI_VSYNC
+#177		io	line	r		PB30/PCK0/ISI_HSYNC
+#178		io	line	r		PB31/PCK1/ISI_MCK
 # Right Side
 #66 		in	line	r		GNDIOM1
 #91 		in	line	r		GNDIOM2

@@ -189,7 +189,7 @@ netname=EMDIO
 N 42800 46200 43900 46200 4
 {
 T 43100 46200 5 10 1 1 0 0 1
-netname=PIO_A7
+netname=EINT
 }
 C 40500 46000 1 0 0 AT91-SAM9260-PQFP-eth.sym
 {
@@ -328,7 +328,7 @@ netname=DDP
 N 48300 46500 49400 46500 4
 {
 T 48600 46500 5 10 1 1 0 0 1
-netname=PIO_C5
+netname=USBCNX
 }
 T 54400 40200 9 10 1 0 0 0 1
 Saritha Kalyanam
@@ -340,5 +340,5 @@ T 49500 42000 9 10 1 0 0 0 4
 Note:
 
 PIO_A7 is used for PHY interrupt.
-PIO_C5 is used for 5V detection when plugged into a USB host port.
+PIO_C13 is used for 5V detection when plugged into a USB host port.
 B 49400 41800 6100 1300 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1

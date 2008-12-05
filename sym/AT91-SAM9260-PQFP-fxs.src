@@ -119,7 +119,7 @@ use-license=GPL v3
 #184		io	line	l		PA5/CTS2/MCDB1
 #185		io	line	l		PA6/MCDA0
 #186		io	line	l		PA7/MCCDA
-189		io	line	r		PA8/MCCK
+#189		io	line	r		PA8/MCCK
 #190		io	line	l		PA9/MCDA1
 #191		io	line	l		PA10/MCDA2/ETX2
 #192		io	line	l		PA11/MCDA3/ETX3
@@ -134,7 +134,7 @@ use-license=GPL v3
 #205		io	line	l		PA20/EMDC
 #206		io	line	l		PA21/EMDIO
 #207		io	line	l		PA22/ADTRG/ETXER
-#208		io	line	l		PA23/TWD/ETX2
+208		io	line	r		PA23/TWD/ETX2
 #1		io	line	l		PA24/TWCK/ETX3
 #2  		io	line	l		PA25/TCLK0/ERX2
 #3  		io	line	l		PA26/TIOA0/ERX3

@@ -268,8 +268,8 @@ use-license=GPL v3
 #128		io	line	r		PC16/D16/SPI0_NPCS2
 #127		io	line	r		PC15/NWAIT/IRQ1
 59 		io	line	r		PC14/\_NCS3\_/\_NANDCS\_/IRQ2
-56 		io	line	r		PC13/FIQ/\_NCS6\_
-#57 		io	line	r		PC11/NCS2/SPI0_NPCS1
+#56 		io	line	r		PC13/FIQ/\_NCS6\_
+57 		io	line	r		PC11/NCS2/SPI0_NPCS1
 #58 		io	line	r		PC10/A25/CFRNW/CTS3
 #60 		io	line	r		PC9/NCS5/CFCS1/TIOB0
 #61 		io	line	r		PC8/NCS4/CFCS0/RTS3

@@ -105,11 +105,11 @@ pintype=io
 P 4700 200 4400 200 1 0 0
 {
 T 4500 250 5 8 1 1 0 0 1
-pinnumber=56
+pinnumber=57
 T 4500 150 5 8 0 1 0 2 1
 pinseq=10
 T 4350 200 9 8 1 1 0 6 1
-pinlabel=PC13/FIQ/\_NCS6\_
+pinlabel=PC11/NCS2/SPI0_NPCS1
 T 4350 200 5 8 0 1 0 8 1
 pintype=io
 }

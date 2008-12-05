@@ -2,11 +2,11 @@ v 20080127 1
 P 2700 2200 2400 2200 1 0 0
 {
 T 2500 2250 5 8 1 1 0 0 1
-pinnumber=189
+pinnumber=208
 T 2500 2150 5 8 0 1 0 2 1
 pinseq=1
 T 2350 2200 9 8 1 1 0 6 1
-pinlabel=PA8/MCCK
+pinlabel=PA23/TWD/ETX2
 T 2350 2200 5 8 0 1 0 8 1
 pintype=io
 }

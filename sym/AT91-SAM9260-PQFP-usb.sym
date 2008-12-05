@@ -46,11 +46,11 @@ pintype=io
 P 2300 200 2000 200 1 0 0
 {
 T 2100 250 5 8 1 1 0 0 1
-pinnumber=67
+pinnumber=56
 T 2100 150 5 8 0 1 0 2 1
 pinseq=5
 T 1950 200 9 8 1 1 0 6 1
-pinlabel=PC5/A24/SPI1_NPCS1
+pinlabel=PC13/FIQ/\_NCS6\_
 T 1950 200 5 8 0 1 0 8 1
 pintype=io
 }
