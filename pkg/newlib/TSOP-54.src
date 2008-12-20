@@ -16,7 +16,7 @@
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.  #
 ###########################################################################
 
-elementdir = "pkg"
+elementdir = "pkg/newlib"
     pins 54
     type "so"
     pitch 0.80 mm
@@ -32,5 +32,5 @@ elementdir = "pkg"
     polyclear = 6 mil
     pinshigh = 0
     ep = 4mm
-part "TSOP-54"
+part "TSOP-54.fp"
 

@@ -16,7 +16,7 @@
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.  #
 ###########################################################################
 
-elementdir = "pkg"
+elementdir = "pkg/newlib"
     pins 48
     type "qfp"
     pitch 0.50 mm
@@ -33,5 +33,5 @@ elementdir = "pkg"
     polyclear = 6 mil
     pinshigh = 0
     ep = 4mm
-part "PQFP-48"
+part "PQFP-48.fp"
 

@@ -16,7 +16,7 @@
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.  #
 ###########################################################################
 
-elementdir = "pkg"
+elementdir = "pkg/newlib"
     pins 2
     type "tabbed"
     pitch 1.90 mm
@@ -33,5 +33,5 @@ elementdir = "pkg"
     maskclear = 0.1 mm
     polyclear = 6 mil
     pinshigh = 0
-part "SOT-23"
+part "SOT-23.fp"
 

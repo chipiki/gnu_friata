@@ -17,12 +17,13 @@
 ###########################################################################
 
 elementdir = "pkg/newlib"
-    pins 38
+    pins 4
     type "so"
-    pitch 0.50 mm
-    width = 4.40 mm
-    padwidth 0.80 mm
-    padheight 0.20 mm
+    pitch 8.75 mm
+    width = 4.00 mm
+    height = 28.00 mm
+    padwidth 1.40 mm
+    padheight 1.60 mm
     silkwidth 10 mils
     silkoffset 1mm
     silkstyle = "inside"
@@ -32,5 +33,5 @@ elementdir = "pkg/newlib"
     polyclear = 6 mil
     pinshigh = 0
     ep = 4mm
-part "TSSOP-38.fp"
+part "SDIP-4.fp"
 
