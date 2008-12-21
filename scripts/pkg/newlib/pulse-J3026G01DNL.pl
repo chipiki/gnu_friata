@@ -2,6 +2,8 @@
 
 # This perl file generates the gEDA PCB footprint for:
 # pulsejack J3026G01DNL
+#
+# (0,0) of this footprint is at pin #1 at top,right
 
 use strict;
 use warnings;
@@ -28,7 +30,7 @@ for (my $i = 0; $i < 8; $i++) {
 $pcb->element_add_pad_rectangle(x => -($i*40 + 47 + 72), y => 0,
 			width => 181, length => 24,
 			mask => 10, clearance => 10,
-			name => 2+$i, pin_number => 2+$i);
+			name => 3+$i, pin_number => 3+$i);
 }
 
 $pcb->element_add_pad_rectangle(x => -(47 + 7*40 + 47 + 72), y => 0,
