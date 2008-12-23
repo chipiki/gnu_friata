@@ -40,6 +40,11 @@ device=Capacitor
 T 41700 43200 5 10 1 1 0 0 1
 value=33pF
 }
+C 52900 41800 1 0 0 pulse-J0011D21B.sym
+{
+T 53695 41800 5 10 1 1 0 0 1
+device=Pulse J0011D21B
+}
 N 45300 45900 51600 45900 4
 {
 T 45500 45900 5 10 1 1 0 0 1
@@ -490,9 +495,4 @@ C 40800 48800 1 90 0 busripper-1.sym
 {
 T 40400 48800 5 8 0 0 90 0 1
 device=none
-}
-C 52900 41800 1 0 0 pulse-J3026G01DNL.sym
-{
-T 53695 41800 5 10 1 1 0 0 1
-device=Pulse J3026G01DNL
 }
