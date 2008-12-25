@@ -25,13 +25,13 @@ elementdir = "pkg/newlib"
     padwidth 1.60 mm
     padheight 0.20 mm
     silkwidth 10 mils
-    silkoffset 1mm
+    silkoffset 10 mils
     silkstyle = "inside"
     #silkboxwidth = 
     #silkboxheight = 
-    maskclear = 0.1 mm
-    polyclear = 6 mil
+    maskclear = 10 mils
+    polyclear = 10 mils
     pinshigh = 0
-    ep = 4mm
+    #ep = 4mm
 part "PQFP-208.fp"
 
