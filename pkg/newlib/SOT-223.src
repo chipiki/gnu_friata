@@ -21,17 +21,17 @@ elementdir = "pkg/newlib"
     type "tabbed"
     pitch 2.3 mm
     height 4.80 mm
-    tabheight 1.50 mm
+    tabheight 1.80 mm
     tabwidth 3.3 mm
     padwidth 1.0 mm
-    padheight 1.50 mm
+    padheight 1.80 mm
     silkwidth 10 mils
-    silkoffset 1mm
+    silkoffset 10 mils
     silkstyle = "outside"
     #silkboxwidth = 
     #silkboxheight = 
-    maskclear = 0.1 mm
-    polyclear = 6 mil
+    maskclear = 10 mils
+    polyclear = 10 mils
     pinshigh = 0
 part "SOT-223.fp"
 
