@@ -23,13 +23,13 @@ elementdir = "pkg/newlib"
     width = 11.80 mm
     padwidth 0.70 mm
     padheight 0.22 mm
-    silkwidth 10 mils
-    silkoffset 1mm
+    silkwidth 5 mils
+    silkoffset 5 mils
     silkstyle = "inside"
     #silkboxwidth = 
     #silkboxheight = 
-    maskclear = 0.1 mm
-    polyclear = 6 mil
+    maskclear = 10 mil
+    polyclear = 10 mil
     pinshigh = 0
     ep = 4mm
 part "TSOP-28.fp"
