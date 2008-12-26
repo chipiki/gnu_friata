@@ -17,22 +17,21 @@
 ###########################################################################
 
 elementdir = "pkg/newlib"
-    pins 3
+    pins 5
     type "tabbed"
-    pitch 2.54 mm
-    height 2.12 mm
-    tabheight 10.34 mm
-    tabwidth 9.97 mm
-    padwidth 0.71 mm
-    padheight 2.71 mm
-    silkwidth 10 mils
-    silkoffset 1mm
+    pitch 67 mils
+    height 449 mils
+    tabheight 66 mils
+    tabwidth 420 mils
+    padwidth 36 mils
+    padheight 110 mils
+    silkwidth 5 mils
+    silkoffset 5 mils
     silkstyle = "outside"
     #silkboxwidth = 
     #silkboxheight = 
-    maskclear = 0.1 mm
-    polyclear = 6 mil
+    maskclear = 10 mils
+    polyclear = 10 mils
     pinshigh = 0
-    ep = 4mm
 part "TO-263.fp"
 
