@@ -1,0 +1,4 @@
+References
+==========
+
+[1] http://www.icetech.com/appnotes/arm_connections.pdf
