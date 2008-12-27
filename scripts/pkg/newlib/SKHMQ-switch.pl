@@ -11,8 +11,8 @@ use warnings;
 use Pcb_9;
 
 my $pcb = Pcb_9->new(debug => 1);
-$pcb->element_begin(description => "SQHMQ-switch",
-			output_file => "SQHMQ-switch.fp",
+$pcb->element_begin(description => "SKHMQ-switch",
+			output_file => "SKHMQ-switch.fp",
 			dim => "mils",
 			pin_one_square => 1);
 
