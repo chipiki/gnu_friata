@@ -1,0 +1,5 @@
+References
+==========
+
+[1] Teccor P3100SB
+http://www.littelfuse.com/data/en/Data_Sheets/pxxx0s_.pdf
