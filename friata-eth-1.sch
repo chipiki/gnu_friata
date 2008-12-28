@@ -29,7 +29,7 @@ refdes=C?
 T 40100 45000 5 10 0 0 0 0 1
 device=Capacitor
 T 40600 43200 5 10 1 1 0 0 1
-value=33pF
+value=18pF
 }
 C 41500 43100 1 0 0 capacitor-v-1.sym
 {
@@ -38,7 +38,7 @@ refdes=C?
 T 41200 45000 5 10 0 0 0 0 1
 device=Capacitor
 T 41700 43200 5 10 1 1 0 0 1
-value=33pF
+value=18pF
 }
 N 45300 45900 51600 45900 4
 {
