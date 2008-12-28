@@ -151,7 +151,7 @@ refdes=C?
 T 47400 51700 5 10 0 0 0 0 1
 device=Capacitor
 T 47200 50100 5 10 1 1 0 0 1
-value=10pF
+value=18pF
 }
 C 46700 48900 1 0 0 capacitor-h-1.sym
 {
@@ -160,7 +160,7 @@ refdes=C?
 T 47400 50800 5 10 0 0 0 0 1
 device=Capacitor
 T 47200 49200 5 10 1 1 0 0 1
-value=10pF
+value=18pF
 }
 C 46700 48300 1 0 0 capacitor-h-1.sym
 {
@@ -169,7 +169,7 @@ refdes=C?
 T 47400 50200 5 10 0 0 0 0 1
 device=Capacitor
 T 47200 48600 5 10 1 1 0 0 1
-value=10pF
+value=18pF
 }
 C 46700 47400 1 0 0 capacitor-h-1.sym
 {
@@ -178,7 +178,7 @@ refdes=C?
 T 47400 49300 5 10 0 0 0 0 1
 device=Capacitor
 T 47200 47700 5 10 1 1 0 0 1
-value=10pF
+value=18pF
 }
 N 48000 50000 48000 49100 4
 N 48000 49100 47400 49100 4
