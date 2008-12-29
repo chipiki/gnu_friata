@@ -15,7 +15,6 @@ T 10500 6200 5 10 0 0 0 0 1
 footprint=TSSOP-24
 }
 C 11300 9400 1 0 0 5V-plus.sym
-C 500 5100 1 0 0 connector_dc_jack-1.sym
 C 2500 4600 1 0 0 bridge-1.sym
 {
 T 2700 5800 5 10 1 1 0 0 1
@@ -396,3 +395,10 @@ N 7600 7600 11500 7600 4
 N 11500 9100 11500 9400 4
 N 14800 8500 14800 9100 4
 C 6700 6700 1 0 0 VUNREG.sym
+C 500 5100 1 0 0 connector_dc_jack-1.sym
+{
+T 500 5095 5 10 0 1 0 0 1
+device=CONNECTOR
+T 600 5595 5 10 1 1 0 0 1
+refdes=CONN?
+}

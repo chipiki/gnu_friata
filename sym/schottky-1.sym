@@ -24,7 +24,7 @@ pintype=pas
 T 650 450 8 10 1 1 0 6 1
 refdes=D?
 T 700 1900 5 10 0 0 0 0 1
-device=Schottky-Diode
+device=SCHOTTKY-DIODE
 T 700 900 5 10 0 0 0 0 1
 author=Stefan Salewski
 T 700 1100 5 10 0 0 0 0 1

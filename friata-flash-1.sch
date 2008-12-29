@@ -362,7 +362,7 @@ device=Capacitor
 T 55600 48500 5 10 1 1 0 0 1
 value=100nF
 }
-C 49700 46500 1 0 0 jumper-2pin-1.sym
+C 49700 46500 1 0 0 header-2pin-1.sym
 {
 T 50000 47000 5 10 1 1 0 0 1
 refdes=J?
@@ -388,7 +388,7 @@ T 40500 45900 5 10 1 1 0 0 1
 value=100nF
 }
 N 40400 45800 40400 45400 4
-C 41300 45600 1 0 0 jumper-2pin-1.sym
+C 41300 45600 1 0 0 header-2pin-1.sym
 {
 T 41600 46100 5 10 1 1 0 0 1
 refdes=J?

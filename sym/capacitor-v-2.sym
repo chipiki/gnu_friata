@@ -22,7 +22,7 @@ pinlabel=+
 T 300 800 8 10 1 1 0 0 1
 refdes=C?
 T 400 2300 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 300 400 5 10 1 1 0 0 1
 value=value
 T 400 1300 5 10 0 0 0 0 1

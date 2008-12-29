@@ -20,7 +20,7 @@ pintype=pas
 T 200 500 8 10 1 1 0 0 1
 refdes=C?
 T -300 1900 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 200 100 5 10 1 1 0 0 1
 value=value
 T -300 900 5 10 0 0 0 0 1

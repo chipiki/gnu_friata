@@ -24,7 +24,7 @@ pintype=pas
 T 600 300 8 10 1 1 0 0 1
 refdes=C?
 T 700 1900 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 700 900 5 10 0 0 0 0 1
 author=Stefan Salewski
 T 700 1100 5 10 0 0 0 0 1

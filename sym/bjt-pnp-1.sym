@@ -60,3 +60,5 @@ pintype=pas
 T 600 745 5 10 0 0 90 6 1
 pinlabel=E
 }
+T -5 -5 8 10 0 1 0 0 1
+device=TRANSISTOR

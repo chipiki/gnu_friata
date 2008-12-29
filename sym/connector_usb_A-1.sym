@@ -38,5 +38,7 @@ pinlabel=GND
 B 300 300 1000 1600 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
 T 300 0 9 10 1 0 0 0 1
 USB A Female
-T 1100 2000 8 10 1 1 0 0 1
-refdes=J?
+T 700 2000 8 10 1 1 0 0 1
+refdes=CONN?
+T -5 0 8 10 0 1 0 0 1
+device=CONNECTOR

@@ -24,7 +24,7 @@ pintype=pas
 T 0 300 8 10 1 1 0 0 1
 refdes=R?
 T 700 1800 5 10 0 0 0 0 1
-device=Resistor
+device=RESISTOR
 T 700 800 5 10 0 0 0 0 1
 author=Stefan Salewski
 T 700 1000 5 10 0 0 0 0 1
