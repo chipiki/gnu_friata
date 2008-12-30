@@ -5,24 +5,6 @@ UI
 GPLv3
 T 54300 40300 9 10 1 0 0 0 1
 Saritha Kalyanam
-C 48200 45200 1 0 0 switch-1.sym
-{
-T 49000 45600 5 10 1 1 0 6 1
-refdes=S?
-T 48400 47200 5 10 0 0 0 0 1
-device=LSH1301xx
-T 48400 47000 5 10 0 0 0 0 1
-footprint=Schurter_LSH1301xx-2
-}
-C 48200 44200 1 0 0 switch-1.sym
-{
-T 49000 44600 5 10 1 1 0 6 1
-refdes=S?
-T 48400 46200 5 10 0 0 0 0 1
-device=LSH1301xx
-T 48400 46000 5 10 0 0 0 0 1
-footprint=Schurter_LSH1301xx-2
-}
 C 49600 45100 1 0 0 gnd-1.sym
 C 49600 44100 1 0 0 gnd-1.sym
 N 45800 45400 48200 45400 4
@@ -62,7 +44,7 @@ C 41500 45700 1 0 0 resistor-v-1.sym
 T 41800 46200 5 10 1 1 0 0 1
 refdes=R?
 T 41800 47800 5 10 0 0 0 0 1
-device=Resistor
+device=RESISTOR
 T 41800 46000 5 10 1 1 0 0 1
 value=220R
 }
@@ -71,7 +53,7 @@ C 43100 45700 1 0 0 resistor-v-1.sym
 T 43400 46200 5 10 1 1 0 0 1
 refdes=R?
 T 43400 47800 5 10 0 0 0 0 1
-device=Resistor
+device=RESISTOR
 T 43400 46000 5 10 1 1 0 0 1
 value=220R
 }
@@ -107,4 +89,18 @@ C 45800 44400 1 0 1 busripper-1.sym
 {
 T 45800 44800 5 8 0 0 0 6 1
 device=none
+}
+C 48200 45200 1 0 0 switch-1.sym
+{
+T 48600 45600 5 10 1 1 0 0 1
+refdes=S?
+T 48400 45400 5 10 0 0 0 0 1
+device=SWITCH-PUSHBUTTON-NO
+}
+C 48200 44200 1 0 0 switch-1.sym
+{
+T 48600 44600 5 10 1 1 0 0 1
+refdes=S?
+T 48400 44400 5 10 0 0 0 0 1
+device=SWITCH-PUSHBUTTON-NO
 }

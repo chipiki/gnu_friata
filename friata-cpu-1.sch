@@ -5,7 +5,7 @@ C 52300 45400 1 0 0 capacitor-h-1.sym
 T 52800 45700 5 10 1 1 0 0 1
 refdes=C?
 T 52900 47300 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 52800 45400 5 10 1 1 0 0 1
 value=100nF
 }
@@ -66,7 +66,7 @@ C 52300 44900 1 0 0 capacitor-h-1.sym
 T 52800 45200 5 10 1 1 0 0 1
 refdes=C?
 T 52900 46800 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 52800 44900 5 10 1 1 0 0 1
 value=100nF
 }
@@ -75,7 +75,7 @@ C 52300 44400 1 0 0 capacitor-h-1.sym
 T 52800 44700 5 10 1 1 0 0 1
 refdes=C?
 T 52900 46300 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 52800 44400 5 10 1 1 0 0 1
 value=100nF
 }
@@ -84,7 +84,7 @@ C 52300 45900 1 0 0 capacitor-h-1.sym
 T 52800 46200 5 10 1 1 0 0 1
 refdes=C?
 T 52900 47800 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 52800 45900 5 10 1 1 0 0 1
 value=100nF
 }
@@ -93,7 +93,7 @@ C 52300 46400 1 0 0 capacitor-h-1.sym
 T 52800 46700 5 10 1 1 0 0 1
 refdes=C?
 T 52900 48300 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 52800 46400 5 10 1 1 0 0 1
 value=100nF
 }
@@ -102,7 +102,7 @@ C 52300 46900 1 0 0 capacitor-h-1.sym
 T 52800 47200 5 10 1 1 0 0 1
 refdes=C?
 T 52900 48800 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 52800 46900 5 10 1 1 0 0 1
 value=100nF
 }
@@ -111,7 +111,7 @@ C 52300 43900 1 0 0 capacitor-h-1.sym
 T 52800 44200 5 10 1 1 0 0 1
 refdes=C?
 T 52900 45800 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 52800 43900 5 10 1 1 0 0 1
 value=100nF
 }
@@ -120,7 +120,7 @@ C 52300 43400 1 0 0 capacitor-h-1.sym
 T 52800 43700 5 10 1 1 0 0 1
 refdes=C?
 T 52900 45300 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 52800 43400 5 10 1 1 0 0 1
 value=100nF
 }
@@ -129,7 +129,7 @@ C 52300 42900 1 0 0 capacitor-h-1.sym
 T 52800 43200 5 10 1 1 0 0 1
 refdes=C?
 T 52900 44800 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 52800 42900 5 10 1 1 0 0 1
 value=100nF
 }
@@ -138,7 +138,7 @@ C 52300 42400 1 0 0 capacitor-h-1.sym
 T 52800 42700 5 10 1 1 0 0 1
 refdes=C?
 T 52900 44300 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 52800 42400 5 10 1 1 0 0 1
 value=100nF
 }
@@ -147,7 +147,7 @@ C 52300 41900 1 0 0 capacitor-h-1.sym
 T 52800 42200 5 10 1 1 0 0 1
 refdes=C?
 T 52900 43800 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 52800 41900 5 10 1 1 0 0 1
 value=100nF
 }
@@ -156,7 +156,7 @@ C 52300 47400 1 0 0 capacitor-h-1.sym
 T 52800 47700 5 10 1 1 0 0 1
 refdes=C?
 T 52900 49300 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 52800 47400 5 10 1 1 0 0 1
 value=100nF
 }
@@ -165,7 +165,7 @@ C 52300 49300 1 0 0 capacitor-h-2.sym
 T 52900 49600 5 10 1 1 0 0 1
 refdes=C?
 T 53000 51200 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 52900 49300 5 10 1 1 0 0 1
 value=10uF
 }
@@ -174,7 +174,7 @@ C 52300 48600 1 0 0 capacitor-h-2.sym
 T 52900 48900 5 10 1 1 0 0 1
 refdes=C?
 T 53000 50500 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 52900 48600 5 10 1 1 0 0 1
 value=10uF
 }
@@ -183,7 +183,7 @@ C 52300 48000 1 0 0 capacitor-h-2.sym
 T 52900 48300 5 10 1 1 0 0 1
 refdes=C?
 T 53000 49900 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 52900 48000 5 10 1 1 0 0 1
 value=10uF
 }
@@ -226,7 +226,7 @@ C 54800 49300 1 0 0 capacitor-h-1.sym
 T 55300 49600 5 10 1 1 0 0 1
 refdes=C?
 T 55400 51200 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 55300 49300 5 10 1 1 0 0 1
 value=100nF
 }
@@ -235,7 +235,7 @@ C 54800 48800 1 0 0 capacitor-h-1.sym
 T 55300 49100 5 10 1 1 0 0 1
 refdes=C?
 T 55400 50700 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 55300 48800 5 10 1 1 0 0 1
 value=100nF
 }
@@ -244,7 +244,7 @@ C 54800 48300 1 0 0 capacitor-h-1.sym
 T 55300 48600 5 10 1 1 0 0 1
 refdes=C?
 T 55400 50200 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 55300 48300 5 10 1 1 0 0 1
 value=100nF
 }
@@ -253,7 +253,7 @@ C 54800 47800 1 0 0 capacitor-h-1.sym
 T 55300 48100 5 10 1 1 0 0 1
 refdes=C?
 T 55400 49700 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 55300 47800 5 10 1 1 0 0 1
 value=100nF
 }
@@ -262,7 +262,7 @@ C 54800 47300 1 0 0 capacitor-h-1.sym
 T 55300 47600 5 10 1 1 0 0 1
 refdes=C?
 T 55400 49200 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 55300 47300 5 10 1 1 0 0 1
 value=100nF
 }
@@ -285,7 +285,7 @@ C 54800 46400 1 0 0 capacitor-h-1.sym
 T 55300 46700 5 10 1 1 0 0 1
 refdes=C?
 T 55400 48300 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 55300 46400 5 10 1 1 0 0 1
 value=100nF
 }
@@ -294,7 +294,7 @@ C 54800 45900 1 0 0 capacitor-h-1.sym
 T 55300 46200 5 10 1 1 0 0 1
 refdes=C?
 T 55400 47800 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 55300 45900 5 10 1 1 0 0 1
 value=100nF
 }
@@ -314,7 +314,7 @@ C 41700 44300 1 0 0 capacitor-v-1.sym
 T 41900 44800 5 10 1 1 0 0 1
 refdes=C?
 T 41400 46200 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 41900 44400 5 10 1 1 0 0 1
 value=100nF
 }
@@ -323,7 +323,7 @@ C 40900 44000 1 0 0 capacitor-v-2.sym
 T 41200 44800 5 10 1 1 0 0 1
 refdes=C?
 T 41300 46300 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 41200 44400 5 10 1 1 0 0 1
 value=10uF
 }
@@ -340,7 +340,7 @@ refdes=C?
 T 45000 44400 5 10 1 1 0 0 1
 value=100nF
 T 44500 46200 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 }
 C 44000 44000 1 0 0 capacitor-v-2.sym
 {
@@ -349,7 +349,7 @@ refdes=C?
 T 44300 44400 5 10 1 1 0 0 1
 value=10uF
 T 44400 46300 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 }
 N 44200 44200 44200 43900 4
 C 44000 43600 1 0 0 gnd-1.sym

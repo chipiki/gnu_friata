@@ -108,7 +108,7 @@ C 48300 46700 1 0 0 capacitor-v-1.sym
 T 48500 47200 5 10 1 1 0 0 1
 refdes=C?
 T 48000 48600 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 48500 46800 5 10 1 1 0 0 1
 value=100nF
 }
@@ -117,7 +117,7 @@ C 48300 42700 1 0 0 capacitor-v-1.sym
 T 48500 43200 5 10 1 1 0 0 1
 refdes=C?
 T 48000 44600 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 48500 42800 5 10 1 1 0 0 1
 value=100nF
 }
@@ -155,7 +155,7 @@ C 46900 44800 1 0 0 capacitor-v-1.sym
 T 47100 45300 5 10 1 1 0 0 1
 refdes=C?
 T 46600 46700 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 47100 44900 5 10 1 1 0 0 1
 value=100nF
 }

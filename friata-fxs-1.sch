@@ -26,7 +26,7 @@ C 41500 49500 1 0 0 capacitor-h-1.sym
 T 42000 49800 5 10 1 1 0 0 1
 refdes=C?
 T 42100 51400 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 42000 49500 5 10 1 1 0 0 1
 value=100nF
 }
@@ -37,7 +37,7 @@ C 44000 48500 1 0 0 capacitor-v-1.sym
 T 44200 49000 5 10 1 1 0 0 1
 refdes=C?
 T 43700 50400 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 44000 48300 5 10 1 1 90 0 1
 value=4.7uF
 }
@@ -46,7 +46,7 @@ C 44600 48500 1 0 0 capacitor-v-1.sym
 T 44800 49000 5 10 1 1 0 0 1
 refdes=C?
 T 44300 50400 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 44600 48300 5 10 1 1 90 0 1
 value=4.7uF
 }
@@ -58,6 +58,8 @@ T 52500 40500 5 10 0 0 270 0 1
 footprint=SOT23
 T 51300 43100 5 10 1 1 0 0 1
 value=FZT953
+T 51600 43300 5 10 0 0 0 0 1
+device=TRANSISTOR
 }
 C 50500 44100 1 270 0 bjt-npn-1.sym
 {
@@ -67,6 +69,8 @@ T 51400 41300 5 10 0 0 270 0 1
 footprint=SOT23
 T 50200 43900 5 10 1 1 0 0 1
 value=2N2222
+T 50500 44100 5 10 0 0 0 0 1
+device=TRANSISTOR
 }
 C 49200 44500 1 270 1 bjt-npn-1.sym
 {
@@ -76,6 +80,8 @@ T 50100 47300 5 10 0 0 90 2 1
 footprint=SOT23
 T 50800 44800 5 10 1 1 180 2 1
 value=2N2222
+T 49200 44500 5 10 0 0 0 0 1
+device=TRANSISTOR
 }
 N 44100 48500 44100 47600 4
 N 44700 48500 44700 47400 4
@@ -86,7 +92,7 @@ C 45200 46400 1 0 0 resistor-h-1.sym
 T 45200 46700 5 10 1 1 0 0 1
 refdes=R?
 T 45900 48200 5 10 0 0 0 0 1
-device=Resistor
+device=RESISTOR
 T 45800 46700 5 10 1 1 0 0 1
 value=196K
 }
@@ -95,7 +101,7 @@ C 45200 46900 1 0 0 resistor-h-1.sym
 T 45200 47200 5 10 1 1 0 0 1
 refdes=R?
 T 45900 48700 5 10 0 0 0 0 1
-device=Resistor
+device=RESISTOR
 T 45800 47200 5 10 1 1 0 0 1
 value=196K
 }
@@ -116,7 +122,7 @@ C 43800 45300 1 0 0 resistor-v-1.sym
 T 43600 46000 5 10 1 1 0 0 1
 refdes=R?
 T 44100 47400 5 10 0 0 0 0 1
-device=Resistor
+device=RESISTOR
 T 43800 45500 5 10 1 1 180 0 1
 value=4.02K
 }
@@ -125,7 +131,7 @@ C 44500 45300 1 0 0 resistor-v-1.sym
 T 44800 46000 5 10 1 1 0 0 1
 refdes=R?
 T 44800 47400 5 10 0 0 0 0 1
-device=Resistor
+device=RESISTOR
 T 45300 45500 5 10 1 1 180 0 1
 value=4.02K
 }
@@ -141,7 +147,7 @@ C 42500 44100 1 0 0 capacitor-v-1.sym
 T 42700 44600 5 10 1 1 0 0 1
 refdes=C?
 T 42200 46000 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 43200 44300 5 10 1 1 180 0 1
 value=100nF
 }
@@ -156,7 +162,7 @@ C 47800 45000 1 0 0 resistor-h-1.sym
 T 47800 45200 5 10 1 1 0 0 1
 refdes=R?
 T 48500 46800 5 10 0 0 0 0 1
-device=Resistor
+device=RESISTOR
 T 48400 45200 5 10 1 1 0 0 1
 value=84.8K
 }
@@ -168,7 +174,7 @@ C 43800 44000 1 0 0 resistor-v-1.sym
 T 43600 44700 5 10 1 1 0 0 1
 refdes=R?
 T 44100 46100 5 10 0 0 0 0 1
-device=Resistor
+device=RESISTOR
 T 43800 44400 5 10 1 1 180 0 1
 value=15
 }
@@ -178,7 +184,7 @@ C 48800 43900 1 0 0 resistor-v-1.sym
 T 48600 44600 5 10 1 1 0 0 1
 refdes=R?
 T 49100 46000 5 10 0 0 0 0 1
-device=Resistor
+device=RESISTOR
 T 48800 44100 5 10 1 1 180 0 1
 value=676K
 }
@@ -199,7 +205,7 @@ C 47600 48700 1 0 0 resistor-h-1.sym
 T 47600 49000 5 10 1 1 0 0 1
 refdes=R?
 T 48300 50500 5 10 0 0 0 0 1
-device=Resistor
+device=RESISTOR
 T 48200 49000 5 10 1 1 0 0 1
 value=200K
 }
@@ -208,7 +214,7 @@ C 48300 48100 1 0 0 resistor-h-1.sym
 T 48300 48300 5 10 1 1 0 0 1
 refdes=R?
 T 49000 49900 5 10 0 0 0 0 1
-device=Resistor
+device=RESISTOR
 T 48900 48300 5 10 1 1 0 0 1
 value=4.7K
 }
@@ -217,7 +223,7 @@ C 47000 48000 1 0 0 capacitor-h-1.sym
 T 47000 48300 5 10 1 1 0 0 1
 refdes=C?
 T 47600 49900 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 46900 48000 5 10 1 1 0 0 1
 value=220nF/100V
 }
@@ -245,7 +251,7 @@ C 47700 46500 1 0 0 resistor-h-1.sym
 T 47600 46400 5 10 1 1 0 0 1
 refdes=R?
 T 48400 48300 5 10 0 0 0 0 1
-device=Resistor
+device=RESISTOR
 T 48200 46400 5 10 1 1 0 0 1
 value=200K
 }
@@ -254,7 +260,7 @@ C 48300 45900 1 0 0 resistor-h-1.sym
 T 48200 46100 5 10 1 1 0 0 1
 refdes=R?
 T 49000 47700 5 10 0 0 0 0 1
-device=Resistor
+device=RESISTOR
 T 48800 46100 5 10 1 1 0 0 1
 value=4.7K
 }
@@ -263,7 +269,7 @@ C 47000 45800 1 0 0 capacitor-h-1.sym
 T 47000 46100 5 10 1 1 0 0 1
 refdes=C?
 T 47600 47700 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 47000 45800 5 10 1 1 0 0 1
 value=220nF/100V
 }
@@ -282,7 +288,7 @@ C 54100 49700 1 0 0 capacitor-v-1.sym
 T 54300 50200 5 10 1 1 0 0 1
 refdes=C?
 T 53800 51600 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 54300 49800 5 10 1 1 0 0 1
 value=100nF
 }
@@ -291,7 +297,7 @@ C 54800 49700 1 0 0 capacitor-v-1.sym
 T 55000 50200 5 10 1 1 0 0 1
 refdes=C?
 T 54500 51600 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 55000 49800 5 10 1 1 0 0 1
 value=100nF
 }
@@ -304,7 +310,7 @@ C 55900 49700 1 0 0 capacitor-v-1.sym
 T 56100 50200 5 10 1 1 0 0 1
 refdes=C?
 T 55600 51600 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 56100 49800 5 10 1 1 0 0 1
 value=100nF
 }
@@ -316,7 +322,7 @@ C 54000 43700 1 0 0 resistor-v-1.sym
 T 54300 44200 5 10 1 1 0 0 1
 refdes=R?
 T 54300 45800 5 10 0 0 0 0 1
-device=Resistor
+device=RESISTOR
 T 54300 44000 5 10 1 1 0 0 1
 value=56.2K
 }
@@ -328,7 +334,7 @@ C 52800 43700 1 0 0 resistor-v-1.sym
 T 53100 44200 5 10 1 1 0 0 1
 refdes=R?
 T 53100 45800 5 10 0 0 0 0 1
-device=Resistor
+device=RESISTOR
 T 53100 44000 5 10 1 1 0 0 1
 value=56.2K
 }
@@ -341,7 +347,7 @@ C 52000 43700 1 0 0 capacitor-v-1.sym
 T 52200 44200 5 10 1 1 0 0 1
 refdes=C?
 T 51700 45600 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 52200 43800 5 10 1 1 0 0 1
 value=100nF
 }
@@ -354,7 +360,7 @@ C 53100 43400 1 0 0 resistor-h-1.sym
 T 53100 43600 5 10 1 1 0 0 1
 refdes=R?
 T 53800 45200 5 10 0 0 0 0 1
-device=Resistor
+device=RESISTOR
 T 53700 43600 5 10 1 1 0 0 1
 value=200
 }
@@ -367,7 +373,7 @@ C 53100 42600 1 0 0 resistor-h-1.sym
 T 53000 42800 5 10 1 1 0 0 1
 refdes=R?
 T 53800 44400 5 10 0 0 0 0 1
-device=Resistor
+device=RESISTOR
 T 53600 42800 5 10 1 1 0 0 1
 value=0.56
 }
@@ -379,7 +385,7 @@ C 49300 43400 1 0 0 resistor-h-1.sym
 T 49300 43600 5 10 1 1 0 0 1
 refdes=R?
 T 50000 45200 5 10 0 0 0 0 1
-device=Resistor
+device=RESISTOR
 T 49900 43600 5 10 1 1 0 0 1
 value=200
 }
@@ -389,7 +395,7 @@ C 49500 42200 1 0 0 capacitor-h-2.sym
 T 49500 42500 5 10 1 1 0 0 1
 refdes=C?
 T 50200 44100 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 50100 42500 5 10 1 1 0 0 1
 value=10uF/100V
 }
@@ -398,7 +404,7 @@ C 49600 41700 1 0 0 capacitor-h-1.sym
 T 49800 41600 5 10 1 1 0 0 1
 refdes=C?
 T 50200 43600 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 50100 41600 5 10 1 1 0 0 1
 value=100nF
 }
@@ -411,7 +417,7 @@ C 54600 42500 1 0 0 capacitor-v-1.sym
 T 54800 43000 5 10 1 1 0 0 1
 refdes=C?
 T 54300 44400 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 54800 42400 5 10 1 1 0 0 1
 value=100nF/25V
 }
@@ -451,7 +457,7 @@ C 53600 46600 1 0 0 resistor-h-1.sym
 T 53600 46500 5 10 1 1 0 0 1
 refdes=R?
 T 54300 48400 5 10 0 0 0 0 1
-device=Resistor
+device=RESISTOR
 T 54200 46500 5 10 1 1 0 0 1
 value=243
 }
@@ -464,7 +470,7 @@ C 55400 45200 1 0 0 resistor-v-1.sym
 T 55600 46100 5 10 1 1 0 0 1
 refdes=R?
 T 55700 47300 5 10 0 0 0 0 1
-device=Resistor
+device=RESISTOR
 T 56200 45500 5 10 1 1 180 0 1
 value=40.2K
 }
@@ -479,7 +485,7 @@ N 54000 45200 55500 45200 4
 C 40600 42200 1 180 1 connector_rj11-1.sym
 {
 T 40600 39700 5 10 0 0 0 2 1
-device=RJ11
+device=CONNECTOR-RJ11
 T 40600 39900 5 10 0 0 0 2 1
 footprint=RJ11
 T 40600 42500 5 10 1 1 0 2 1
@@ -491,7 +497,7 @@ C 43800 41600 1 0 0 capacitor-v-1.sym
 T 44000 42100 5 10 1 1 0 0 1
 refdes=C?
 T 43500 43500 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 45000 41800 5 10 1 1 180 0 1
 value=22nF/100V
 }
@@ -509,7 +515,7 @@ C 43800 40600 1 0 0 capacitor-v-1.sym
 T 44000 41100 5 10 1 1 0 0 1
 refdes=C?
 T 43500 42500 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 45000 40800 5 10 1 1 180 0 1
 value=22nF/100V
 }
@@ -518,7 +524,7 @@ C 42400 42300 1 0 0 resistor-h-1.sym
 T 42400 42600 5 10 1 1 0 0 1
 refdes=R?
 T 43100 44100 5 10 0 0 0 0 1
-device=Resistor
+device=RESISTOR
 T 43000 42600 5 10 1 1 0 0 1
 value=0
 }
@@ -529,7 +535,7 @@ C 42400 40400 1 0 0 resistor-h-1.sym
 T 42400 40700 5 10 1 1 0 0 1
 refdes=R?
 T 43100 42200 5 10 0 0 0 0 1
-device=Resistor
+device=RESISTOR
 T 43000 40700 5 10 1 1 0 0 1
 value=0
 }
@@ -557,7 +563,7 @@ C 56400 49400 1 0 0 capacitor-v-2.sym
 T 56700 50200 5 10 1 1 0 0 1
 refdes=C?
 T 56800 51700 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 56700 49800 5 10 1 1 0 0 1
 value=10uF/10V
 }
@@ -566,7 +572,7 @@ C 53400 49400 1 0 0 capacitor-v-2.sym
 T 53700 50200 5 10 1 1 0 0 1
 refdes=C?
 T 53800 51700 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 52700 49700 5 10 1 1 0 0 1
 value=10uF/10V
 }
@@ -577,7 +583,7 @@ C 54100 45000 1 0 0 capacitor-v-2.sym
 T 54400 45800 5 10 1 1 0 0 1
 refdes=C?
 T 54500 47300 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 53600 45000 5 10 1 1 0 0 1
 value=10uF/10V
 }
@@ -586,7 +592,7 @@ C 54700 45000 1 0 0 capacitor-v-2.sym
 T 55000 45800 5 10 1 1 0 0 1
 refdes=C?
 T 55100 47300 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 54800 45000 5 10 1 1 0 0 1
 value=10uF/10V
 }
@@ -603,7 +609,7 @@ C 55100 42200 1 0 0 capacitor-v-2.sym
 T 55400 43000 5 10 1 1 0 0 1
 refdes=C?
 T 55500 44500 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 55400 42600 5 10 1 1 0 0 1
 value=10uF/25V
 }
@@ -622,7 +628,7 @@ C 45200 45000 1 0 0 resistor-h-1.sym
 T 45200 44800 5 10 1 1 0 0 1
 refdes=R?
 T 45900 46800 5 10 0 0 0 0 1
-device=Resistor
+device=RESISTOR
 T 45800 44800 5 10 1 1 0 0 1
 value=200K
 }
@@ -632,7 +638,7 @@ C 56000 46200 1 0 0 resistor-v-1.sym
 T 56200 46900 5 10 1 1 0 0 1
 refdes=R?
 T 56300 48300 5 10 0 0 0 0 1
-device=Resistor
+device=RESISTOR
 T 56700 46400 5 10 1 1 180 0 1
 value=40.2K
 }
@@ -690,7 +696,7 @@ C 56000 47300 1 0 0 resistor-v-1.sym
 T 56200 48000 5 10 1 1 0 0 1
 refdes=R?
 T 56300 49400 5 10 0 0 0 0 1
-device=Resistor
+device=RESISTOR
 T 56500 47500 5 10 1 1 180 0 1
 value=10K
 }

@@ -133,7 +133,7 @@ C 45100 47200 1 0 0 resistor-v-1.sym
 T 45400 47700 5 10 1 1 0 0 1
 refdes=R?
 T 45400 49300 5 10 0 0 0 0 1
-device=Resistor
+device=RESISTOR
 T 45400 47500 5 10 1 1 0 0 1
 value=100K
 }
@@ -142,7 +142,7 @@ C 45900 47200 1 0 0 resistor-v-1.sym
 T 46200 47700 5 10 1 1 0 0 1
 refdes=R?
 T 46200 49300 5 10 0 0 0 0 1
-device=Resistor
+device=RESISTOR
 T 46200 47500 5 10 1 1 0 0 1
 value=100K
 }
@@ -151,7 +151,7 @@ C 46700 47200 1 0 0 resistor-v-1.sym
 T 47000 47700 5 10 1 1 0 0 1
 refdes=R?
 T 47000 49300 5 10 0 0 0 0 1
-device=Resistor
+device=RESISTOR
 T 47000 47500 5 10 1 1 0 0 1
 value=100K
 }
@@ -160,7 +160,7 @@ C 47500 47200 1 0 0 resistor-v-1.sym
 T 47800 47700 5 10 1 1 0 0 1
 refdes=R?
 T 47800 49300 5 10 0 0 0 0 1
-device=Resistor
+device=RESISTOR
 T 47800 47500 5 10 1 1 0 0 1
 value=100K
 }

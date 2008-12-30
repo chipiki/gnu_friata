@@ -59,20 +59,6 @@ C 40700 46200 1 0 1 busripper-1.sym
 T 40700 46600 5 8 0 0 180 2 1
 device=none
 }
-C 43700 45200 1 0 1 header-3pin-1.sym
-{
-T 43800 47100 5 8 0 0 0 6 1
-device=JUMPER-1xUM
-T 43500 45900 5 10 1 1 0 6 1
-refdes=J?
-}
-C 42200 47600 1 0 1 header-3pin-1.sym
-{
-T 42300 49500 5 8 0 0 0 6 1
-device=JUMPER-1xUM
-T 42200 48300 5 10 1 1 0 6 1
-refdes=J?
-}
 N 42200 47400 44200 47400 4
 N 42200 47900 42200 47400 4
 N 41800 47700 41800 47400 4
@@ -146,7 +132,7 @@ C 44200 48800 1 0 0 capacitor-h-1.sym
 T 44200 49100 5 10 1 1 0 0 1
 refdes=C?
 T 44800 50700 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 44700 49100 5 10 1 1 0 0 1
 value=100nF
 }
@@ -155,7 +141,7 @@ C 44200 48400 1 0 0 capacitor-h-1.sym
 T 44200 48700 5 10 1 1 0 0 1
 refdes=C?
 T 44800 50300 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 44700 48700 5 10 1 1 0 0 1
 value=100nF
 }
@@ -164,7 +150,7 @@ C 47900 49100 1 0 0 capacitor-h-1.sym
 T 47900 49400 5 10 1 1 0 0 1
 refdes=C?
 T 48500 51000 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 48400 49400 5 10 1 1 0 0 1
 value=100nF
 }
@@ -173,7 +159,7 @@ C 47900 48500 1 0 0 capacitor-h-1.sym
 T 47900 48800 5 10 1 1 0 0 1
 refdes=C?
 T 48500 50400 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 48400 48800 5 10 1 1 0 0 1
 value=100nF
 }
@@ -182,7 +168,7 @@ C 47900 48200 1 0 0 capacitor-h-1.sym
 T 47900 48500 5 10 1 1 0 0 1
 refdes=C?
 T 48500 50100 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 48400 48500 5 10 1 1 0 0 1
 value=100nF
 }
@@ -255,4 +241,18 @@ T 51600 47800 5 10 1 1 0 0 1
 refdes=CONN?
 T 46600 42700 5 10 0 1 0 0 1
 device=CONNECTOR
+}
+C 42200 47600 1 0 1 header-3pin-1.sym
+{
+T 42200 48300 5 10 1 1 0 6 1
+refdes=J?
+T 42205 47600 5 10 0 1 0 6 1
+device=HEADER
+}
+C 43700 45200 1 0 1 header-3pin-1.sym
+{
+T 43500 45900 5 10 1 1 0 6 1
+refdes=J?
+T 43705 45200 5 10 0 1 0 6 1
+device=HEADER
 }

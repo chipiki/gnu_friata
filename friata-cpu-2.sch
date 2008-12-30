@@ -77,11 +77,6 @@ N 45400 46300 45800 46300 4
 N 44800 44700 45800 44700 4
 N 45400 45700 45400 46300 4
 N 45400 45700 45900 45700 4
-C 45900 45800 1 270 0 header-2pin-1.sym
-{
-T 45800 45800 5 10 1 1 0 0 1
-refdes=J?
-}
 N 46500 45700 47600 45700 4
 T 54500 40300 9 10 1 0 0 0 1
 Saritha Kalyanam
@@ -131,7 +126,7 @@ C 40900 48700 1 0 0 capacitor-h-1.sym
 T 41000 49000 5 10 1 1 0 0 1
 refdes=C?
 T 41600 50600 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 41400 49000 5 10 1 1 0 0 1
 value=10nF
 }
@@ -140,7 +135,7 @@ C 40900 48300 1 0 0 capacitor-h-1.sym
 T 41000 48600 5 10 1 1 0 0 1
 refdes=C?
 T 41600 50200 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 41400 48600 5 10 1 1 0 0 1
 value=1nF
 }
@@ -149,7 +144,7 @@ C 46700 49800 1 0 0 capacitor-h-1.sym
 T 46800 50100 5 10 1 1 0 0 1
 refdes=C?
 T 47400 51700 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 47200 50100 5 10 1 1 0 0 1
 value=18pF
 }
@@ -158,7 +153,7 @@ C 46700 48900 1 0 0 capacitor-h-1.sym
 T 46800 49200 5 10 1 1 0 0 1
 refdes=C?
 T 47400 50800 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 47200 49200 5 10 1 1 0 0 1
 value=18pF
 }
@@ -167,7 +162,7 @@ C 46700 48300 1 0 0 capacitor-h-1.sym
 T 46800 48600 5 10 1 1 0 0 1
 refdes=C?
 T 47400 50200 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 47200 48600 5 10 1 1 0 0 1
 value=18pF
 }
@@ -176,7 +171,7 @@ C 46700 47400 1 0 0 capacitor-h-1.sym
 T 46800 47700 5 10 1 1 0 0 1
 refdes=C?
 T 47400 49300 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 47200 47700 5 10 1 1 0 0 1
 value=18pF
 }
@@ -189,7 +184,7 @@ C 45800 46200 1 0 0 resistor-h-1.sym
 T 45800 46500 5 10 1 1 0 0 1
 refdes=R?
 T 46500 48000 5 10 0 0 0 0 1
-device=Resistor
+device=RESISTOR
 T 46300 46500 5 10 1 1 0 0 1
 value=100K
 }
@@ -198,7 +193,7 @@ C 45800 44600 1 0 0 resistor-h-1.sym
 T 45800 44900 5 10 1 1 0 0 1
 refdes=R?
 T 46500 46400 5 10 0 0 0 0 1
-device=Resistor
+device=RESISTOR
 T 46300 44900 5 10 1 1 0 0 1
 value=1K
 }
@@ -251,7 +246,7 @@ C 41700 44800 1 0 0 resistor-h-1.sym
 T 41700 45100 5 10 1 1 0 0 1
 refdes=R?
 T 42400 46600 5 10 0 0 0 0 1
-device=Resistor
+device=RESISTOR
 T 42300 45100 5 10 1 1 0 0 1
 value=1.5M
 }
@@ -260,7 +255,7 @@ C 41700 44300 1 0 0 resistor-h-1.sym
 T 41700 44600 5 10 1 1 0 0 1
 refdes=R?
 T 42400 46100 5 10 0 0 0 0 1
-device=Resistor
+device=RESISTOR
 T 42300 44600 5 10 1 1 0 0 1
 value=100K
 }
@@ -289,7 +284,7 @@ C 41400 49900 1 0 0 resistor-h-1.sym
 T 41400 50200 5 10 1 1 0 0 1
 refdes=R?
 T 42100 51700 5 10 0 0 0 0 1
-device=Resistor
+device=RESISTOR
 T 42000 50200 5 10 1 1 0 0 1
 value=10K
 }
@@ -302,7 +297,7 @@ C 41900 48800 1 0 0 resistor-h-1.sym
 T 41900 49100 5 10 1 1 0 0 1
 refdes=R?
 T 42600 50600 5 10 0 0 0 0 1
-device=Resistor
+device=RESISTOR
 T 42500 49100 5 10 1 1 0 0 1
 value=1K
 }
@@ -316,14 +311,14 @@ C 45800 43900 1 0 0 switch-1.sym
 T 46200 44300 5 10 1 1 0 0 1
 refdes=S?
 T 46000 44100 5 10 0 0 0 0 1
-device=SWITCH_PUSHBUTTON_NO
+device=SWITCH-PUSHBUTTON-NO
 }
 C 45900 43400 1 0 0 resistor-h-1.sym
 {
 T 45900 43700 5 10 1 1 0 0 1
 refdes=R?
 T 46600 45200 5 10 0 0 0 0 1
-device=Resistor
+device=RESISTOR
 T 46400 43700 5 10 1 1 0 0 1
 value=1K
 }
@@ -335,3 +330,10 @@ C 47900 43500 1 0 0 3V3-plus.sym
 N 45800 44100 45100 44100 4
 N 45100 43500 45900 43500 4
 N 47600 44100 46800 44100 4
+C 45900 45800 1 270 0 header-2pin-1.sym
+{
+T 45800 45900 5 10 1 1 0 0 1
+refdes=J?
+T 45895 45800 5 10 0 1 270 0 1
+device=HEADER
+}

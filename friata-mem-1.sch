@@ -437,7 +437,7 @@ C 46600 48900 1 0 0 capacitor-h-1.sym
 T 47100 49200 5 10 1 1 0 0 1
 refdes=C?
 T 47200 50800 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 47100 48900 5 10 1 1 0 0 1
 value=100nF
 }
@@ -446,7 +446,7 @@ C 46600 48300 1 0 0 capacitor-h-1.sym
 T 47100 48600 5 10 1 1 0 0 1
 refdes=C?
 T 47200 50200 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 47100 48300 5 10 1 1 0 0 1
 value=100nF
 }
@@ -455,7 +455,7 @@ C 46600 47700 1 0 0 capacitor-h-1.sym
 T 47100 48000 5 10 1 1 0 0 1
 refdes=C?
 T 47200 49600 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 47100 47700 5 10 1 1 0 0 1
 value=100nF
 }
@@ -464,7 +464,7 @@ C 46600 47100 1 0 0 capacitor-h-1.sym
 T 47100 47400 5 10 1 1 0 0 1
 refdes=C?
 T 47200 49000 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 47100 47100 5 10 1 1 0 0 1
 value=100nF
 }
@@ -473,7 +473,7 @@ C 46600 46600 1 0 0 capacitor-h-1.sym
 T 47100 46900 5 10 1 1 0 0 1
 refdes=C?
 T 47200 48500 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 47100 46600 5 10 1 1 0 0 1
 value=100nF
 }
@@ -482,7 +482,7 @@ C 46600 46000 1 0 0 capacitor-h-1.sym
 T 47100 46300 5 10 1 1 0 0 1
 refdes=C?
 T 47200 47900 5 10 0 0 0 0 1
-device=Capacitor
+device=CAPACITOR
 T 47100 46000 5 10 1 1 0 0 1
 value=100nF
 }
