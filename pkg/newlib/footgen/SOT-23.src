@@ -19,19 +19,19 @@
 elementdir = "pkg/newlib"
     pins 2
     type "tabbed"
-    pitch 1.90 mm
-    height 4.80 mm
-    tabheight 1.40 mm
-    tabwidth 1.0 mm
-    padwidth 1.0 mm
-    padheight 1.40 mm
-    silkwidth 10 mils
-    silkoffset 1mm
+    pitch 75 mils
+    height 60 mils
+    tabheight 30 mils
+    tabwidth 30 mils
+    padwidth 30 mils
+    padheight 30 mils
+    silkwidth 5 mils
+    silkoffset 5 mils
     silkstyle = "outside"
     #silkboxwidth = 
     #silkboxheight = 
-    maskclear = 0.1 mm
-    polyclear = 6 mil
+    maskclear = 10 mils
+    polyclear = 10 mils
     pinshigh = 0
 part "SOT-23.fp"
 
