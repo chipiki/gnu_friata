@@ -3,8 +3,8 @@ C 40000 40000 0 0 0 title-B.sym
 C 52300 45400 1 0 0 capacitor-h-1.sym
 {
 T 52800 45700 5 10 1 1 0 0 1
-refdes=C?
-T 52900 47300 5 10 0 0 0 0 1
+refdes=C1
+T 52900 47300 5 10 0 1 0 0 1
 device=CAPACITOR
 T 52800 45400 5 10 1 1 0 0 1
 value=100nF
@@ -64,8 +64,8 @@ GPLv3
 C 52300 44900 1 0 0 capacitor-h-1.sym
 {
 T 52800 45200 5 10 1 1 0 0 1
-refdes=C?
-T 52900 46800 5 10 0 0 0 0 1
+refdes=C2
+T 52900 46800 5 10 0 1 0 0 1
 device=CAPACITOR
 T 52800 44900 5 10 1 1 0 0 1
 value=100nF
@@ -73,8 +73,8 @@ value=100nF
 C 52300 44400 1 0 0 capacitor-h-1.sym
 {
 T 52800 44700 5 10 1 1 0 0 1
-refdes=C?
-T 52900 46300 5 10 0 0 0 0 1
+refdes=C3
+T 52900 46300 5 10 0 1 0 0 1
 device=CAPACITOR
 T 52800 44400 5 10 1 1 0 0 1
 value=100nF
@@ -82,8 +82,8 @@ value=100nF
 C 52300 45900 1 0 0 capacitor-h-1.sym
 {
 T 52800 46200 5 10 1 1 0 0 1
-refdes=C?
-T 52900 47800 5 10 0 0 0 0 1
+refdes=C4
+T 52900 47800 5 10 0 1 0 0 1
 device=CAPACITOR
 T 52800 45900 5 10 1 1 0 0 1
 value=100nF
@@ -91,8 +91,8 @@ value=100nF
 C 52300 46400 1 0 0 capacitor-h-1.sym
 {
 T 52800 46700 5 10 1 1 0 0 1
-refdes=C?
-T 52900 48300 5 10 0 0 0 0 1
+refdes=C5
+T 52900 48300 5 10 0 1 0 0 1
 device=CAPACITOR
 T 52800 46400 5 10 1 1 0 0 1
 value=100nF
@@ -100,8 +100,8 @@ value=100nF
 C 52300 46900 1 0 0 capacitor-h-1.sym
 {
 T 52800 47200 5 10 1 1 0 0 1
-refdes=C?
-T 52900 48800 5 10 0 0 0 0 1
+refdes=C6
+T 52900 48800 5 10 0 1 0 0 1
 device=CAPACITOR
 T 52800 46900 5 10 1 1 0 0 1
 value=100nF
@@ -109,8 +109,8 @@ value=100nF
 C 52300 43900 1 0 0 capacitor-h-1.sym
 {
 T 52800 44200 5 10 1 1 0 0 1
-refdes=C?
-T 52900 45800 5 10 0 0 0 0 1
+refdes=C7
+T 52900 45800 5 10 0 1 0 0 1
 device=CAPACITOR
 T 52800 43900 5 10 1 1 0 0 1
 value=100nF
@@ -118,8 +118,8 @@ value=100nF
 C 52300 43400 1 0 0 capacitor-h-1.sym
 {
 T 52800 43700 5 10 1 1 0 0 1
-refdes=C?
-T 52900 45300 5 10 0 0 0 0 1
+refdes=C8
+T 52900 45300 5 10 0 1 0 0 1
 device=CAPACITOR
 T 52800 43400 5 10 1 1 0 0 1
 value=100nF
@@ -127,8 +127,8 @@ value=100nF
 C 52300 42900 1 0 0 capacitor-h-1.sym
 {
 T 52800 43200 5 10 1 1 0 0 1
-refdes=C?
-T 52900 44800 5 10 0 0 0 0 1
+refdes=C9
+T 52900 44800 5 10 0 1 0 0 1
 device=CAPACITOR
 T 52800 42900 5 10 1 1 0 0 1
 value=100nF
@@ -136,8 +136,8 @@ value=100nF
 C 52300 42400 1 0 0 capacitor-h-1.sym
 {
 T 52800 42700 5 10 1 1 0 0 1
-refdes=C?
-T 52900 44300 5 10 0 0 0 0 1
+refdes=C10
+T 52900 44300 5 10 0 1 0 0 1
 device=CAPACITOR
 T 52800 42400 5 10 1 1 0 0 1
 value=100nF
@@ -145,8 +145,8 @@ value=100nF
 C 52300 41900 1 0 0 capacitor-h-1.sym
 {
 T 52800 42200 5 10 1 1 0 0 1
-refdes=C?
-T 52900 43800 5 10 0 0 0 0 1
+refdes=C11
+T 52900 43800 5 10 0 1 0 0 1
 device=CAPACITOR
 T 52800 41900 5 10 1 1 0 0 1
 value=100nF
@@ -154,8 +154,8 @@ value=100nF
 C 52300 47400 1 0 0 capacitor-h-1.sym
 {
 T 52800 47700 5 10 1 1 0 0 1
-refdes=C?
-T 52900 49300 5 10 0 0 0 0 1
+refdes=C12
+T 52900 49300 5 10 0 1 0 0 1
 device=CAPACITOR
 T 52800 47400 5 10 1 1 0 0 1
 value=100nF
@@ -163,8 +163,8 @@ value=100nF
 C 52300 49300 1 0 0 capacitor-h-2.sym
 {
 T 52900 49600 5 10 1 1 0 0 1
-refdes=C?
-T 53000 51200 5 10 0 0 0 0 1
+refdes=C13
+T 53000 51200 5 10 0 1 0 0 1
 device=CAPACITOR
 T 52900 49300 5 10 1 1 0 0 1
 value=10uF
@@ -172,8 +172,8 @@ value=10uF
 C 52300 48600 1 0 0 capacitor-h-2.sym
 {
 T 52900 48900 5 10 1 1 0 0 1
-refdes=C?
-T 53000 50500 5 10 0 0 0 0 1
+refdes=C14
+T 53000 50500 5 10 0 1 0 0 1
 device=CAPACITOR
 T 52900 48600 5 10 1 1 0 0 1
 value=10uF
@@ -181,8 +181,8 @@ value=10uF
 C 52300 48000 1 0 0 capacitor-h-2.sym
 {
 T 52900 48300 5 10 1 1 0 0 1
-refdes=C?
-T 53000 49900 5 10 0 0 0 0 1
+refdes=C15
+T 53000 49900 5 10 0 1 0 0 1
 device=CAPACITOR
 T 52900 48000 5 10 1 1 0 0 1
 value=10uF
@@ -224,8 +224,8 @@ C 51600 49500 1 0 0 3V3-plus.sym
 C 54800 49300 1 0 0 capacitor-h-1.sym
 {
 T 55300 49600 5 10 1 1 0 0 1
-refdes=C?
-T 55400 51200 5 10 0 0 0 0 1
+refdes=C16
+T 55400 51200 5 10 0 1 0 0 1
 device=CAPACITOR
 T 55300 49300 5 10 1 1 0 0 1
 value=100nF
@@ -233,8 +233,8 @@ value=100nF
 C 54800 48800 1 0 0 capacitor-h-1.sym
 {
 T 55300 49100 5 10 1 1 0 0 1
-refdes=C?
-T 55400 50700 5 10 0 0 0 0 1
+refdes=C17
+T 55400 50700 5 10 0 1 0 0 1
 device=CAPACITOR
 T 55300 48800 5 10 1 1 0 0 1
 value=100nF
@@ -242,8 +242,8 @@ value=100nF
 C 54800 48300 1 0 0 capacitor-h-1.sym
 {
 T 55300 48600 5 10 1 1 0 0 1
-refdes=C?
-T 55400 50200 5 10 0 0 0 0 1
+refdes=C18
+T 55400 50200 5 10 0 1 0 0 1
 device=CAPACITOR
 T 55300 48300 5 10 1 1 0 0 1
 value=100nF
@@ -251,8 +251,8 @@ value=100nF
 C 54800 47800 1 0 0 capacitor-h-1.sym
 {
 T 55300 48100 5 10 1 1 0 0 1
-refdes=C?
-T 55400 49700 5 10 0 0 0 0 1
+refdes=C19
+T 55400 49700 5 10 0 1 0 0 1
 device=CAPACITOR
 T 55300 47800 5 10 1 1 0 0 1
 value=100nF
@@ -260,8 +260,8 @@ value=100nF
 C 54800 47300 1 0 0 capacitor-h-1.sym
 {
 T 55300 47600 5 10 1 1 0 0 1
-refdes=C?
-T 55400 49200 5 10 0 0 0 0 1
+refdes=C20
+T 55400 49200 5 10 0 1 0 0 1
 device=CAPACITOR
 T 55300 47300 5 10 1 1 0 0 1
 value=100nF
@@ -283,8 +283,8 @@ C 55800 47200 1 0 0 gnd-1.sym
 C 54800 46400 1 0 0 capacitor-h-1.sym
 {
 T 55300 46700 5 10 1 1 0 0 1
-refdes=C?
-T 55400 48300 5 10 0 0 0 0 1
+refdes=C21
+T 55400 48300 5 10 0 1 0 0 1
 device=CAPACITOR
 T 55300 46400 5 10 1 1 0 0 1
 value=100nF
@@ -292,8 +292,8 @@ value=100nF
 C 54800 45900 1 0 0 capacitor-h-1.sym
 {
 T 55300 46200 5 10 1 1 0 0 1
-refdes=C?
-T 55400 47800 5 10 0 0 0 0 1
+refdes=C22
+T 55400 47800 5 10 0 1 0 0 1
 device=CAPACITOR
 T 55300 45900 5 10 1 1 0 0 1
 value=100nF
@@ -312,8 +312,8 @@ N 42600 45400 41100 45400 4
 C 41700 44300 1 0 0 capacitor-v-1.sym
 {
 T 41900 44800 5 10 1 1 0 0 1
-refdes=C?
-T 41400 46200 5 10 0 0 0 0 1
+refdes=C23
+T 41400 46200 5 10 0 1 0 0 1
 device=CAPACITOR
 T 41900 44400 5 10 1 1 0 0 1
 value=100nF
@@ -321,8 +321,8 @@ value=100nF
 C 40900 44000 1 0 0 capacitor-v-2.sym
 {
 T 41200 44800 5 10 1 1 0 0 1
-refdes=C?
-T 41300 46300 5 10 0 0 0 0 1
+refdes=C24
+T 41300 46300 5 10 0 1 0 0 1
 device=CAPACITOR
 T 41200 44400 5 10 1 1 0 0 1
 value=10uF
@@ -336,19 +336,19 @@ N 41800 44000 41100 44000 4
 C 44800 44300 1 0 0 capacitor-v-1.sym
 {
 T 45000 44800 5 10 1 1 0 0 1
-refdes=C?
+refdes=C25
 T 45000 44400 5 10 1 1 0 0 1
 value=100nF
-T 44500 46200 5 10 0 0 0 0 1
+T 44500 46200 5 10 0 1 0 0 1
 device=CAPACITOR
 }
 C 44000 44000 1 0 0 capacitor-v-2.sym
 {
 T 44300 44800 5 10 1 1 0 0 1
-refdes=C?
+refdes=C26
 T 44300 44400 5 10 1 1 0 0 1
 value=10uF
-T 44400 46300 5 10 0 0 0 0 1
+T 44400 46300 5 10 0 1 0 0 1
 device=CAPACITOR
 }
 N 44200 44200 44200 43900 4
@@ -362,10 +362,10 @@ N 45300 45200 45300 45400 4
 C 45400 45000 1 0 0 AT91-SAM9260-PQFP-pwr.sym
 {
 T 48800 49700 5 10 1 1 0 6 1
-refdes=U?
-T 45800 49900 5 10 0 0 0 0 1
+refdes=U1
+T 45800 49900 5 10 0 1 0 0 1
 device=AT91SAM9260
-T 45800 50100 5 10 0 0 0 0 1
+T 45800 50100 5 10 0 1 0 0 1
 footprint=PQFP-208
 }
 N 44700 45600 44700 46300 4
@@ -373,12 +373,10 @@ N 44700 46300 43300 46300 4
 C 43000 46300 1 0 0 1V8-plus.sym
 C 42600 45300 1 0 0 inductor-1.sym
 {
-T 42800 45800 5 10 0 0 0 0 1
+T 42800 45800 5 10 0 1 0 0 1
 device=INDUCTOR
 T 42800 45600 5 10 1 1 0 0 1
-refdes=L?
-T 42800 46000 5 10 0 0 0 0 1
-symversion=0.1
+refdes=L1
 T 42700 45200 5 10 1 1 0 0 1
 value=470nH
 }

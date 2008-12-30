@@ -116,8 +116,8 @@ GPLv3
 C 45100 47200 1 0 0 resistor-v-1.sym
 {
 T 45400 47700 5 10 1 1 0 0 1
-refdes=R?
-T 45400 49300 5 10 0 0 0 0 1
+refdes=R42
+T 45400 49300 5 10 0 1 0 0 1
 device=RESISTOR
 T 45400 47500 5 10 1 1 0 0 1
 value=100K
@@ -125,8 +125,8 @@ value=100K
 C 45900 47200 1 0 0 resistor-v-1.sym
 {
 T 46200 47700 5 10 1 1 0 0 1
-refdes=R?
-T 46200 49300 5 10 0 0 0 0 1
+refdes=R43
+T 46200 49300 5 10 0 1 0 0 1
 device=RESISTOR
 T 46200 47500 5 10 1 1 0 0 1
 value=100K
@@ -134,8 +134,8 @@ value=100K
 C 46700 47200 1 0 0 resistor-v-1.sym
 {
 T 47000 47700 5 10 1 1 0 0 1
-refdes=R?
-T 47000 49300 5 10 0 0 0 0 1
+refdes=R44
+T 47000 49300 5 10 0 1 0 0 1
 device=RESISTOR
 T 47000 47500 5 10 1 1 0 0 1
 value=100K
@@ -143,8 +143,8 @@ value=100K
 C 47500 47200 1 0 0 resistor-v-1.sym
 {
 T 47800 47700 5 10 1 1 0 0 1
-refdes=R?
-T 47800 49300 5 10 0 0 0 0 1
+refdes=R45
+T 47800 49300 5 10 0 1 0 0 1
 device=RESISTOR
 T 47800 47500 5 10 1 1 0 0 1
 value=100K
@@ -156,29 +156,29 @@ N 46800 48100 46800 48300 4
 N 46000 48100 46000 48300 4
 C 44700 44500 1 0 1 header-20pin-1.sym
 {
-T 44400 47750 5 10 0 0 0 6 1
+T 44400 47750 5 10 0 1 0 6 1
 device=HEADER
 T 44400 47600 5 10 1 1 0 6 1
-refdes=J?
+refdes=J4
 }
 C 48200 44300 1 270 0 header-2pin-1.sym
 {
 T 48300 44400 5 10 1 1 0 0 1
-refdes=J?
+refdes=J5
 T 48195 44300 5 10 0 1 270 0 1
 device=HEADER
 }
 C 49400 46000 1 270 0 header-2pin-1.sym
 {
 T 49500 46100 5 10 1 1 0 0 1
-refdes=J?
+refdes=J6
 T 49395 46000 5 10 0 1 270 0 1
 device=HEADER
 }
 C 49500 47500 1 270 0 header-2pin-1.sym
 {
 T 49600 47600 5 10 1 1 0 0 1
-refdes=J?
+refdes=J7
 T 49495 47500 5 10 0 1 270 0 1
 device=HEADER
 }

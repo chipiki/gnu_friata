@@ -21,17 +21,17 @@ netname=SW2
 N 49200 44400 49800 44400 4
 C 41200 47300 1 0 0 led-1.sym
 {
-T 41400 49200 5 8 0 0 0 0 1
+T 41400 49200 5 8 0 1 0 0 1
 device=LED
 T 41900 47700 5 10 1 1 0 0 1
-refdes=D?
+refdes=D6
 }
 C 42800 47300 1 0 0 led-1.sym
 {
-T 43000 49200 5 8 0 0 0 0 1
+T 43000 49200 5 8 0 1 0 0 1
 device=LED
 T 43500 47700 5 10 1 1 0 0 1
-refdes=D?
+refdes=D7
 }
 C 41300 48200 1 0 0 3V3-plus.sym
 C 42900 48200 1 0 0 3V3-plus.sym
@@ -42,8 +42,8 @@ N 43200 47300 43200 46600 4
 C 41500 45700 1 0 0 resistor-v-1.sym
 {
 T 41800 46200 5 10 1 1 0 0 1
-refdes=R?
-T 41800 47800 5 10 0 0 0 0 1
+refdes=R56
+T 41800 47800 5 10 0 1 0 0 1
 device=RESISTOR
 T 41800 46000 5 10 1 1 0 0 1
 value=220R
@@ -51,8 +51,8 @@ value=220R
 C 43100 45700 1 0 0 resistor-v-1.sym
 {
 T 43400 46200 5 10 1 1 0 0 1
-refdes=R?
-T 43400 47800 5 10 0 0 0 0 1
+refdes=R57
+T 43400 47800 5 10 0 1 0 0 1
 device=RESISTOR
 T 43400 46000 5 10 1 1 0 0 1
 value=220R
@@ -93,14 +93,14 @@ device=none
 C 48200 45200 1 0 0 switch-1.sym
 {
 T 48600 45600 5 10 1 1 0 0 1
-refdes=S?
-T 48400 45400 5 10 0 0 0 0 1
+refdes=S2
+T 48400 45400 5 10 0 1 0 0 1
 device=SWITCH-PUSHBUTTON-NO
 }
 C 48200 44200 1 0 0 switch-1.sym
 {
 T 48600 44600 5 10 1 1 0 0 1
-refdes=S?
-T 48400 44400 5 10 0 0 0 0 1
+refdes=S3
+T 48400 44400 5 10 0 1 0 0 1
 device=SWITCH-PUSHBUTTON-NO
 }
