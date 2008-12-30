@@ -1242,7 +1242,7 @@ pinnumber=151
 T 3350 11050 5 8 0 1 90 2 1
 pinseq=110
 T 3300 10850 9 8 1 1 90 6 1
-pinlabel=GNDPLLB(GNDOSC)
+pinlabel=GNDPLLB-OSC
 T 3300 10850 5 8 0 1 90 8 1
 pintype=in
 }
@@ -1276,7 +1276,7 @@ pinnumber=148
 T 3950 11050 5 8 0 1 90 2 1
 pinseq=113
 T 3900 10850 9 8 1 1 90 6 1
-pinlabel=VDDPLLB(VDDOSC)
+pinlabel=VDDPLLB-OSC
 T 3900 10850 5 8 0 1 90 8 1
 pintype=in
 }

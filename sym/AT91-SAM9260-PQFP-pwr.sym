@@ -204,7 +204,7 @@ pinnumber=148
 T 300 750 5 8 0 1 0 8 1
 pinseq=19
 T 450 800 9 8 1 1 0 0 1
-pinlabel=VDDPLLB(OSC)
+pinlabel=VDDPLLB-OSC
 T 450 800 5 8 0 1 0 2 1
 pintype=in
 }
@@ -468,7 +468,7 @@ pinnumber=151
 T 3500 350 5 8 0 1 0 2 1
 pinseq=43
 T 3350 400 9 8 1 1 0 6 1
-pinlabel=GNDPLLB(OSC)
+pinlabel=GNDPLLB-OSC
 T 3350 400 5 8 0 1 0 8 1
 pintype=in
 }

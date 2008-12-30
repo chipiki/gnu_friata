@@ -181,10 +181,10 @@ use-license=GPL v3
 154		in	line	t		PLLRCA
 153		in	line	t		GNDPLLA
 152		in	line	t		NC
-151		in	line	t		GNDPLLB(GNDOSC)
+151		in	line	t		GNDPLLB-OSC
 150		out	dot	t		XOUT
 149		in	line	t		XIN
-148		in	line	t		VDDPLLB(VDDOSC)
+148		in	line	t		VDDPLLB-OSC
 147		in	line	t		VDDCORE3
 146		in	line	t		GNDCORE3
 145		io	line	t		PC31/D31
