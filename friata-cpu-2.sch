@@ -338,4 +338,6 @@ T 45800 45900 5 10 1 1 0 0 1
 refdes=J1
 T 45895 45800 5 10 0 1 270 0 1
 device=HEADER
+T 45900 45800 5 10 1 1 0 0 1
+footprint=HEADER_0.1_inch_2pin
 }

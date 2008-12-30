@@ -23,8 +23,8 @@ $pinmap{9} = 5;
 
 
 my $pcb = Pcb_9->new(debug => 1);
-$pcb->element_begin(description => "DB9-smt",
-			output_file => "DB9-smt.fp",
+$pcb->element_begin(description => "DB9-SMT",
+			output_file => "DB9-SMT.fp",
 			dim => "mils",
 			pin_one_square => 1);
 

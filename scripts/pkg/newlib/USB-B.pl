@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 
 # This perl file generates the gEDA PCB footprint for:
-# USB B smt connector
+# USB B smt connector (KUSBX-SMT-BS1N-xxx)
 #
 # (0,0) is center
 
@@ -11,8 +11,8 @@ use warnings;
 use Pcb_9;
 
 my $pcb = Pcb_9->new(debug => 1);
-$pcb->element_begin(description => "USB-B",
-			output_file => "USB-B.fp",
+$pcb->element_begin(description => "USB-B-SMT",
+			output_file => "USB-B-SMT.fp",
 			dim => "mils",
 			pin_one_square => 1);
 
