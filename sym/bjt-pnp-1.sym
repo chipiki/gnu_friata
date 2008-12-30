@@ -24,16 +24,12 @@ T 1500 400 9 10 0 0 0 0 1
 description=NPN switching transistor in a SOT23 plastic package 
 T 900 1500 9 10 0 0 0 0 1
 documentation=http://www.datasheetarchive.com/semiconductors/pdfdatasheet.php?Datasheet=1689187
-T 2800 900 9 10 0 0 0 0 1
-footprint=SOT23
 T 3600 0 8 10 0 0 0 0 1
 author=Lucas Vogelsang lucasvoATgmx.ch
 T 0 0 8 10 0 0 0 0 1
 dist-license=GPL
 T 1600 0 8 10 0 0 0 0 1
 use-license=unlimited
-T 0 200 8 10 0 0 0 0 1
-comment=Suggested library: transistor
 P 600 0 600 200 1 0 0
 {
 T 550 105 5 6 1 1 90 6 1

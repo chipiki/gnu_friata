@@ -55,7 +55,7 @@ C 51600 43300 1 270 0 bjt-pnp-1.sym
 T 52300 43100 5 10 1 1 0 0 1
 refdes=Q1
 T 52500 40500 5 10 0 1 270 0 1
-footprint=SOT23
+footprint=SOT-223
 T 51300 43100 5 10 1 1 0 0 1
 value=FZT953
 T 51600 43300 5 10 0 1 0 0 1
@@ -66,7 +66,7 @@ C 50500 44100 1 270 0 bjt-npn-1.sym
 T 51300 43800 5 10 1 1 0 0 1
 refdes=Q2
 T 51400 41300 5 10 0 1 270 0 1
-footprint=SOT23
+footprint=SOT-23
 T 50200 43900 5 10 1 1 0 0 1
 value=2N2222
 T 50500 44100 5 10 0 1 0 0 1
@@ -77,7 +77,7 @@ C 49200 44500 1 270 1 bjt-npn-1.sym
 T 50300 45200 5 10 1 1 180 2 1
 refdes=Q3
 T 50100 47300 5 10 0 1 90 2 1
-footprint=SOT23
+footprint=SOT-23
 T 50800 44800 5 10 1 1 180 2 1
 value=2N2222
 T 49200 44500 5 10 0 1 0 0 1
@@ -244,7 +244,7 @@ refdes=U19
 T 42300 47700 5 10 0 1 0 0 1
 device=Si3201
 T 42300 47900 5 10 0 1 0 0 1
-footprint=ESOIC-16
+footprint=SOIC-16
 }
 C 47700 46500 1 0 0 resistor-h-1.sym
 {
