@@ -20,13 +20,13 @@ elementdir = "pkg/newlib"
     pins 3
     type "tabbed"
     pitch 2.3 mm
-    height 4.80 mm
-    tabheight 1.80 mm
-    tabwidth 3.3 mm
-    padwidth 1.0 mm
-    padheight 1.80 mm
-    silkwidth 10 mils
-    silkoffset 10 mils
+    height 4.3 mm
+    tabheight 2.0 mm
+    tabwidth 3.8 mm
+    padwidth 1.5 mm
+    padheight 2.0 mm
+    silkwidth 5 mils
+    silkoffset 5 mils
     silkstyle = "outside"
     #silkboxwidth = 
     #silkboxheight = 
