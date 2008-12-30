@@ -20,17 +20,16 @@ elementdir = "pkg/newlib"
     pins 16
     type "so"
     pitch 1.27 mm
-    width = 3.90 mm
+    width = 4.75 mm
     padwidth 1.00 mm
-    padheight 0.40 mm
+    padheight 0.50 mm
     silkwidth 5 mils
-    silkoffset 10 mils
+    silkoffset 5 mils
     silkstyle = "inside"
     #silkboxwidth = 
     #silkboxheight = 
     maskclear = 10 mils
     polyclear = 10 mils
     pinshigh = 0
-    ep = 3mm
-part "ESOIC-16.fp"
+part "SOIC-16.fp"
 
