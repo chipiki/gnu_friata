@@ -32,5 +32,3 @@ T 200 1100 5 10 0 0 0 0 1
 description=crystal
 T 200 900 5 10 0 0 0 0 1
 numslots=0
-T 200 700 5 10 0 0 0 0 1
-symversion=0.1
