@@ -20,11 +20,11 @@ elementdir = "pkg/newlib"
     pins 5
     type "tabbed"
     pitch 67 mils
-    height 449 mils
-    tabheight 66 mils
+    height 110 mils
+    tabheight 270 mils
     tabwidth 420 mils
     padwidth 36 mils
-    padheight 110 mils
+    padheight 200 mils
     silkwidth 5 mils
     silkoffset 5 mils
     silkstyle = "outside"
