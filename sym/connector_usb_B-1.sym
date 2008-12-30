@@ -41,4 +41,4 @@ USB B Female
 T 700 2000 8 10 1 1 0 0 1
 refdes=CONN?
 T -5 0 8 10 0 1 0 0 1
-device=CONNECTOR
+device=CONNECTOR-USB-B-FEMALE

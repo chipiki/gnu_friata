@@ -240,7 +240,7 @@ device=DB9
 T 51600 47800 5 10 1 1 0 0 1
 refdes=CONN?
 T 46600 42700 5 10 0 1 0 0 1
-device=CONNECTOR
+device=CONNECTOR-DB9-FEMALE
 }
 C 42200 47600 1 0 1 header-3pin-1.sym
 {

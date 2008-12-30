@@ -20,11 +20,9 @@ C 2500 4600 1 0 0 bridge-1.sym
 T 2700 5800 5 10 1 1 0 0 1
 refdes=U?
 T 2200 5700 5 10 0 0 0 0 1
-device=bridge
+device=DIODE-BRIDGE
 T 2200 6100 5 10 0 0 0 0 1
 symversion=0.1
-T 2795 4600 5 10 1 1 0 0 1
-device=DF10S
 }
 C 3800 4700 1 0 0 gnd-1.sym
 N 3700 5000 4000 5000 4
