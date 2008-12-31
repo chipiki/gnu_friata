@@ -27,4 +27,6 @@ do
 done
 
 rm prev.pdf
+mv output.pdf friata.pdf
+scripts/clean.sh
 

@@ -1,12 +1,17 @@
-
-Element["" "" "" "" 59055 39370 -6890 -2953 0 100 ""]
+Element["" "" "0805N" "" 0 0 -700 1700 1 23 ""]
 (
-	Pad[5079 0 5079 0 6000 2404 7202 "2" "2" "square,edge2"]
-	Pad[-4921 0 -4921 0 6000 2404 7202 "1" "1" "square"]
-	ElementLine [-8921 4000 9079 4000 800]
-	ElementLine [9079 4000 9079 -4000 800]
-	ElementLine [9079 -4000 -7421 -4000 800]
-	ElementLine [-7421 -4000 -8921 -2500 800]
-	ElementLine [-8921 -2500 -8921 4000 800]
+	Pad[3543 -393 3543 393 5118 2000 5918 "" "2" "square"]
+	Pad[-3543 -393 -3543 393 5118 2000 5918 "" "1" "square"]
+	ElementLine [-7100 3000 -7100 -3000 1000]
+	ElementLine [7100 4000 -6100 4000 1000]
+	ElementLine [7100 -4000 7100 4000 1000]
+	ElementLine [-6100 -4000 7100 -4000 1000]
+	ElementArc [-6100 3000 1000 1000 0 90 1000]
+	ElementArc [-6100 -3000 1000 1000 270 90 1000]
 
+	Attribute("author" "DJ Delorie")
+	Attribute("copyright" "2006 DJ Delorie")
+	Attribute("use-license" "Unlimited")
+	Attribute("dist-license" "GPL")
+	Attribute("description" "0805 SMD, normal size")
 	)

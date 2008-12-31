@@ -16,22 +16,27 @@ $pcb->element_begin(description => "USB-B-SMT",
 			dim => "mils",
 			pin_one_square => 1);
 
+# shield
 $pcb->element_add_pad_rectangle(x => -266, y => 370,
 				length => 98, width => 197,
 				mask => 10, clearance => 10,
-				name => 100, pin_number => 100);
+				name => 5, pin_number => 5);
 $pcb->element_add_pad_rectangle(x => 266, y => 370,
 				length => 98, width => 197,
 				mask => 10, clearance => 10,
-				name => 101, pin_number => 101);
+				name => 6, pin_number => 6);
+
+# mounting holes
 $pcb->element_add_pin(x => -108, y => 348,
-			thickness => 55, drill_hole => 55,
+			thickness => 0, drill_hole => 55,
 			mask => 10, clearance => 10,
-			name => 102, pin_number => 102);
+			name => 102, pin_number => 102,
+			flags => 0x0008);
 $pcb->element_add_pin(x => 108, y => 348,
-			thickness => 55, drill_hole => 55,
+			thickness => 0, drill_hole => 55,
 			mask => 10, clearance => 10,
-			name => 103, pin_number => 103);
+			name => 103, pin_number => 103,
+			flags => 0x0008);
 
 $pcb->element_add_pad_rectangle(x => -(24+49), y => 660,
 			length => 24, width => 98,
@@ -52,7 +57,7 @@ $pcb->element_add_pad_rectangle(x => 24+49, y => 660,
 
 $pcb->element_add_rectangle(x => 0, y => 306,
 			length => 433, width => 611,
-			clearance => 10, mask => 10);
+			thickness => 10);
 
 $pcb->element_output();
 

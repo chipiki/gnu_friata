@@ -15,15 +15,15 @@ $pcb->element_begin(description => "USB-A-SMT",
 			output_file => "USB-A-SMT.fp",
 			dim => "mils",
 			pin_one_square => 1);
-
+# mounting holes/shield
 $pcb->element_add_pin(x => -259, y => 393,
-			thickness => 91, drill_hole => 91,
+			thickness => 111, drill_hole => 91,
 			mask => 10, clearance => 10,
-			name => 102, pin_number => 102);
+			name => 5, pin_number => 5);
 $pcb->element_add_pin(x => 259, y => 393,
-			thickness => 91, drill_hole => 91,
+			thickness => 111, drill_hole => 91,
 			mask => 10, clearance => 10,
-			name => 103, pin_number => 103);
+			name => 6, pin_number => 6);
 
 $pcb->element_add_pad_rectangle(x => -138, y => 545,
 			length => 35, width => 98,
@@ -44,7 +44,7 @@ $pcb->element_add_pad_rectangle(x => 138, y => 545,
 
 $pcb->element_add_rectangle(x => 0, y => 248,
 			length => 426, width => 496,
-			clearance => 10, mask => 10);
+			thickness => 10);
 
 $pcb->element_output();
 

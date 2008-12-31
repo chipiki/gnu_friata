@@ -36,7 +36,7 @@ for (my $col = 6; $col >= 4; $col--) {
 
 $pcb->element_add_rectangle(x => 0, y => 0,
 			length => 87, width => 134,
-			thickness => 5);
+			thickness => 10);
 
 $pcb->element_output();
 

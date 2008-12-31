@@ -56,7 +56,7 @@ $pcb->element_add_pin(x => 272 + 55*8 + 93 + 179, y => 0,
 $pcb->element_add_rectangle(x => 492, y => 0,
 			length => 1224, width => 236,
 			mask => 10, clearance => 10,
-			thickness => 5);
+			thickness => 10);
 
 $pcb->element_output();
 

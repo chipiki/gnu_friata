@@ -17,13 +17,12 @@
 ###########################################################################
 
 elementdir = "pkg/newlib"
-    pins 4
     type "twopad"
     width = 2.65 mm
     padwidth 1.67 mm
     padheight 2.30 mm
-    silkwidth 5 mils
-    silkoffset 5 mils
+    silkwidth 10 mils
+    silkoffset 10 mils
     silkstyle = "outside"
     #silkboxwidth = 
     #silkboxheight = 

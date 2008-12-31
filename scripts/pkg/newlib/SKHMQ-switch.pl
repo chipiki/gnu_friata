@@ -38,7 +38,7 @@ $pcb->element_add_pad_rectangle(x => 165, y => 0,
 				name => 5, pin_number => 5);
 $pcb->element_add_rectangle(x => 0, y => 0,
 				length => 244, width => 256,
-				thickness => 5);
+				thickness => 10);
 
 $pcb->element_output();
 

@@ -41,15 +41,18 @@ $pcb->element_add_pad_rectangle(x => -(72 + 47 + 7*40 + 47 + 72), y => 0,
 			width => 181, length => 32,
 			mask => 10, clearance => 10,
 			name => 12, pin_number => 12);
-
+# mouting holes
 $pcb->element_add_pin(x => 0, y => 785,
-			thickness => 128, drill_hole => 128,
+			thickness => 0, drill_hole => 128,
 			mask => 10, clearance => 10,
-			pin_number => 100);
+			pin_number => 100,
+			flags => 0x0008);
 $pcb->element_add_pin(x => -(72 + 47 + 7*40 + 47 + 72), y => 785,
-			thickness => 128, drill_hole => 128,
+			thickness => 0, drill_hole => 128,
 			mask => 10, clearance => 10,
-			pin_number => 101);
+			pin_number => 101,
+			flags => 0x0008);
+# shield pads
 $pcb->element_add_pad_rectangle(x => (64 + 49), y => 785,
 			width => 154, length => 98,
 			mask => 10, clearance => 10,
@@ -60,7 +63,7 @@ $pcb->element_add_pad_rectangle(x => -(49 + + 64 + 72 + 47 + 7*40 + 47 + 72), y 
 			name => 14, pin_number => 14);
 $pcb->element_add_rectangle(x => -(317-60), y => 500,
 			width => 1000, length => 634,
-			thickness => 5);
+			thickness => 10);
 
 $pcb->element_output();
 

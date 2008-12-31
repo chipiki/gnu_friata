@@ -17,11 +17,10 @@
 ###########################################################################
 
 elementdir = "pkg/newlib"
-    pins 4
     type "twopad"
-    width = 171 mils
-    padwidth 110 mils
-    padheight 150 mils
+    width = 74 mils
+    padwidth 60 mils
+    padheight 66 mils
     silkwidth 10 mils
     silkoffset 10 mils
     silkstyle = "outside"
@@ -30,5 +29,5 @@ elementdir = "pkg/newlib"
     maskclear = 10 mils
     polyclear = 10 mils
     pinshigh = 0
-part "403-03.fp"
+part "DO-214.fp"
 
