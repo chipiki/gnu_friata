@@ -32,6 +32,6 @@ elementdir = "pkg/newlib"
     maskclear = 10 mils
     polyclear = 10 mils
     pinshigh = 0
-    ep = 4mm
+#    ep = 4mm
 part "PQFP-48.fp"
 
