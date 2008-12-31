@@ -11,7 +11,7 @@ use warnings;
 use Pcb_9;
 
 my $pcb = Pcb_9->new(debug => 1);
-$pcb->element_begin(description => "DF10s",
+$pcb->element_begin(description => "DC Jack RASM722",
 			output_file => "pwrjack-RASM722.fp",
 			dim => "mils",
 			pin_one_square => 1);
@@ -32,5 +32,12 @@ $pcb->element_add_rectangle(x => 0, y => 360,
 				length => 340, width => 532,
 				thickness => 10);
 
+# mounting hole
+$pcb->element_add_pin(x => 0, y => 508,
+			thickness => 0, drill_hole => 70,
+			mask => 10, clearance => 10,
+			name => 100, pin_number => 100,
+			flags => 0x0008);
+			
 $pcb->element_output();
 

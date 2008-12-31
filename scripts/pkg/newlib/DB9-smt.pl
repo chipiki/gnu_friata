@@ -32,10 +32,12 @@ $pcb->element_add_pin(x => 0, y => 0,
 			thickness => 140, drill_hole => 120,
 			mask => 10, clearance => 10,
 			name => 10, pin_number => 10);
+# mounting hole
 $pcb->element_add_pin(x => 179, y => 0,
-			thickness => 59, drill_hole => 59,
+			thickness => 0, drill_hole => 59,
 			mask => 10, clearance => 10,
-			name => 100, pin_number => 100);
+			name => 100, pin_number => 100,
+			flags => 0x0008);
 
 for (my $i = 1; $i <= 9; $i++) {
 	$pcb->element_add_pad_rectangle(x => 272 + 55*($i-1), y => 0,
@@ -44,10 +46,13 @@ for (my $i = 1; $i <= 9; $i++) {
 			name => "$pinmap{$i}", pin_number => "$pinmap{$i}");
 }
 
+# mounting hole
 $pcb->element_add_pin(x => 272 + 55*8 + 93, y => 0,
-			thickness => 59, drill_hole => 59,
+			thickness => 0, drill_hole => 59,
 			mask => 10, clearance => 10,
-			name => 101, pin_number => 101);
+			name => 101, pin_number => 101,
+			flags => 0x0008);
+
 $pcb->element_add_pin(x => 272 + 55*8 + 93 + 179, y => 0,
 			thickness => 140, drill_hole => 120,
 			mask => 10, clearance => 10,
