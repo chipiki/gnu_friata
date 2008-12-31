@@ -27,7 +27,7 @@ $pcb->element_add_pad_rectangle(x => -200, y => 0,
 $pcb->element_add_pad_rectangle(x => -200, y => 354,
 				length => 47, width => 60,
 				mask => 10, clearance => 10,
-				name => 3, pin_number => 1);
+				name => 3, pin_number => 3);
 $pcb->element_add_pad_rectangle(x => 0, y => 354,
 				length => 47, width => 60,
 				mask => 10, clearance => 10,
