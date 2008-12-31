@@ -1,17 +1,9 @@
-Element["" "" "0805N" "" 0 0 -700 1700 1 23 ""]
+Element[0x0 "SMD" "" "" 0 0 -7799 -11421 0 100 0x0]
 (
-	Pad[3543 -393 3543 393 5118 2000 5918 "" "2" "square"]
-	Pad[-3543 -393 -3543 393 5118 2000 5918 "" "1" "square"]
-	ElementLine [-7100 3000 -7100 -3000 1000]
-	ElementLine [7100 4000 -6100 4000 1000]
-	ElementLine [7100 -4000 7100 4000 1000]
-	ElementLine [-6100 -4000 7100 -4000 1000]
-	ElementArc [-6100 3000 1000 1000 0 90 1000]
-	ElementArc [-6100 -3000 1000 1000 270 90 1000]
-
-	Attribute("author" "DJ Delorie")
-	Attribute("copyright" "2006 DJ Delorie")
-	Attribute("use-license" "Unlimited")
-	Attribute("dist-license" "GPL")
-	Attribute("description" "0805 SMD, normal size")
-	)
+   Pad[-3740 -393 -3740 393 5118 2000 7118 "input" "1" 0x0100]
+   Pad[3740 -393 3740 393 5118 2000 7118 "input" "2" 0x0100]
+   ElementLine[-7799 4452 -7799 -4452 1000]
+   ElementLine[-7799 -4452 7799 -4452 1000]
+   ElementLine[7799 -4452 7799 4452 1000]
+   ElementLine[7799 4452 -7799 4452 1000]
+)

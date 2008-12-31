@@ -713,8 +713,14 @@ T 55200 50900 5 10 0 1 0 0 1
 device=INDUCTOR
 T 55200 50700 5 10 1 1 0 0 1
 refdes=L2
-T 55200 50300 5 10 1 1 0 0 1
-value=47uH
+T 53800 50700 5 10 1 1 0 0 1
+value=47uH/150mA
+T 55000 50400 5 10 0 1 0 0 1
+manufacturer=TDK
+T 55000 50400 5 10 0 1 0 0 1
+manufacturer_part_number=NLCV32T-470K-PF
+T 55000 50400 5 10 0 1 0 0 1
+footprint=1206
 }
 C 45000 42300 1 0 0 inductor-1.sym
 {
@@ -724,6 +730,10 @@ T 45200 42600 5 10 1 1 0 0 1
 refdes=L3
 T 45200 42200 5 10 1 1 0 0 1
 value=BLM18AG601SN1
+T 45000 42300 5 10 0 1 0 0 1
+footprint=0603
+T 45000 42300 5 10 0 1 0 0 1
+manufacturer=MURATA
 }
 C 45000 40400 1 0 0 inductor-1.sym
 {
@@ -733,6 +743,10 @@ T 45200 40700 5 10 1 1 0 0 1
 refdes=L4
 T 45200 40300 5 10 1 1 0 0 1
 value=BLM18AG601SN1
+T 45000 40400 5 10 0 1 0 0 1
+footprint=0603
+T 45000 40400 5 10 0 1 0 0 1
+manufacturer=MURATA
 }
 C 49300 42900 1 0 0 inductor-1.sym
 {
@@ -741,7 +755,11 @@ device=INDUCTOR
 T 49500 43200 5 10 1 1 0 0 1
 refdes=L5
 T 49500 42800 5 10 1 1 0 0 1
-value=150uH
+value=150uH/1.5A
+T 49300 42900 5 10 0 1 0 0 1
+footprint=SUMIDA-CR54
+T 49300 42900 5 10 0 1 0 0 1
+manufacturer=MURATA
 }
 C 42000 41200 1 0 0 sidactor-1.sym
 {
@@ -749,4 +767,12 @@ T 42000 41195 5 10 0 1 0 0 1
 device=SIDACTOR
 T 42200 41695 5 10 1 1 0 0 1
 refdes=RV1
+T 42000 41200 5 10 0 1 0 0 1
+footprint=DO-214AA
+T 42000 41200 5 10 1 1 0 0 1
+value=P3100SB
+T 42000 41200 5 10 0 1 0 0 1
+manufacturer=LITTELFUSE/TECCOR
+T 42000 41200 5 10 0 1 0 0 1
+manufacturer_part_number=P3100SB
 }
