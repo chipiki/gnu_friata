@@ -1,0 +1,46 @@
+v 20080127 1
+C 40000 40000 0 0 0 title-B.sym
+T 52000 40800 9 10 1 0 0 0 2
+Mounting holes
+GPLv3
+T 54300 40300 9 10 1 0 0 0 1
+Saritha Kalyanam
+C 45300 45000 1 0 0 gnd-1.sym
+N 43200 45600 47700 45600 4
+N 45500 45600 45500 45300 4
+C 43000 45600 1 0 0 hole-1.sym
+{
+T 43000 45600 5 10 0 1 0 0 1
+device=HOLE
+T 43200 46200 5 10 1 1 0 4 1
+refdes=H1
+T 43000 45595 5 10 0 1 0 0 1
+footprint=HOLE_M3
+}
+C 44200 45600 1 0 0 hole-1.sym
+{
+T 44200 45600 5 10 0 1 0 0 1
+device=HOLE
+T 44400 46200 5 10 1 1 0 4 1
+refdes=H2
+T 44200 45595 5 10 0 1 0 0 1
+footprint=HOLE_M3
+}
+C 46400 45600 1 0 0 hole-1.sym
+{
+T 46400 45600 5 10 0 1 0 0 1
+device=HOLE
+T 46600 46200 5 10 1 1 0 4 1
+refdes=H3
+T 46400 45595 5 10 0 1 0 0 1
+footprint=HOLE_M3
+}
+C 47500 45600 1 0 0 hole-1.sym
+{
+T 47500 45600 5 10 0 1 0 0 1
+device=HOLE
+T 47700 46200 5 10 1 1 0 4 1
+refdes=H4
+T 47500 45595 5 10 0 1 0 0 1
+footprint=HOLE_M3
+}

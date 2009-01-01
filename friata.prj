@@ -1,2 +1,2 @@
-schematics friata-cpu-1.sch friata-cpu-2.sch friata-cpu-3.sch friata-cpu-4.sch friata-cpu-5.sch friata-cpu-6.sch friata-cpu-7.sch friata-eth-1.sch friata-flash-1.sch friata-fxs-1.sch friata-jtag.sch friata-mem-1.sch friata-pwr-1.sch friata-serial.sch friata-ui.sch friata-usb-1.sch 
+schematics friata-cpu-1.sch friata-cpu-2.sch friata-cpu-3.sch friata-cpu-4.sch friata-cpu-5.sch friata-cpu-6.sch friata-cpu-7.sch friata-eth-1.sch friata-flash-1.sch friata-fxs-1.sch friata-holes.sch friata-jtag.sch friata-mem-1.sch friata-pwr-1.sch friata-serial.sch friata-ui.sch friata-usb-1.sch
 output-name friata
