@@ -22,7 +22,7 @@ elementdir = "pkg/newlib"
     pitch 0.65 mm
     width = 4.40 mm
     padwidth 80 mils
-    padheight 0.20 mm
+    padheight 0.27 mm
     silkwidth 10 mils
     silkoffset 10 mils
     silkstyle = "inside"
