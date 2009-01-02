@@ -21,9 +21,9 @@ elementdir = "pkg/newlib"
     type "so"
     pitch 0.80 mm
     width = 10.16 mm
-    padwidth 0.80 mm
+    padwidth 80 mils
     padheight 0.375 mm
-    silkwidth 5 mils
+    silkwidth 10 mils
     silkoffset 10 mils
     silkstyle = "inside"
     #silkboxwidth = 
