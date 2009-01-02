@@ -22,13 +22,12 @@ elementdir = "pkg/newlib"
     width = 3.0 mm
     padwidth 5.5 mm
     padheight 1.5 mm
-    silkwidth 5 mils
-    silkoffset 5 mils
+    silkwidth 10 mils
+    silkoffset 10 mils
     silkstyle = "outside"
     silkboxwidth = 10.5
     silkboxheight = 4 mm
     maskclear = 10 mils
     polyclear = 10 mils
-    pinshigh = 0
-part "crystal-Citizen-HCM49.fp"
+part "XTAL-CITIZEN-HCM49.fp"
 

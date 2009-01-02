@@ -24,8 +24,8 @@ elementdir = "pkg/newlib"
     height = 7.00 mm
     padwidth 1.2 mm
     padheight 0.25 mm
-    silkwidth 5 mils
-    silkoffset 5 mils
+    silkwidth 10 mils
+    silkoffset 10 mils
     silkstyle = "inside"
     #silkboxwidth = 
     #silkboxheight = 
