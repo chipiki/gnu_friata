@@ -20,8 +20,8 @@ elementdir = "pkg/newlib"
     pins 16
     type "so"
     pitch 1.27 mm
-    width = 4.75 mm
-    padwidth 1.00 mm
+    width = 4.00 mm
+    padwidth 80 mils
     padheight 0.50 mm
     silkwidth 10 mils
     silkoffset 10 mils
