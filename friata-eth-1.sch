@@ -72,7 +72,11 @@ refdes=C35
 T 53500 49900 5 10 0 1 0 0 1
 device=CAPACITOR
 T 53400 48300 5 10 1 1 0 0 1
-value=100nF
+value=100nF/16V
+T 52900 48000 5 10 0 1 0 0 1
+footprint=0603
+T 52900 48000 5 10 0 1 0 0 1
+manufacturer=KEMET
 }
 C 52900 47700 1 0 0 capacitor-h-1.sym
 {
@@ -81,7 +85,11 @@ refdes=C36
 T 53500 49600 5 10 0 1 0 0 1
 device=CAPACITOR
 T 53400 48000 5 10 1 1 0 0 1
-value=100nF
+value=100nF/16V
+T 52900 47700 5 10 0 1 0 0 1
+footprint=0603
+T 52900 47700 5 10 0 1 0 0 1
+manufacturer=KEMET
 }
 C 52300 48300 1 0 0 3V3-plus.sym
 C 54100 47900 1 0 0 gnd-1.sym
@@ -153,7 +161,11 @@ refdes=C37
 T 47600 44700 5 10 0 1 0 0 1
 device=CAPACITOR
 T 48100 42900 5 10 1 1 0 0 1
-value=100nF
+value=100nF/16V
+T 47900 42800 5 10 0 1 0 0 1
+footprint=0603
+T 47900 42800 5 10 0 1 0 0 1
+manufacturer=KEMET
 }
 C 48600 42800 1 0 0 capacitor-v-1.sym
 {
@@ -162,7 +174,11 @@ refdes=C38
 T 48300 44700 5 10 0 1 0 0 1
 device=CAPACITOR
 T 48800 42900 5 10 1 1 0 0 1
-value=100nF
+value=100nF/16V
+T 48600 42800 5 10 0 1 0 0 1
+footprint=0603
+T 48600 42800 5 10 0 1 0 0 1
+manufacturer=KEMET
 }
 C 49300 42800 1 0 0 capacitor-v-1.sym
 {
@@ -171,7 +187,11 @@ refdes=C39
 T 49000 44700 5 10 0 1 0 0 1
 device=CAPACITOR
 T 49500 42900 5 10 1 1 0 0 1
-value=100nF
+value=100nF/16V
+T 49300 42800 5 10 0 1 0 0 1
+footprint=0603
+T 49300 42800 5 10 0 1 0 0 1
+manufacturer=KEMET
 }
 C 50100 42400 1 0 0 capacitor-v-2.sym
 {
@@ -180,7 +200,7 @@ refdes=C40
 T 50500 44700 5 10 0 1 0 0 1
 device=CAPACITOR
 T 50400 42800 5 10 1 1 0 0 1
-value=10uF
+value=10uF/10V
 }
 N 48000 42800 48000 42500 4
 N 48000 42500 50300 42500 4
@@ -205,7 +225,11 @@ refdes=C41
 T 50400 50200 5 10 0 1 0 0 1
 device=CAPACITOR
 T 50300 48600 5 10 1 1 0 0 1
-value=100nF
+value=100nF/16V
+T 49800 48300 5 10 0 1 0 0 1
+footprint=0603
+T 49800 48300 5 10 0 1 0 0 1
+manufacturer=KEMET
 }
 C 49800 48000 1 0 0 capacitor-h-1.sym
 {
@@ -214,7 +238,11 @@ refdes=C42
 T 50400 49900 5 10 0 1 0 0 1
 device=CAPACITOR
 T 50300 48300 5 10 1 1 0 0 1
-value=100nF
+value=100nF/16V
+T 49800 48000 5 10 0 1 0 0 1
+footprint=0603
+T 49800 48000 5 10 0 1 0 0 1
+manufacturer=KEMET
 }
 C 51000 48200 1 0 0 gnd-1.sym
 N 50900 48500 50900 48200 4

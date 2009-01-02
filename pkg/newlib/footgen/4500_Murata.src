@@ -19,9 +19,9 @@
 elementdir = "pkg/newlib"
     pins 4
     type "twopad"
-    width = 1.7 mm
-    padwidth 2.2 mm
-    padheight 5.5 mm
+    width = 3.5 mm
+    padwidth 2.5 mm
+    padheight 3.25 mm
     silkwidth 10 mils
     silkoffset 10 mils
     silkstyle = "outside"
@@ -30,5 +30,5 @@ elementdir = "pkg/newlib"
     maskclear = 10 mils
     polyclear = 10 mils
     pinshigh = 0
-part "SUMIDA_CR54.fp"
+part "MURATA_4500.fp"
 

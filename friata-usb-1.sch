@@ -112,7 +112,11 @@ refdes=C93
 T 48000 48600 5 10 0 1 0 0 1
 device=CAPACITOR
 T 48500 46800 5 10 1 1 0 0 1
-value=100nF
+value=100nF/16V
+T 48300 46700 5 10 0 1 0 0 1
+footprint=0603
+T 48300 46700 5 10 0 1 0 0 1
+manufacturer=KEMET
 }
 C 48300 42700 1 0 0 capacitor-v-1.sym
 {
@@ -121,7 +125,11 @@ refdes=C94
 T 48000 44600 5 10 0 1 0 0 1
 device=CAPACITOR
 T 48500 42800 5 10 1 1 0 0 1
-value=100nF
+value=100nF/16V
+T 48300 42700 5 10 0 1 0 0 1
+footprint=0603
+T 48300 42700 5 10 0 1 0 0 1
+manufacturer=KEMET
 }
 C 44000 47100 1 0 0 USBDF01W5.sym
 {
@@ -159,7 +167,11 @@ refdes=C95
 T 46600 46700 5 10 0 1 0 0 1
 device=CAPACITOR
 T 47100 44900 5 10 1 1 0 0 1
-value=100nF
+value=100nF/16V
+T 46900 44800 5 10 0 1 0 0 1
+footprint=0603
+T 46900 44800 5 10 0 1 0 0 1
+manufacturer=KEMET
 }
 N 47000 45500 46000 45500 4
 C 46800 44400 1 0 0 gnd-1.sym

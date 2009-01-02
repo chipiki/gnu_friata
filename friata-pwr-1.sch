@@ -192,11 +192,11 @@ device=INDUCTOR
 T 13800 7200 5 10 1 1 0 0 1
 refdes=L6
 T 13800 6900 5 10 1 1 0 0 1
-value=22uH
+value=22uH/1.5A
 T 13600 6900 5 10 0 1 0 0 1
-footprint=SUMIDA-CR54
+footprint=MURATA_4500
 T 13600 6900 5 10 0 1 0 0 1
-manufacturer=SUMIDA
+manufacturer=MURATA
 }
 N 13200 7000 13600 7000 4
 C 14700 6300 1 0 0 capacitor-v-1.sym
@@ -239,11 +239,11 @@ device=INDUCTOR
 T 14400 5600 5 10 1 1 0 0 1
 refdes=L7
 T 13700 5400 5 10 1 1 0 0 1
-value=22uH
+value=22uH/1.5A
 T 13700 5400 5 10 0 1 0 0 1
-footprint=SUMIDA-CR54
+footprint=MURATA_4500
 T 13700 5400 5 10 0 1 0 0 1
-manufacturer=SUMIDA
+manufacturer=MURATA
 }
 C 14700 4800 1 0 0 capacitor-v-1.sym
 {
@@ -372,6 +372,8 @@ T 7800 10000 5 10 0 1 0 0 1
 device=CAPACITOR
 T 7700 8100 5 10 1 1 0 0 1
 value=150uF/35V
+T 7400 7700 5 10 0 1 0 0 1
+manufacturer=NICHICON
 }
 N 7600 7900 7600 7600 4
 N 8600 7600 8600 8700 4
@@ -385,9 +387,9 @@ refdes=L8
 T 10300 9600 5 10 1 1 0 0 1
 value=68uH/1.5A
 T 9800 9300 5 10 0 1 0 0 1
-footprint=SUMIDA-CR54
+footprint=MURATA_4500
 T 9800 9300 5 10 0 1 0 0 1
-manufacturer=SUMIDA
+manufacturer=MURATA
 }
 N 9800 9400 9600 9400 4
 C 11100 8100 1 90 0 schottky-1.sym
@@ -412,6 +414,8 @@ T 11700 10300 5 10 0 1 0 0 1
 device=CAPACITOR
 T 11600 8400 5 10 1 1 0 0 1
 value=470uF/10V
+T 11300 8000 5 10 0 1 0 0 1
+manufacturer=NICHICON
 }
 N 11500 8200 11500 7600 4
 N 7600 7600 11500 7600 4
