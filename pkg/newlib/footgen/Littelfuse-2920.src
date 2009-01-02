@@ -22,13 +22,12 @@ elementdir = "pkg/newlib"
     width = 181 mils
     padwidth 79 mils
     padheight 210 mils
-    silkwidth 5 mils
-    silkoffset 5 mils
+    silkwidth 10 mils
+    silkoffset 10 mils
     silkstyle = "outside"
     #silkboxwidth = 
     #silkboxheight = 
     maskclear = 10 mils
     polyclear = 10 mils
-    pinshigh = 0
 part "LITTELFUSE-2920.fp"
 

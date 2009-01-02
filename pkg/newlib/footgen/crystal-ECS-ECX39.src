@@ -22,13 +22,12 @@ elementdir = "pkg/newlib"
     width = 2.9 mm
     padwidth 1.3 mm
     padheight 2.2 mm
-    silkwidth 5 mils
-    silkoffset 5 mils
+    silkwidth 10 mils
+    silkoffset 10 mils
     silkstyle = "outside"
     #silkboxwidth = 
     #silkboxheight = 20 mils
     maskclear = 10 mils
     polyclear = 10 mils
-    pinshigh = 0
-part "crystal-ECS-ECX39.fp"
+part "XTAL-ECS-ECX39.fp"
 
