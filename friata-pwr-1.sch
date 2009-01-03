@@ -40,8 +40,10 @@ T 4700 5300 5 10 1 1 0 0 1
 refdes=C72
 T 4200 6700 5 10 0 1 0 0 1
 device=CAPACITOR
-T 4700 4900 5 10 1 1 0 0 1
-value=100nF
+T 4100 4400 5 10 1 1 0 0 1
+value=100nF/25V
+T 4500 4800 5 10 0 1 0 0 1
+footprint=0805
 }
 C 5200 4800 1 0 0 capacitor-v-1.sym
 {
@@ -49,20 +51,12 @@ T 5400 5300 5 10 1 1 0 0 1
 refdes=C73
 T 4900 6700 5 10 0 1 0 0 1
 device=CAPACITOR
-T 5400 4900 5 10 1 1 0 0 1
-value=4.7uF
+T 4800 4900 5 10 1 1 0 0 1
+value=4.7uF/25V
+T 5200 4800 5 10 0 1 0 0 1
+footprint=0805
 }
-C 5800 4800 1 0 0 capacitor-v-1.sym
-{
-T 6000 5300 5 10 1 1 0 0 1
-refdes=C74
-T 5500 6700 5 10 0 1 0 0 1
-device=CAPACITOR
-T 6000 4900 5 10 1 1 0 0 1
-value=47uF
-}
-N 4600 4800 5900 4800 4
-C 5100 4500 1 0 0 gnd-1.sym
+C 5100 4300 1 0 0 gnd-1.sym
 C 7100 2800 1 0 0 capacitor-h-1.sym
 {
 T 7600 3100 5 10 1 1 0 0 1
@@ -70,7 +64,9 @@ refdes=C75
 T 7700 4700 5 10 0 1 0 0 1
 device=CAPACITOR
 T 7600 2800 5 10 1 1 0 0 1
-value=100nF
+value=100nF/25V
+T 7100 2800 5 10 0 1 0 0 1
+footprint=0805
 }
 C 7100 4300 1 0 0 capacitor-h-1.sym
 {
@@ -79,7 +75,9 @@ refdes=C76
 T 7700 6200 5 10 0 1 0 0 1
 device=CAPACITOR
 T 7600 4300 5 10 1 1 0 0 1
-value=4.7nF
+value=4.7nF/25V
+T 7100 4300 5 10 0 1 0 0 1
+footprint=0805
 }
 C 7100 3800 1 0 0 capacitor-h-1.sym
 {
@@ -88,7 +86,9 @@ refdes=C77
 T 7700 5700 5 10 0 1 0 0 1
 device=CAPACITOR
 T 7600 3800 5 10 1 1 0 0 1
-value=1nF
+value=1nF/25V
+T 7100 3800 5 10 0 1 0 0 1
+footprint=0805
 }
 C 7100 4900 1 0 0 capacitor-h-1.sym
 {
@@ -97,7 +97,9 @@ refdes=C78
 T 7700 6800 5 10 0 1 0 0 1
 device=CAPACITOR
 T 7600 4900 5 10 1 1 0 0 1
-value=100nF
+value=100nF/25V
+T 7100 4900 5 10 0 1 0 0 1
+footprint=0805
 }
 C 8200 4400 1 0 0 resistor-h-1.sym
 {
@@ -132,7 +134,9 @@ refdes=C79
 T 7700 5200 5 10 0 1 0 0 1
 device=CAPACITOR
 T 7600 3300 5 10 1 1 0 0 1
-value=4.7nF
+value=4.7nF/25V
+T 7100 3300 5 10 0 1 0 0 1
+footprint=0805
 }
 N 8200 3500 7800 3500 4
 N 10200 3900 9900 3900 4
@@ -183,7 +187,9 @@ refdes=C80
 T 13100 8700 5 10 0 1 0 0 1
 device=CAPACITOR
 T 13000 6800 5 10 1 1 0 0 1
-value=1uF
+value=1uF/25V
+T 12500 6800 5 10 0 1 0 0 1
+footprint=0805
 }
 N 12300 5300 12300 7000 4
 N 12300 7000 12500 7000 4
@@ -212,7 +218,9 @@ refdes=C81
 T 14400 8200 5 10 0 1 0 0 1
 device=CAPACITOR
 T 14900 6400 5 10 1 1 0 0 1
-value=1uF
+value=1uF/25V
+T 14700 6300 5 10 0 1 0 0 1
+footprint=0805
 }
 C 15100 5900 1 0 0 capacitor-v-2.sym
 {
@@ -237,7 +245,9 @@ refdes=C83
 T 13300 7200 5 10 0 1 0 0 1
 device=CAPACITOR
 T 13200 5300 5 10 1 1 0 0 1
-value=1uF
+value=1uF/10V
+T 12700 5300 5 10 0 1 0 0 1
+footprint=0805
 }
 N 13400 5500 13700 5500 4
 C 13700 5400 1 0 0 inductor-1.sym
@@ -258,9 +268,11 @@ C 14700 4800 1 0 0 capacitor-v-1.sym
 T 14900 5300 5 10 1 1 0 0 1
 refdes=C84
 T 14900 4900 5 10 1 1 0 0 1
-value=1uF
+value=1uF/10V
 T 14400 6700 5 10 0 1 0 0 1
 device=CAPACITOR
+T 14700 4800 5 10 0 1 0 0 1
+footprint=0805
 }
 C 15100 4400 1 0 0 capacitor-v-2.sym
 {
@@ -333,7 +345,7 @@ footprint=0603
 N 15700 9100 15700 8900 4
 C 15500 8600 1 0 0 gnd-1.sym
 N 14800 8000 14800 7500 4
-N 7100 5500 7100 6700 4
+N 4000 5500 4000 6700 4
 C 14600 5900 1 0 1 schottky-1.sym
 {
 T 13950 6350 5 10 1 1 0 0 1
@@ -377,21 +389,7 @@ footprint=TO-263
 }
 C 6800 9100 1 0 0 gnd-1.sym
 N 7600 9400 7000 9400 4
-N 6500 5500 6500 8800 4
-N 6500 8800 7600 8800 4
-N 7600 8800 7600 9200 4
-C 7400 7700 1 0 0 capacitor-v-2.sym
-{
-T 7700 8500 5 10 1 1 0 0 1
-refdes=C86
-T 7800 10000 5 10 0 1 0 0 1
-device=CAPACITOR
-T 7700 8100 5 10 1 1 0 0 1
-value=150uF/35V
-T 7400 7700 5 10 0 1 0 0 1
-manufacturer=NICHICON
-}
-N 7600 7900 7600 7600 4
+N 7600 5500 7600 9200 4
 N 8600 7600 8600 8700 4
 C 8400 7300 1 0 0 gnd-1.sym
 C 9800 9300 1 0 0 inductor-1.sym
@@ -432,12 +430,14 @@ T 11600 8400 5 10 1 1 0 0 1
 value=470uF/10V
 T 11300 8000 5 10 0 1 0 0 1
 manufacturer=NICHICON
+T 11300 8000 5 10 0 1 0 0 1
+footprint=2512
 }
 N 11500 8200 11500 7600 4
-N 7600 7600 11500 7600 4
+N 8600 7600 11500 7600 4
 N 11500 9100 11500 9400 4
 N 14800 8500 14800 9100 4
-C 6700 6700 1 0 0 VUNREG.sym
+C 3600 6700 1 0 0 VUNREG.sym
 C 500 5100 1 0 0 connector_dc_jack-1.sym
 {
 T 500 5095 5 10 0 1 0 0 1
@@ -497,3 +497,17 @@ T 16800 6200 5 10 0 0 0 0 1
 footprint=PAD-ROUND-SMT
 }
 N 14600 5500 16500 5500 4
+C 5800 4400 1 0 0 capacitor-v-2.sym
+{
+T 6100 5200 5 10 1 1 0 0 1
+refdes=C74
+T 6200 6700 5 10 0 1 0 0 1
+device=CAPACITOR
+T 5600 4700 5 10 1 1 0 0 1
+value=100uF/25V
+T 5800 4400 5 10 0 1 0 0 1
+footprint=2512
+}
+N 4600 4800 4600 4600 4
+N 4600 4600 6000 4600 4
+N 5300 4800 5300 4600 4
