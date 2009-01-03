@@ -439,7 +439,9 @@ refdes=C66
 T 47200 50800 5 10 0 1 0 0 1
 device=CAPACITOR
 T 47100 48900 5 10 1 1 0 0 1
-value=100nF
+value=100nF/16V
+T 46600 48900 5 10 0 1 0 0 1
+footprint=0603
 }
 C 46600 48300 1 0 0 capacitor-h-1.sym
 {
@@ -448,7 +450,9 @@ refdes=C67
 T 47200 50200 5 10 0 1 0 0 1
 device=CAPACITOR
 T 47100 48300 5 10 1 1 0 0 1
-value=100nF
+value=100nF/16V
+T 46600 48300 5 10 0 1 0 0 1
+footprint=0603
 }
 C 46600 47700 1 0 0 capacitor-h-1.sym
 {
@@ -457,7 +461,9 @@ refdes=C68
 T 47200 49600 5 10 0 1 0 0 1
 device=CAPACITOR
 T 47100 47700 5 10 1 1 0 0 1
-value=100nF
+value=100nF/16V
+T 46600 47700 5 10 0 1 0 0 1
+footprint=0603
 }
 C 46600 47100 1 0 0 capacitor-h-1.sym
 {
@@ -466,7 +472,9 @@ refdes=C69
 T 47200 49000 5 10 0 1 0 0 1
 device=CAPACITOR
 T 47100 47100 5 10 1 1 0 0 1
-value=100nF
+value=100nF/16V
+T 46600 47100 5 10 0 1 0 0 1
+footprint=0603
 }
 C 46600 46600 1 0 0 capacitor-h-1.sym
 {
@@ -475,7 +483,9 @@ refdes=C70
 T 47200 48500 5 10 0 1 0 0 1
 device=CAPACITOR
 T 47100 46600 5 10 1 1 0 0 1
-value=100nF
+value=100nF/16V
+T 46600 46600 5 10 0 1 0 0 1
+footprint=0603
 }
 C 46600 46000 1 0 0 capacitor-h-1.sym
 {
@@ -484,6 +494,8 @@ refdes=C71
 T 47200 47900 5 10 0 1 0 0 1
 device=CAPACITOR
 T 47100 46000 5 10 1 1 0 0 1
-value=100nF
+value=100nF/16V
+T 46600 46000 5 10 0 1 0 0 1
+footprint=0603
 }
 C 46100 49100 1 0 0 3V3-plus.sym

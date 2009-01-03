@@ -481,11 +481,9 @@ device=INDUCTOR
 T 42800 45600 5 10 1 1 0 0 1
 refdes=L1
 T 42700 45200 5 10 1 1 0 0 1
-value=4.7uH
+value=4.7uH/150mA
 T 42600 45300 5 10 0 1 0 0 1
 manufacturer=TDK
-T 42600 45300 5 10 0 1 0 0 1
-manufacturer_part_number=NLCV32T-4R7M-PF
 T 42600 45300 5 10 0 1 0 0 1
 footprint=1206
 }
