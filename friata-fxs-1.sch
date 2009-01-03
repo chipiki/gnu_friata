@@ -447,7 +447,7 @@ refdes=R33
 T 53800 44400 5 10 0 2 0 0 1
 device=RESISTOR
 T 53600 42800 5 10 1 1 0 0 1
-value=0.56
+value=0.68
 T 53100 42600 5 10 0 1 0 0 1
 footprint=0805
 }
