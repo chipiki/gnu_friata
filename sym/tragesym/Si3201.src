@@ -92,4 +92,5 @@ numslots=0
 # Top Side
 8		in	line	t		VDD
 7		in	line	t		GND
+17		in	line	t		GND
 
