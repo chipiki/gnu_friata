@@ -439,7 +439,7 @@ refdes=C66
 T 47200 50800 5 10 0 1 0 0 1
 device=CAPACITOR
 T 47100 48900 5 10 1 1 0 0 1
-value=100nF/16V
+value=100nF/25V
 T 46600 48900 5 10 0 1 0 0 1
 footprint=0603
 }
@@ -450,7 +450,7 @@ refdes=C67
 T 47200 50200 5 10 0 1 0 0 1
 device=CAPACITOR
 T 47100 48300 5 10 1 1 0 0 1
-value=100nF/16V
+value=100nF/25V
 T 46600 48300 5 10 0 1 0 0 1
 footprint=0603
 }
@@ -461,7 +461,7 @@ refdes=C68
 T 47200 49600 5 10 0 1 0 0 1
 device=CAPACITOR
 T 47100 47700 5 10 1 1 0 0 1
-value=100nF/16V
+value=100nF/25V
 T 46600 47700 5 10 0 1 0 0 1
 footprint=0603
 }
@@ -472,7 +472,7 @@ refdes=C69
 T 47200 49000 5 10 0 1 0 0 1
 device=CAPACITOR
 T 47100 47100 5 10 1 1 0 0 1
-value=100nF/16V
+value=100nF/25V
 T 46600 47100 5 10 0 1 0 0 1
 footprint=0603
 }
@@ -483,7 +483,7 @@ refdes=C70
 T 47200 48500 5 10 0 1 0 0 1
 device=CAPACITOR
 T 47100 46600 5 10 1 1 0 0 1
-value=100nF/16V
+value=100nF/25V
 T 46600 46600 5 10 0 1 0 0 1
 footprint=0603
 }
@@ -494,7 +494,7 @@ refdes=C71
 T 47200 47900 5 10 0 1 0 0 1
 device=CAPACITOR
 T 47100 46000 5 10 1 1 0 0 1
-value=100nF/16V
+value=100nF/25V
 T 46600 46000 5 10 0 1 0 0 1
 footprint=0603
 }

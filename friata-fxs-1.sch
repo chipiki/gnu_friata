@@ -28,7 +28,7 @@ refdes=C46
 T 42100 51400 5 10 0 2 0 0 1
 device=CAPACITOR
 T 41400 49400 5 10 1 1 0 0 1
-value=100nF/16V
+value=100nF/25V
 T 41500 49500 5 10 0 1 0 0 1
 footprint=0603
 T 41500 49500 5 10 0 1 0 0 1
@@ -340,7 +340,7 @@ refdes=C52
 T 53800 51600 5 10 0 2 0 0 1
 device=CAPACITOR
 T 53900 49800 5 10 1 1 0 0 1
-value=100nF/16V
+value=100nF/25V
 T 54100 49700 5 10 0 1 0 0 1
 footprint=0603
 T 54100 49700 5 10 0 1 0 0 1
@@ -353,7 +353,7 @@ refdes=C53
 T 54500 51600 5 10 0 2 0 0 1
 device=CAPACITOR
 T 55000 49800 5 10 1 1 0 0 1
-value=100nF/16V
+value=100nF/25V
 T 54800 49700 5 10 0 1 0 0 1
 footprint=0603
 T 54800 49700 5 10 0 1 0 0 1
@@ -370,7 +370,7 @@ refdes=C54
 T 55600 51600 5 10 0 2 0 0 1
 device=CAPACITOR
 T 55900 49300 5 10 1 1 0 0 1
-value=100nF/16V
+value=100nF/25V
 T 55900 49700 5 10 0 1 0 0 1
 footprint=0603
 T 55900 49700 5 10 0 1 0 0 1
@@ -505,7 +505,7 @@ device=CAPACITOR
 T 54800 42400 5 10 1 1 0 0 1
 value=100nF/25V
 T 54600 42500 5 10 0 1 0 0 1
-footprint=1206
+footprint=0603
 T 54600 42500 5 10 0 1 0 0 1
 manufacturer=KEMET
 }
@@ -657,9 +657,9 @@ refdes=C61
 T 56800 51700 5 10 0 2 0 0 1
 device=CAPACITOR
 T 56200 49100 5 10 1 1 0 0 1
-value=10uF/10V
+value=10uF/6.3V
 T 56400 49400 5 10 0 1 0 0 1
-footprint=1206
+footprint=0805
 T 56400 49400 5 10 0 1 0 0 1
 manufacturer=KEMET
 }
@@ -670,9 +670,9 @@ refdes=C62
 T 53800 51700 5 10 0 2 0 0 1
 device=CAPACITOR
 T 52700 49700 5 10 1 1 0 0 1
-value=10uF/10V
+value=10uF/6.3V
 T 53400 49400 5 10 0 1 0 0 1
-footprint=1206
+footprint=0805
 T 53400 49400 5 10 0 1 0 0 1
 manufacturer=KEMET
 }
@@ -685,9 +685,9 @@ refdes=C63
 T 54500 47300 5 10 0 2 0 0 1
 device=CAPACITOR
 T 53600 45000 5 10 1 1 0 0 1
-value=10uF/10V
+value=10uF/6.3V
 T 54100 45000 5 10 0 1 0 0 1
-footprint=1206
+footprint=0805
 T 54100 45000 5 10 0 1 0 0 1
 manufacturer=KEMET
 }
@@ -698,9 +698,9 @@ refdes=C64
 T 55100 47300 5 10 0 2 0 0 1
 device=CAPACITOR
 T 54800 45000 5 10 1 1 0 0 1
-value=10uF/10V
+value=10uF/6.3V
 T 54700 45000 5 10 0 1 0 0 1
-footprint=1206
+footprint=0805
 T 54700 45000 5 10 0 1 0 0 1
 manufacturer=KEMET
 }

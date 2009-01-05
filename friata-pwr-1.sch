@@ -42,7 +42,7 @@ device=CAPACITOR
 T 4100 4400 5 10 1 1 0 0 1
 value=100nF/25V
 T 4500 4800 5 10 0 1 0 0 1
-footprint=0805
+footprint=0603
 }
 C 5200 4800 1 0 0 capacitor-v-1.sym
 {
@@ -65,7 +65,7 @@ device=CAPACITOR
 T 7600 2800 5 10 1 1 0 0 1
 value=100nF/25V
 T 7100 2800 5 10 0 1 0 0 1
-footprint=0805
+footprint=0603
 }
 C 7100 4300 1 0 0 capacitor-h-1.sym
 {
@@ -87,7 +87,9 @@ device=CAPACITOR
 T 7600 3800 5 10 1 1 0 0 1
 value=1nF/25V
 T 7100 3800 5 10 0 1 0 0 1
-footprint=0805
+footprint=0603
+T 7100 3800 5 10 0 1 0 0 1
+manufacturer=MURATA
 }
 C 7100 4900 1 0 0 capacitor-h-1.sym
 {
@@ -98,7 +100,7 @@ device=CAPACITOR
 T 7600 4900 5 10 1 1 0 0 1
 value=100nF/25V
 T 7100 4900 5 10 0 1 0 0 1
-footprint=0805
+footprint=0603
 }
 C 8200 4400 1 0 0 resistor-h-1.sym
 {
@@ -189,6 +191,8 @@ T 13000 6800 5 10 1 1 0 0 1
 value=1uF/25V
 T 12500 6800 5 10 0 1 0 0 1
 footprint=0805
+T 12500 6800 5 10 0 1 0 0 1
+manufacturer=MURATA
 }
 N 12300 5300 12300 7000 4
 N 12300 7000 12500 7000 4
@@ -220,6 +224,8 @@ T 14900 6400 5 10 1 1 0 0 1
 value=1uF/25V
 T 14700 6300 5 10 0 1 0 0 1
 footprint=0805
+T 14700 6300 5 10 0 1 0 0 1
+manufacturer=MURATA
 }
 C 15100 5900 1 0 0 capacitor-v-2.sym
 {
@@ -244,9 +250,11 @@ refdes=C83
 T 13300 7200 5 10 0 1 0 0 1
 device=CAPACITOR
 T 13200 5300 5 10 1 1 0 0 1
-value=1uF/10V
+value=1uF/25V
 T 12700 5300 5 10 0 1 0 0 1
 footprint=0805
+T 12700 5300 5 10 0 1 0 0 1
+manufacturer=MURATA
 }
 N 13400 5500 13700 5500 4
 C 13700 5400 1 0 0 inductor-1.sym
@@ -267,11 +275,13 @@ C 14700 4800 1 0 0 capacitor-v-1.sym
 T 14900 5300 5 10 1 1 0 0 1
 refdes=C84
 T 14900 4900 5 10 1 1 0 0 1
-value=1uF/10V
+value=1uF/25V
 T 14400 6700 5 10 0 1 0 0 1
 device=CAPACITOR
 T 14700 4800 5 10 0 1 0 0 1
 footprint=0805
+T 14700 4800 5 10 0 1 0 0 1
+manufacturer=MURATA
 }
 C 15100 4400 1 0 0 capacitor-v-2.sym
 {
