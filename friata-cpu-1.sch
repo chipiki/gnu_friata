@@ -10,10 +10,6 @@ T 52800 45400 5 10 1 1 0 0 1
 value=100nF/25V
 T 52300 45400 5 10 0 1 0 0 1
 footprint=0603
-T 52300 45400 5 10 0 1 0 0 1
-manufacturer=KEMET
-T 52300 45400 5 10 0 1 0 0 1
-manufacturer_part_number=C0603C104K3RAC7411
 }
 C 49200 44700 1 0 0 gnd-1.sym
 C 43000 47000 1 0 0 1V8-plus.sym
@@ -77,8 +73,6 @@ T 52800 44900 5 10 1 1 0 0 1
 value=100nF/25V
 T 52300 44900 5 10 0 1 0 0 1
 footprint=0603
-T 52300 44900 5 10 0 1 0 0 1
-manufacturer=KEMET
 }
 C 52300 44400 1 0 0 capacitor-h-1.sym
 {
@@ -90,8 +84,6 @@ T 52800 44400 5 10 1 1 0 0 1
 value=100nF/25V
 T 52300 44400 5 10 0 1 0 0 1
 footprint=0603
-T 52300 44400 5 10 0 1 0 0 1
-manufacturer=KEMET
 }
 C 52300 45900 1 0 0 capacitor-h-1.sym
 {
@@ -103,8 +95,6 @@ T 52800 45900 5 10 1 1 0 0 1
 value=100nF/25V
 T 52300 45900 5 10 0 1 0 0 1
 footprint=0603
-T 52300 45900 5 10 0 1 0 0 1
-manufacturer=KEMET
 }
 C 52300 46400 1 0 0 capacitor-h-1.sym
 {
@@ -116,8 +106,6 @@ T 52800 46400 5 10 1 1 0 0 1
 value=100nF/25V
 T 52300 46400 5 10 0 1 0 0 1
 footprint=0603
-T 52300 46400 5 10 0 1 0 0 1
-manufacturer=KEMET
 }
 C 52300 46900 1 0 0 capacitor-h-1.sym
 {
@@ -129,8 +117,6 @@ T 52800 46900 5 10 1 1 0 0 1
 value=100nF/25V
 T 52300 46900 5 10 0 1 0 0 1
 footprint=0603
-T 52300 46900 5 10 0 1 0 0 1
-manufacturer=KEMET
 }
 C 52300 43900 1 0 0 capacitor-h-1.sym
 {
@@ -142,8 +128,6 @@ T 52800 43900 5 10 1 1 0 0 1
 value=100nF/25V
 T 52300 43900 5 10 0 1 0 0 1
 footprint=0603
-T 52300 43900 5 10 0 1 0 0 1
-manufacturer=KEMET
 }
 C 52300 43400 1 0 0 capacitor-h-1.sym
 {
@@ -155,8 +139,6 @@ T 52800 43400 5 10 1 1 0 0 1
 value=100nF/25V
 T 52300 43400 5 10 0 1 0 0 1
 footprint=0603
-T 52300 43400 5 10 0 1 0 0 1
-manufacturer=KEMET
 }
 C 52300 42900 1 0 0 capacitor-h-1.sym
 {
@@ -168,8 +150,6 @@ T 52800 42900 5 10 1 1 0 0 1
 value=100nF/25V
 T 52300 42900 5 10 0 1 0 0 1
 footprint=0603
-T 52300 42900 5 10 0 1 0 0 1
-manufacturer=KEMET
 }
 C 52300 42400 1 0 0 capacitor-h-1.sym
 {
@@ -181,8 +161,6 @@ T 52800 42400 5 10 1 1 0 0 1
 value=100nF/25V
 T 52300 42400 5 10 0 1 0 0 1
 footprint=0603
-T 52300 42400 5 10 0 1 0 0 1
-manufacturer=KEMET
 }
 C 52300 41900 1 0 0 capacitor-h-1.sym
 {
@@ -194,8 +172,6 @@ T 52800 41900 5 10 1 1 0 0 1
 value=100nF/25V
 T 52300 41900 5 10 0 1 0 0 1
 footprint=0603
-T 52300 41900 5 10 0 1 0 0 1
-manufacturer=KEMET
 }
 C 52300 47400 1 0 0 capacitor-h-1.sym
 {
@@ -207,8 +183,6 @@ T 52800 47400 5 10 1 1 0 0 1
 value=100nF/25V
 T 52300 47400 5 10 0 1 0 0 1
 footprint=0603
-T 52300 47400 5 10 0 1 0 0 1
-manufacturer=KEMET
 }
 C 52300 49300 1 0 0 capacitor-h-2.sym
 {
@@ -220,8 +194,6 @@ T 52900 49300 5 10 1 1 0 0 1
 value=10uF/6.3V
 T 52300 49300 5 10 0 1 0 0 1
 footprint=0805
-T 52300 49300 5 10 0 1 0 0 1
-manufacturer=KEMET
 }
 C 52300 48600 1 0 0 capacitor-h-2.sym
 {
@@ -233,8 +205,6 @@ T 52900 48600 5 10 1 1 0 0 1
 value=10uF/6.3V
 T 52300 48600 5 10 0 1 0 0 1
 footprint=0805
-T 52300 48600 5 10 0 1 0 0 1
-manufacturer=KEMET
 }
 C 52300 48000 1 0 0 capacitor-h-2.sym
 {
@@ -246,8 +216,6 @@ T 52900 48000 5 10 1 1 0 0 1
 value=10uF/6.3V
 T 52300 48000 5 10 0 1 0 0 1
 footprint=0805
-T 52300 48000 5 10 0 1 0 0 1
-manufacturer=KEMET
 }
 N 52300 49500 51900 49500 4
 N 51900 49500 51900 42100 4
@@ -293,8 +261,6 @@ T 55300 49300 5 10 1 1 0 0 1
 value=100nF/25V
 T 54800 49300 5 10 0 1 0 0 1
 footprint=0603
-T 54800 49300 5 10 0 1 0 0 1
-manufacturer=KEMET
 }
 C 54800 48800 1 0 0 capacitor-h-1.sym
 {
@@ -306,8 +272,6 @@ T 55300 48800 5 10 1 1 0 0 1
 value=100nF/25V
 T 54800 48800 5 10 0 1 0 0 1
 footprint=0603
-T 54800 48800 5 10 0 1 0 0 1
-manufacturer=KEMET
 }
 C 54800 48300 1 0 0 capacitor-h-1.sym
 {
@@ -319,8 +283,6 @@ T 55300 48300 5 10 1 1 0 0 1
 value=100nF/25V
 T 54800 48300 5 10 0 1 0 0 1
 footprint=0603
-T 54800 48300 5 10 0 1 0 0 1
-manufacturer=KEMET
 }
 C 54800 47800 1 0 0 capacitor-h-1.sym
 {
@@ -332,8 +294,6 @@ T 55300 47800 5 10 1 1 0 0 1
 value=100nF/25V
 T 54800 47800 5 10 0 1 0 0 1
 footprint=0603
-T 54800 47800 5 10 0 1 0 0 1
-manufacturer=KEMET
 }
 C 54800 47300 1 0 0 capacitor-h-1.sym
 {
@@ -345,8 +305,6 @@ T 55300 47300 5 10 1 1 0 0 1
 value=100nF/25V
 T 54800 47300 5 10 0 1 0 0 1
 footprint=0603
-T 54800 47300 5 10 0 1 0 0 1
-manufacturer=KEMET
 }
 N 54800 49500 54400 49500 4
 N 54400 47500 54400 49500 4
@@ -372,8 +330,6 @@ T 55300 46400 5 10 1 1 0 0 1
 value=100nF/25V
 T 54800 46400 5 10 0 1 0 0 1
 footprint=0603
-T 54800 46400 5 10 0 1 0 0 1
-manufacturer=KEMET
 }
 C 54800 45900 1 0 0 capacitor-h-1.sym
 {
@@ -385,8 +341,6 @@ T 55300 45900 5 10 1 1 0 0 1
 value=100nF/25V
 T 54800 45900 5 10 0 1 0 0 1
 footprint=0603
-T 54800 45900 5 10 0 1 0 0 1
-manufacturer=KEMET
 }
 C 54100 46600 1 0 0 1V8-plus.sym
 N 54800 46600 54400 46600 4
@@ -409,8 +363,6 @@ T 41900 44400 5 10 1 1 0 0 1
 value=100nF/25V
 T 41700 44300 5 10 0 1 0 0 1
 footprint=0603
-T 41700 44300 5 10 0 1 0 0 1
-manufacturer=KEMET
 }
 C 40900 44000 1 0 0 capacitor-v-2.sym
 {
@@ -422,8 +374,6 @@ T 41200 44400 5 10 1 1 0 0 1
 value=10uF/6.3V
 T 40900 44000 5 10 0 1 0 0 1
 footprint=0805
-T 40900 44000 5 10 0 1 0 0 1
-manufacturer=KEMET
 }
 N 41100 45400 41100 45100 4
 N 41100 44200 41100 43900 4
@@ -440,8 +390,6 @@ T 44500 46200 5 10 0 1 0 0 1
 device=CAPACITOR
 T 44800 44300 5 10 0 1 0 0 1
 footprint=0603
-T 44800 44300 5 10 0 1 0 0 1
-manufacturer=KEMET
 }
 C 44000 44000 1 0 0 capacitor-v-2.sym
 {
@@ -453,8 +401,6 @@ T 44400 46300 5 10 0 1 0 0 1
 device=CAPACITOR
 T 44000 44000 5 10 0 1 0 0 1
 footprint=0805
-T 44000 44000 5 10 0 1 0 0 1
-manufacturer=KEMET
 }
 N 44200 44200 44200 43900 4
 C 44000 43600 1 0 0 gnd-1.sym
@@ -484,8 +430,6 @@ T 42800 45600 5 10 1 1 0 0 1
 refdes=L1
 T 42700 45200 5 10 1 1 0 0 1
 value=4.7uH/150mA
-T 42600 45300 5 10 0 1 0 0 1
-manufacturer=TDK
 T 42600 45300 5 10 0 1 0 0 1
 footprint=1206
 }

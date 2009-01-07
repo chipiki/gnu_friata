@@ -142,10 +142,6 @@ T 41400 48600 5 10 1 1 0 0 1
 value=1nF/25V
 T 40900 48300 5 10 0 1 0 0 1
 footprint=0603
-T 40900 48300 5 10 0 1 0 0 1
-manufacturer=MURATA
-T 40900 48300 5 10 0 1 0 0 1
-manufacturer_part_number=GRM188R71E102KA01D
 }
 C 46700 49800 1 0 0 capacitor-h-1.sym
 {
