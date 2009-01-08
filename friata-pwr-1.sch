@@ -324,7 +324,7 @@ device=LED
 T 14300 8200 5 10 1 1 0 0 1
 refdes=D2
 T 15200 8500 5 10 0 1 0 0 1
-footprint=1206
+footprint=dio_1206
 }
 C 14800 9000 1 0 0 resistor-h-1.sym
 {
