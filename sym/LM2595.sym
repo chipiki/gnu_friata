@@ -13,11 +13,11 @@ pintype=in
 P 2600 700 2400 700 1 0 0
 {
 T 2400 750 5 8 1 1 0 0 1
-pinnumber=1
+pinnumber=4
 T 2400 650 5 8 0 1 0 2 1
 pinseq=2
 T 2250 700 9 8 1 1 0 6 1
-pinlabel=VOUT
+pinlabel=FB
 T 2250 700 5 8 0 1 0 8 1
 pintype=out
 }
@@ -25,11 +25,11 @@ V 2350 700 50 6 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
 P 2600 500 2400 500 1 0 0
 {
 T 2400 550 5 8 1 1 0 0 1
-pinnumber=4
+pinnumber=1
 T 2400 450 5 8 0 1 0 2 1
 pinseq=3
 T 2250 500 9 8 1 1 0 6 1
-pinlabel=FB
+pinlabel=VOUT
 T 2250 500 5 8 0 1 0 8 1
 pintype=out
 }
@@ -59,7 +59,7 @@ pintype=in
 B 300 300 2000 600 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
 T 2300 1000 8 10 1 1 0 6 1
 refdes=U?
-T 900 700 9 10 1 0 0 0 1
+T 300 1000 9 10 1 0 0 0 1
 LM2595
 T 1100 700 5 10 0 0 0 0 1
 device=LM2595

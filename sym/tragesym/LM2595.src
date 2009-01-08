@@ -75,8 +75,8 @@ numslots=0
 # Left Side
 2		in	line	l		VIN
 # Right Side
-1		out	dot	r		VOUT
 4		out	dot	r		FB
+1		out	dot	r		VOUT
 # Bottom Side
 3		in	line	b		GND
 5		in	line	b		\_ON\_/OFF
