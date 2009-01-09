@@ -26,7 +26,7 @@ device=LED
 T 41900 47700 5 10 1 1 0 0 1
 refdes=D6
 T 41200 47300 5 10 0 1 0 0 1
-footprint=dio_1206
+footprint=1206
 }
 C 42800 47300 1 0 0 led-1.sym
 {
@@ -35,7 +35,7 @@ device=LED
 T 43500 47700 5 10 1 1 0 0 1
 refdes=D7
 T 42800 47300 5 10 0 1 0 0 1
-footprint=dio_1206
+footprint=1206
 }
 C 41300 48200 1 0 0 3V3-plus.sym
 C 42900 48200 1 0 0 3V3-plus.sym
