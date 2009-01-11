@@ -17,16 +17,16 @@
 ###########################################################################
 
 elementdir = "pkg/newlib"
-    pins 4
-    type "twopad"
-    width = 2.9 mm
+    pins 2
+    type "so"
+    width = 3.0 mm
     padwidth 1.3 mm
     padheight 2.2 mm
     silkwidth 10 mils
     silkoffset 10 mils
     silkstyle = "outside"
-    #silkboxwidth = 
-    #silkboxheight = 20 mils
+    #silkboxwidth = 10.5
+    #silkboxheight = 4 mm
     maskclear = 10 mils
     polyclear = 10 mils
 part "XTAL-ECS-ECX39.fp"
