@@ -5,7 +5,6 @@ Mounting holes
 GPLv3
 T 54300 40300 9 10 1 0 0 0 1
 Saritha Kalyanam
-C 45300 45000 1 0 0 gnd-1.sym
 N 43200 45600 47700 45600 4
 N 45500 45600 45500 45300 4
 C 43000 45600 1 0 0 hole-1.sym
@@ -44,3 +43,4 @@ refdes=H4
 T 47500 45595 5 10 0 1 0 0 1
 footprint=HOLE_M3
 }
+C 45300 45000 1 0 0 earth-1.sym
