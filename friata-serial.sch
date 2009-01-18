@@ -271,7 +271,7 @@ refdes=J8
 T 42205 47600 5 10 0 1 0 6 1
 device=HEADER
 T 42200 47600 5 10 0 1 0 0 1
-footprint=HEADER_0.1_inch_3pin
+footprint=HEADER-0.1in_3pin_1row-THRU
 }
 C 43700 45200 1 0 1 header-3pin-1.sym
 {
@@ -280,7 +280,7 @@ refdes=J9
 T 43705 45200 5 10 0 1 0 6 1
 device=HEADER
 T 43700 45200 5 10 0 1 0 0 1
-footprint=HEADER_0.1_inch_3pin
+footprint=HEADER-0.1in_3pin_1row-THRU
 }
 N 52600 45200 53000 45200 4
 N 53000 45200 53000 44300 4

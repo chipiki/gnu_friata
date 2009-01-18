@@ -169,7 +169,7 @@ device=HEADER
 T 44400 47600 5 10 1 1 0 6 1
 refdes=J4
 T 44700 44500 5 10 0 1 0 0 1
-footprint=HEADER_0.1_inch_20pin_2row
+footprint=HEADER-0.1in_20pin_2row-THRU
 }
 C 48200 44300 1 270 0 header-2pin-1.sym
 {
@@ -178,7 +178,7 @@ refdes=J5
 T 48195 44300 5 10 0 1 270 0 1
 device=HEADER
 T 48200 44300 5 10 0 1 0 0 1
-footprint=HEADER_0.1_inch_2pin
+footprint=HEADER-0.1in_2pin_1row-THRU
 }
 C 49400 46000 1 270 0 header-2pin-1.sym
 {
@@ -187,7 +187,7 @@ refdes=J6
 T 49395 46000 5 10 0 1 270 0 1
 device=HEADER
 T 49400 46000 5 10 0 1 0 0 1
-footprint=HEADER_0.1_inch_2pin
+footprint=HEADER-0.1in_2pin_1row-THRU
 }
 C 49500 47500 1 270 0 header-2pin-1.sym
 {
@@ -196,5 +196,5 @@ refdes=J7
 T 49495 47500 5 10 0 1 270 0 1
 device=HEADER
 T 49500 47500 5 10 0 1 0 0 1
-footprint=HEADER_0.1_inch_2pin
+footprint=HEADER-0.1in_2pin_1row-THRU
 }

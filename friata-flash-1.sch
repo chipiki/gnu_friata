@@ -410,7 +410,7 @@ refdes=J2
 T 41300 45595 5 10 0 1 0 0 1
 device=HEADER
 T 41300 45600 5 10 0 1 0 0 1
-footprint=HEADER_0.1_inch_2pin
+footprint=HEADER-0.1in_2pin_1row-THRU
 }
 C 49700 46500 1 0 0 header-2pin-1.sym
 {
@@ -419,5 +419,5 @@ refdes=J3
 T 49700 46495 5 10 0 1 0 0 1
 device=HEADER
 T 49700 46500 5 10 0 1 0 0 1
-footprint=HEADER_0.1_inch_2pin
+footprint=HEADER-0.1in_2pin_1row-THRU
 }
