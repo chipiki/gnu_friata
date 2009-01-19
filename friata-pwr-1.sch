@@ -138,7 +138,7 @@ refdes=R48
 T 13200 6400 5 10 0 1 0 0 1
 device=RESISTOR
 T 13200 4600 5 10 1 1 0 0 1
-value=22K
+value=20K
 T 12900 4300 5 10 0 1 0 0 1
 footprint=0603
 }
