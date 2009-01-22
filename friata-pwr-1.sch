@@ -367,7 +367,7 @@ device=INDUCTOR
 T 7600 9600 5 10 1 1 0 0 1
 refdes=L8
 T 7900 9600 5 10 1 1 0 0 1
-value=68uH/1.5A
+value=100uH/1.5A
 T 7800 9700 5 10 0 1 0 0 1
 footprint=MURATA_4600
 }
