@@ -620,7 +620,7 @@ netname=SPI0_SPCK
 N 47600 48200 49500 48200 4
 {
 T 48000 48200 5 10 1 1 0 0 1
-netname=SPI0_NPSC0
+netname=SPI0_NPCS0
 }
 C 55800 48800 1 0 0 busripper-1.sym
 {
