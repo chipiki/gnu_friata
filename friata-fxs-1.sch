@@ -793,7 +793,7 @@ refdes=L2
 T 53800 50700 5 10 1 1 0 0 1
 value=47uH/150mA
 T 55000 50400 5 10 0 1 0 0 1
-footprint=0805
+footprint=0603
 }
 C 45000 42300 1 0 0 inductor-1.sym
 {
