@@ -13,7 +13,30 @@ drillmap = {
      
         # The list of vendor drill sizes.  Units are as specified
         # above.
-	10
+        8
+        16
+        20
+        25
+        29
+        33
+        36
+        40
+        43
+        46
+        53
+        61
+        67
+        80
+        87
+        93
+        100
+        110
+        125
+        141
+        151
+        167
+        193
+        251
      }
      
 # If specified, this section will change the current DRC
@@ -23,7 +46,7 @@ drc = {
         copper_overlap = 4
         copper_width = 5
         silk_width = 5
-	min_drill = 10
+	min_drill = 8
 	min_ring = 5
 }
 
