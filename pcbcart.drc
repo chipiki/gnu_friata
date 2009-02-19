@@ -1,0 +1,52 @@
+# Optional name of the vendor
+vendor = "PCB Cart"
+
+# units for dimensions in this file.
+# Allowed values:  mil/inch/mm
+units = mil
+
+# drill table
+drillmap = {
+        # When mapping drill sizes, select the nearest size
+        # or always round up.  Allowed values:  up/nearest
+        round = up
+     
+        # The list of vendor drill sizes.  Units are as specified
+        # above.
+        8
+        16
+        20
+        25
+        29
+        33
+        36
+        40
+        43
+        46
+        53
+        61
+        67
+        80
+        87
+        93
+        100
+        110
+        125
+        141
+        151
+        167
+        193
+        251
+     }
+     
+# If specified, this section will change the current DRC
+# settings for the design.  Units are as specified above.
+drc = {
+        copper_space = 8
+        copper_overlap = 4
+        copper_width = 8
+        silk_width = 8
+	min_drill = 8
+	min_ring = 8
+}
+
