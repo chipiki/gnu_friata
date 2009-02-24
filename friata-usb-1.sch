@@ -24,7 +24,7 @@ refdes=F2
 T 48600 49100 5 10 1 1 0 0 1
 value=500mA
 T 48400 49600 5 10 0 1 0 0 1
-footprint=2920
+footprint=1206
 }
 C 40700 47900 1 0 1 busripper-1.sym
 {
