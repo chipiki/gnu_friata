@@ -33,7 +33,7 @@ $pcb->element_add_rectangle(x => 0, y => 360,
 				thickness => 10);
 
 # mounting hole
-$pcb->element_add_pin(x => 0, y => 508,
+$pcb->element_add_pin(x => -30, y => 508,
 			thickness => 0, drill_hole => 70,
 			mask => 10, clearance => 10,
 			name => 100, pin_number => 100,
