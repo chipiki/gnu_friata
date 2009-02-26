@@ -40,7 +40,7 @@ device=CAPACITOR
 T 4900 6200 5 10 1 1 0 0 1
 value=4.7uF/25V
 T 5300 6100 5 10 0 1 0 0 1
-footprint=0805
+footprint=1206
 }
 C 5200 5600 1 0 0 gnd-1.sym
 C 7200 4100 1 0 0 capacitor-h-1.sym
@@ -63,7 +63,7 @@ device=CAPACITOR
 T 7700 5600 5 10 1 1 0 0 1
 value=4.7nF/25V
 T 7200 5600 5 10 0 1 0 0 1
-footprint=0805
+footprint=1206
 }
 C 7200 5100 1 0 0 capacitor-h-1.sym
 {
@@ -122,7 +122,7 @@ device=CAPACITOR
 T 7700 4600 5 10 1 1 0 0 1
 value=4.7nF/25V
 T 7200 4600 5 10 0 1 0 0 1
-footprint=0805
+footprint=1206
 }
 N 8300 4800 7900 4800 4
 N 10300 5200 10000 5200 4
