@@ -824,9 +824,9 @@ device=INDUCTOR
 T 49500 43200 5 10 1 1 0 0 1
 refdes=L5
 T 49500 42800 5 10 1 1 0 0 1
-value=100uH/1.5A
+value=100uH/1A
 T 49300 42900 5 10 0 1 0 0 1
-footprint=MURATA_4500
+footprint=MURATA_4600
 }
 C 42000 41200 1 0 0 sidactor-1.sym
 {
