@@ -25,7 +25,7 @@ my $pcb = Pcb_9->new(debug => 1);
 $pcb->element_begin(description => $descr,
 			output_file => "$descr-THRU.fp",
 			dim => "mils",
-			pin_one_square => 1);
+			pin_one_square => 0);
 
 $pcb->element_add_pin(x => 0, y => 0,
 			thickness => $dia + 20, drill_hole => $dia,
