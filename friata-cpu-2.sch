@@ -145,29 +145,29 @@ footprint=0603
 }
 C 46700 49800 1 0 0 capacitor-h-1.sym
 {
-T 46800 50100 5 10 1 1 0 0 1
+T 46600 50100 5 10 1 1 0 0 1
 refdes=C29
 T 47400 51700 5 10 0 1 0 0 1
 device=CAPACITOR
 T 47200 50100 5 10 1 1 0 0 1
-value=18pF
+value=15pF
 T 46700 49800 5 10 0 1 0 0 1
 footprint=0603
 }
 C 46700 48900 1 0 0 capacitor-h-1.sym
 {
-T 46800 49200 5 10 1 1 0 0 1
+T 46600 49200 5 10 1 1 0 0 1
 refdes=C30
 T 47400 50800 5 10 0 1 0 0 1
 device=CAPACITOR
 T 47200 49200 5 10 1 1 0 0 1
-value=18pF
+value=15pF
 T 46700 48900 5 10 0 1 0 0 1
 footprint=0603
 }
 C 46700 48300 1 0 0 capacitor-h-1.sym
 {
-T 46800 48600 5 10 1 1 0 0 1
+T 46700 48600 5 10 1 1 0 0 1
 refdes=C31
 T 47400 50200 5 10 0 1 0 0 1
 device=CAPACITOR
@@ -178,7 +178,7 @@ footprint=0603
 }
 C 46700 47400 1 0 0 capacitor-h-1.sym
 {
-T 46800 47700 5 10 1 1 0 0 1
+T 46600 47700 5 10 1 1 0 0 1
 refdes=C32
 T 47400 49300 5 10 0 1 0 0 1
 device=CAPACITOR
