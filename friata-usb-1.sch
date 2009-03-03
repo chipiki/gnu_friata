@@ -22,9 +22,9 @@ device=FUSE
 T 48600 49400 5 10 1 1 0 0 1
 refdes=F2
 T 48600 49100 5 10 1 1 0 0 1
-value=500mA
+value=500mA/16V
 T 48400 49600 5 10 0 1 0 0 1
-footprint=1206
+footprint=1812
 }
 C 40700 47900 1 0 1 busripper-1.sym
 {
