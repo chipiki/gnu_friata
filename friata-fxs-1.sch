@@ -41,9 +41,9 @@ refdes=C47
 T 43700 50400 5 10 0 1 0 0 1
 device=CAPACITOR
 T 44000 48300 5 10 1 1 90 0 1
-value=4.7uF/16V
+value=4.7uF/25V
 T 44000 48500 5 10 0 1 0 0 1
-footprint=1206
+footprint=6032-28-EIA
 }
 C 44600 48500 1 0 0 capacitor-v-1.sym
 {
@@ -52,9 +52,9 @@ refdes=C48
 T 44300 50400 5 10 0 1 0 0 1
 device=CAPACITOR
 T 44600 48300 5 10 1 1 90 0 1
-value=4.7uF/16V
+value=4.7uF/25V
 T 44600 48500 5 10 0 1 0 0 1
-footprint=1206
+footprint=6032-28-EIA
 }
 C 51600 43300 1 270 0 bjt-pnp-1.sym
 {

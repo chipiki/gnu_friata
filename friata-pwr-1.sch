@@ -39,7 +39,7 @@ device=CAPACITOR
 T 4900 6200 5 10 1 1 0 0 1
 value=4.7uF/25V
 T 5300 6100 5 10 0 1 0 0 1
-footprint=1206
+footprint=6032-28-EIA
 }
 C 5200 5600 1 0 0 gnd-1.sym
 C 7200 4100 1 0 0 capacitor-h-1.sym
