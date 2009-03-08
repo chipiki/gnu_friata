@@ -41,9 +41,9 @@ refdes=C47
 T 43700 50400 5 10 0 1 0 0 1
 device=CAPACITOR
 T 44000 48300 5 10 1 1 90 0 1
-value=4.7uF/25V
+value=4.7uF/10V
 T 44000 48500 5 10 0 1 0 0 1
-footprint=6032-28-EIA
+footprint=3216-18-EIA
 }
 C 44600 48500 1 0 0 capacitor-v-1.sym
 {
@@ -52,9 +52,9 @@ refdes=C48
 T 44300 50400 5 10 0 1 0 0 1
 device=CAPACITOR
 T 44600 48300 5 10 1 1 90 0 1
-value=4.7uF/25V
+value=4.7uF/10V
 T 44600 48500 5 10 0 1 0 0 1
-footprint=6032-28-EIA
+footprint=3216-18-EIA
 }
 C 51600 43300 1 270 0 bjt-pnp-1.sym
 {
@@ -627,9 +627,9 @@ refdes=C61
 T 56800 51700 5 10 0 1 0 0 1
 device=CAPACITOR
 T 56200 49100 5 10 1 1 0 0 1
-value=10uF/16V
+value=10uF/10V
 T 56400 49400 5 10 0 1 0 0 1
-footprint=1206
+footprint=3216-18-EIA
 }
 C 53400 49400 1 0 0 capacitor-v-2.sym
 {
@@ -638,9 +638,9 @@ refdes=C62
 T 53800 51700 5 10 0 1 0 0 1
 device=CAPACITOR
 T 52700 49700 5 10 1 1 0 0 1
-value=10uF/16V
+value=10uF/10V
 T 53400 49400 5 10 0 1 0 0 1
-footprint=1206
+footprint=3216-18-EIA
 }
 N 55900 50500 56600 50500 4
 N 53600 49600 56600 49600 4
@@ -651,9 +651,9 @@ refdes=C63
 T 54500 47300 5 10 0 1 0 0 1
 device=CAPACITOR
 T 53600 45000 5 10 1 1 0 0 1
-value=10uF/16V
+value=10uF/10V
 T 54100 45000 5 10 0 1 0 0 1
-footprint=1206
+footprint=3216-18-EIA
 }
 C 54700 45000 1 0 0 capacitor-v-2.sym
 {
@@ -662,9 +662,9 @@ refdes=C64
 T 55100 47300 5 10 0 1 0 0 1
 device=CAPACITOR
 T 54800 45000 5 10 1 1 0 0 1
-value=10uF/16V
+value=10uF/10V
 T 54700 45000 5 10 0 1 0 0 1
-footprint=1206
+footprint=3216-18-EIA
 }
 N 51300 43000 51300 42800 4
 N 50200 43000 51600 43000 4

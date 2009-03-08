@@ -60,9 +60,9 @@ refdes=C76
 T 7800 7500 5 10 0 1 0 0 1
 device=CAPACITOR
 T 7700 5600 5 10 1 1 0 0 1
-value=4.7nF/25V
+value=4.7nF/50V
 T 7200 5600 5 10 0 1 0 0 1
-footprint=1206
+footprint=0805
 }
 C 7200 5100 1 0 0 capacitor-h-1.sym
 {
@@ -119,9 +119,9 @@ refdes=C79
 T 7800 6500 5 10 0 1 0 0 1
 device=CAPACITOR
 T 7700 4600 5 10 1 1 0 0 1
-value=4.7nF/25V
+value=4.7nF/50V
 T 7200 4600 5 10 0 1 0 0 1
-footprint=1206
+footprint=0805
 }
 N 8300 4800 7900 4800 4
 N 10300 5200 10000 5200 4
@@ -581,7 +581,7 @@ device=CAPACITOR
 T 7600 10300 5 10 1 1 0 0 1
 value=10nF/50V
 T 7200 10000 5 10 0 0 0 0 1
-footprint=0805
+footprint=0603
 }
 N 7100 10000 7100 10200 4
 N 7100 10200 7200 10200 4
