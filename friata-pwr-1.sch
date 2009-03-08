@@ -210,9 +210,9 @@ refdes=C82
 T 15600 9500 5 10 0 1 0 0 1
 device=CAPACITOR
 T 15500 7600 5 10 1 1 0 0 1
-value=68uF/10V
+value=68uF/6.3V
 T 15200 7200 5 10 0 1 0 0 1
-footprint=2512
+footprint=3216-18-EIA
 }
 N 14900 7400 14900 7600 4
 C 15000 7100 1 0 0 gnd-1.sym
@@ -258,11 +258,11 @@ C 15200 5700 1 0 0 capacitor-v-2.sym
 T 15500 6500 5 10 1 1 0 0 1
 refdes=C85
 T 15500 6100 5 10 1 1 0 0 1
-value=68uF/10V
+value=68uF/6.3V
 T 15600 8000 5 10 0 1 0 0 1
 device=CAPACITOR
 T 15200 5700 5 10 0 1 0 0 1
-footprint=2512
+footprint=3216-18-EIA
 }
 N 14900 5900 14900 6100 4
 C 15000 5600 1 0 0 gnd-1.sym
