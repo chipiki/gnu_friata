@@ -72,5 +72,6 @@ __DATA__
 # W - total package width
 
 DO214AA | 220 | 96 | 91 | 155
+DO214AB | 302 | 177 | 129 | 245
 DO214AC | 216 | 86 | 65 | 114
 
