@@ -71,7 +71,7 @@ refdes=C77
 T 7800 7000 5 10 0 1 0 0 1
 device=CAPACITOR
 T 7700 5100 5 10 1 1 0 0 1
-value=1nF/25V
+value=1nF/50V
 T 7200 5100 5 10 0 1 0 0 1
 footprint=0603
 }
@@ -536,7 +536,7 @@ refdes=C98
 T 2100 2400 5 10 0 0 0 0 1
 device=CAPACITOR
 T 1700 600 5 10 1 1 0 0 1
-value=1nF/25V
+value=1nF/50V
 T 2400 500 5 10 0 1 0 0 1
 footprint=0603
 }
@@ -547,7 +547,7 @@ refdes=C99
 T 2800 2400 5 10 0 0 0 0 1
 device=CAPACITOR
 T 3400 600 5 10 1 1 0 0 1
-value=1nF/25V
+value=1nF/50V
 T 3100 500 5 10 0 1 0 0 1
 footprint=0603
 }

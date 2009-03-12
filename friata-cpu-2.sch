@@ -139,7 +139,7 @@ refdes=C28
 T 41600 50200 5 10 0 1 0 0 1
 device=CAPACITOR
 T 41400 48600 5 10 1 1 0 0 1
-value=1nF/25V
+value=1nF/50V
 T 40900 48300 5 10 0 1 0 0 1
 footprint=0603
 }
