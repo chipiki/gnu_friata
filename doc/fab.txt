@@ -1,0 +1,8 @@
+Recommended layout parameters:
+
+FR-4 dielectric with ~4.2 dielectric constant
+4 mils dielectric thickness
+1 oz copper trace thickness
+50 ohm unidirectional characteristic impedance
+90-100 ohm differential characteristic impedance
+8 mils/8 mils - trace width/trace spacing
